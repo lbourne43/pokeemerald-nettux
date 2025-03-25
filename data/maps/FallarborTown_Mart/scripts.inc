@@ -13,6 +13,7 @@ FallarborTown_Mart_EventScript_Clerk::
 
 	.align 2
 FallarborTown_Mart_Pokemart:
+	.2byte ITEM_PREMIER_BALL
 	.2byte ITEM_GREAT_BALL
 	.2byte ITEM_SUPER_POTION
 	.2byte ITEM_ANTIDOTE
@@ -62,3 +63,6 @@ FallarborTown_Mart_Text_SellNuggetIFound:
 	.string "I suppose I'll have to sell it, seeing\l"
 	.string "as how it has no other use.$"
 
+FallarborTown_NettuxHelper_EventScript_Clerk::
+        call NettuxHelper_EventScript_MartHelper
+        end

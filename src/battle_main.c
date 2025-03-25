@@ -74,6 +74,7 @@
 #include "constants/trainers.h"
 #include "constants/weather.h"
 #include "cable_club.h"
+#include "config/battle.h"
 
 extern const struct BgTemplate gBattleBgTemplates[];
 extern const struct WindowTemplate *const gBattleWindowTemplates[];
@@ -125,6 +126,8 @@ static void HandleEndTurn_FinishBattle(void);
 static u32 Crc32B (const u8 *data, u32 size);
 static u32 GeneratePartyHash(const struct Trainer *trainer, u32 i);
 static s32 Factorial(s32);
+
+static u8 NettuxGetPlayerHighestLevel(void);
 
 EWRAM_DATA u16 gBattle_BG0_X = 0;
 EWRAM_DATA u16 gBattle_BG0_Y = 0;
@@ -1853,11 +1856,30 @@ void CustomTrainerPartyAssignMoves(struct Pokemon *mon, const struct TrainerMon 
     }
 }
 
+u8 NettuxGetPlayerHighestLevel(void) {
+    u8 lvl;
+    lvl = GetMonData(&gPlayerParty[0], MON_DATA_LEVEL);
+    if (GetMonData(&gPlayerParty[5], MON_DATA_SPECIES) != SPECIES_NONE && GetMonData(&gPlayerParty[5], MON_DATA_LEVEL) > lvl) {
+        lvl = GetMonData(&gPlayerParty[5], MON_DATA_LEVEL);
+    }                                                                                                     if (GetMonData(&gPlayerParty[4], MON_DATA_SPECIES) != SPECIES_NONE && GetMonData(&gPlayerParty[4], MON_DATA_LEVEL) > lvl) {
+        lvl = GetMonData(&gPlayerParty[4], MON_DATA_LEVEL);
+    }
+    if (GetMonData(&gPlayerParty[3], MON_DATA_SPECIES) != SPECIES_NONE && GetMonData(&gPlayerParty[3], MON_DATA_LEVEL) > lvl) {                                                                                     lvl = GetMonData(&gPlayerParty[3], MON_DATA_LEVEL);
+    }                                                                                                     if (GetMonData(&gPlayerParty[2], MON_DATA_SPECIES) != SPECIES_NONE && GetMonData(&gPlayerParty[2], MON_DATA_LEVEL) > lvl) {
+        lvl = GetMonData(&gPlayerParty[2], MON_DATA_LEVEL);
+    }                                                                                                     if (GetMonData(&gPlayerParty[1], MON_DATA_SPECIES) != SPECIES_NONE && GetMonData(&gPlayerParty[1], MON_DATA_LEVEL) > lvl) {
+        lvl = GetMonData(&gPlayerParty[1], MON_DATA_LEVEL);
+    }
+    return lvl;                                                                                       }
+
 u8 CreateNPCTrainerPartyFromTrainer(struct Pokemon *party, const struct Trainer *trainer, bool32 firstTrainer, u32 battleTypeFlags)
 {
     u32 personalityValue;
     s32 i;
     u8 monsCount;
+
+    u8 NettuxScaledLevel;
+
     if (battleTypeFlags & BATTLE_TYPE_TRAINER && !(battleTypeFlags & (BATTLE_TYPE_FRONTIER
                                                                         | BATTLE_TYPE_EREADER_TRAINER
                                                                         | BATTLE_TYPE_TRAINER_HILL)))
@@ -1910,7 +1932,15 @@ u8 CreateNPCTrainerPartyFromTrainer(struct Pokemon *party, const struct Trainer 
                 otIdType = OT_ID_PRESET;
                 fixedOtId = HIHALF(personalityValue) ^ LOHALF(personalityValue);
             }
+            NettuxScaledLevel = NettuxGetPlayerHighestLevel();
+#if NETTUX_TRAINER_LEVEL_SCALE == 1
+            if (NettuxScaledLevel > partyData[monIndex].lvl)
+                CreateMon(&party[i], partyData[monIndex].species, NettuxScaledLevel, 0, TRUE, personalityValue, otIdType, fixedOtId);
+	    else
+                CreateMon(&party[i], partyData[monIndex].species, partyData[monIndex].lvl, 0, TRUE, personalityValue, otIdType, fixedOtId);
+#else
             CreateMon(&party[i], partyData[monIndex].species, partyData[monIndex].lvl, 0, TRUE, personalityValue, otIdType, fixedOtId);
+#endif
             SetMonData(&party[i], MON_DATA_HELD_ITEM, &partyData[monIndex].heldItem);
 
             CustomTrainerPartyAssignMoves(&party[i], &partyData[monIndex]);

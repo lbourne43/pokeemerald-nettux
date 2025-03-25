@@ -13,6 +13,7 @@ MauvilleCity_Mart_EventScript_Clerk::
 
 	.align 2
 MauvilleCity_Mart_Pokemart:
+	.2byte ITEM_PREMIER_BALL
 	.2byte ITEM_POKE_BALL
 	.2byte ITEM_GREAT_BALL
 	.2byte ITEM_SUPER_POTION
@@ -49,3 +50,6 @@ MauvilleCity_Mart_Text_DecisionsDetermineBattle:
 	.string "The TRAINER's decisions determine how\n"
 	.string "battles turn out, I think.$"
 
+MauvilleCity_NettuxHelper_EventScript_Clerk::
+        call NettuxHelper_EventScript_MartHelper
+        end

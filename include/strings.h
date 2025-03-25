@@ -2421,4 +2421,12 @@ extern const u8 gText_Rename[]; // change nickname from summary screen
 // Switch Caught Mon into Party
 extern const u8 gText_CannotSendMonToBoxHM[];
 
+extern const u8 gText_NettuxBattleMart[];
+extern const u8 gText_NettuxTrainingMart[];
+extern const u8 gText_NettuxTMMart[];
+extern const u8 gText_NettuxEvolveMart[];
+
+extern const u8 gText_CleanseTagTurnOn[];
+extern const u8 gText_CleanseTagTurnOff[];
+
 #endif // GUARD_STRINGS_H

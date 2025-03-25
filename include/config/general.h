@@ -87,4 +87,11 @@
 #define AUTO_LOWERCASE_KEYBOARD      GEN_LATEST  // Starting in GEN_6, after entering the first uppercase character, the keyboard switches to lowercase letters.
 
 #define SAVE_TYPE_ERROR_SCREEN              FALSE   // When enabled, this shows an error message when the game is loaded on a cart without a flash chip or on an emulator with the wrong save type setting instead of crashing.
+						    //
+#define NETTUX_HIGHER_LEVEL_CAPS     0           // Elevated Level caps
+#define NETTUX_FREE_RARE_CANDY       1           // Free rare candies at the normal mart
+#define NETTUX_WILD_LEVEL_SCALE      1        // Scales the level of wild pokemon to 80-90% level of your lead pokemon
+#define NETTUX_TRAINER_LEVEL_SCALE   1        // Scales the level of trainer pokemon to the level of your highest level pokemon
+#define NETTUX_NO_OBEDIENCE_CHECK    1        // Skips obedience checks
+					      
 #endif // GUARD_CONFIG_GENERAL_H

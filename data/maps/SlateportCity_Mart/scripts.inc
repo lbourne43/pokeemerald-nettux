@@ -13,6 +13,7 @@ SlateportCity_Mart_EventScript_Clerk::
 
 	.align 2
 SlateportCity_Mart_Pokemart:
+	.2byte ITEM_PREMIER_BALL
 	.2byte ITEM_POKE_BALL
 	.2byte ITEM_GREAT_BALL
 	.2byte ITEM_POTION
@@ -44,3 +45,6 @@ SlateportCity_Mart_Text_GreatBallIsBetter:
 	.string "With this, I should be able to get that\n"
 	.string "elusive POKéMON…$"
 
+SlateportCity_NettuxHelper_EventScript_Clerk::
+        call NettuxHelper_EventScript_MartHelper
+        end

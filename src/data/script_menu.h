@@ -1,4 +1,12 @@
 // multichoice lists
+
+static const struct MenuAction sMultichoiceList_NettuxMartHelper[] =
+{                                                                                                                           {gText_NettuxBattleMart},
+    {gText_NettuxTrainingMart},
+    {gText_NettuxTMMart},
+    {gText_NettuxEvolveMart},
+};
+
 static const struct MenuAction MultichoiceList_BrineyOnDewford[] =
 {
     {COMPOUND_STRING("PETALBURG")},
@@ -906,6 +914,7 @@ static const struct MultichoiceListStruct sMultichoiceLists[] =
     [MULTI_FALLARBOR_TENT_RULES]       = MULTICHOICE(MultichoiceList_FallarborTentRules),
     [MULTI_TAG_MATCH_TYPE]             = MULTICHOICE(MultichoiceList_TagMatchType),
     [MULTI_BERRY_PLOT]                 = MULTICHOICE(MultichoiceList_BerryPlot),
+    [MULTICHOICE_NETTUX_MART_HELPER]   = MULTICHOICE(sMultichoiceList_NettuxMartHelper),
 };
 
 const u8 *const gStdStrings[] =

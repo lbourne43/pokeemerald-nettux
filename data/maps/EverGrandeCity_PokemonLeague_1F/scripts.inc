@@ -38,6 +38,7 @@ EverGrandeCity_PokemonLeague_1F_EventScript_Clerk::
 
 	.align 2
 EverGrandeCity_PokemonLeague_1F_Pokemart:
+	.2byte ITEM_PREMIER_BALL
 	.2byte ITEM_ULTRA_BALL
 	.2byte ITEM_HYPER_POTION
 	.2byte ITEM_MAX_POTION
@@ -139,3 +140,6 @@ EverGrandeCity_PokemonLeague_1F_Text_GoForth:
 	.string "TRAINER! Believe in yourself and your\n"
 	.string "POKéMON, and go forth!$"
 
+EvergrandeCity_NettuxHelper_EventScript_Clerk::
+        call NettuxHelper_EventScript_MartHelper
+        end

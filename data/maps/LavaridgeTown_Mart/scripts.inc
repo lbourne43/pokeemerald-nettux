@@ -13,6 +13,7 @@ LavaridgeTown_Mart_EventScript_Clerk::
 
 	.align 2
 LavaridgeTown_Mart_Pokemart:
+	.2byte ITEM_PREMIER_BALL
 	.2byte ITEM_GREAT_BALL
 	.2byte ITEM_SUPER_POTION
 	.2byte ITEM_ANTIDOTE
@@ -43,3 +44,6 @@ LavaridgeTown_Mart_Text_LocalSpecialtyOnMtChimney:
 	.string "specialty that you can buy only there.\p"
 	.string "Give it to a POKéMON--it will be elated.$"
 
+LavaridgeTown_NettuxHelper_EventScript_Clerk::
+        call NettuxHelper_EventScript_MartHelper
+        end

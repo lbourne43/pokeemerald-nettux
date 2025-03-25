@@ -13,6 +13,7 @@ MossdeepCity_Mart_EventScript_Clerk::
 
 	.align 2
 MossdeepCity_Mart_Pokemart:
+	.2byte ITEM_PREMIER_BALL
 	.2byte ITEM_ULTRA_BALL
 	.2byte ITEM_NET_BALL
 	.2byte ITEM_DIVE_BALL
@@ -56,3 +57,6 @@ MossdeepCity_Mart_Text_NetAndDiveBallsRare:
 	.string "A DIVE BALL works best on POKéMON\n"
 	.string "at the bottom of the sea.$"
 
+MossdeepCity_NettuxHelper_EventScript_Clerk::
+        call NettuxHelper_EventScript_MartHelper
+        end
