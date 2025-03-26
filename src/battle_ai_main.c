@@ -2747,6 +2747,11 @@ static s32 AI_TryToFaint(u32 battlerAtk, u32 battlerDef, u32 move, s32 score)
     {
         ADJUST_SCORE(LAST_CHANCE);
     }
+    // nettux add extra +1 to the hardest hitting move
+    else if (GetBestDmgMoveFromBattler(battlerAtk, battlerDef) == move)
+    {
+        ADJUST_SCORE(BEST_DAMAGE_MOVE);
+    }
 
     return score;
 }
@@ -4856,8 +4861,10 @@ static s32 AI_CheckViability(u32 battlerAtk, u32 battlerDef, u32 move, s32 score
             if (AI_THINKING_STRUCT->aiFlags[battlerAtk] & (AI_FLAG_RISKY | AI_FLAG_PREFER_HIGHEST_DAMAGE_MOVE)
                 && GetBestDmgMoveFromBattler(battlerAtk, battlerDef) == move)
                 ADJUST_SCORE(BEST_DAMAGE_MOVE);
-            else
+            else {
                 ADJUST_SCORE(AI_CompareDamagingMoves(battlerAtk, battlerDef, AI_THINKING_STRUCT->movesetIndex));
+	    }
+
         }
     }
 
