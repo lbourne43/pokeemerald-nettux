@@ -140,7 +140,7 @@ NettuxHelper_EventScript_MartHelper::
         lockall
         faceplayer
         message NettuxHelper_EventScript_MartHelper_Text_1
-        multichoice 25, 5, MULTICHOICE_NETTUX_MART_HELPER, 0
+        multichoice 25, 3, MULTICHOICE_NETTUX_MART_HELPER, 0
         closemessage
         compare VAR_RESULT, 0
         goto_if_eq NettuxHelper_EventScript_MartHelper_5

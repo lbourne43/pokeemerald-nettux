@@ -9627,14 +9627,26 @@ AI: nettux
 Wingull
 Level: 18
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Growl
+- Water Gun
+- Supersonic
+- Wing Attack
 
 Slugma
 Level: 18
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Yawn
+- Ember
+- Smog
+- Rock Tomb
 
 Grovyle
 Level: 20
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Absorb
+- Quick Attack
+- Fury Cutter
+- Pursuit
 
 === TRAINER_MAY_ROUTE_119_MUDKIP ===
 Name: MAY
