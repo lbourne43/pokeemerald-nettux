@@ -1,10 +1,22 @@
 // multichoice lists
 
 static const struct MenuAction sMultichoiceList_NettuxMartHelper[] =
-{                                                                                                                           {gText_NettuxBattleMart},
+{
+    {gText_NettuxBattleMart},
     {gText_NettuxTrainingMart},
     {gText_NettuxTMMart},
     {gText_NettuxEvolveMart},
+    {gText_NettuxHyperTrain},
+};
+
+static const struct MenuAction sMultichoiceList_NettuxHyperTrainer[] =
+{
+    {gText_NettuxHyperHP},
+    {gText_NettuxHyperAtk},
+    {gText_NettuxHyperDef},
+    {gText_NettuxHyperSpA},
+    {gText_NettuxHyperSpD},
+    {gText_NettuxHyperSpe},
 };
 
 static const struct MenuAction MultichoiceList_BrineyOnDewford[] =
@@ -915,6 +927,7 @@ static const struct MultichoiceListStruct sMultichoiceLists[] =
     [MULTI_TAG_MATCH_TYPE]             = MULTICHOICE(MultichoiceList_TagMatchType),
     [MULTI_BERRY_PLOT]                 = MULTICHOICE(MultichoiceList_BerryPlot),
     [MULTICHOICE_NETTUX_MART_HELPER]   = MULTICHOICE(sMultichoiceList_NettuxMartHelper),
+    [MULTICHOICE_NETTUX_HYPER_TRAINER]   = MULTICHOICE(sMultichoiceList_NettuxHyperTrainer),
 };
 
 const u8 *const gStdStrings[] =

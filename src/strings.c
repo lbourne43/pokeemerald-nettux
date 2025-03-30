@@ -1301,3 +1301,11 @@ const u8 gText_CannotSendMonToBoxHM[] = _("Cannot send that mon to the box,\nbec
 const u8 gText_NettuxBattleMart[] = _("Battle Mart");
 const u8 gText_NettuxTrainingMart[] = _("Training Mart");                                                               const u8 gText_NettuxTMMart[] = _("TM Mart");
 const u8 gText_NettuxEvolveMart[] = _("Evolvution Mart");
+const u8 gText_NettuxHyperTrain[] = _("Hyper Train");
+
+const u8 gText_NettuxHyperHP[] = _("HP");
+const u8 gText_NettuxHyperAtk[] = _("Attack");
+const u8 gText_NettuxHyperDef[] = _("Defense");
+const u8 gText_NettuxHyperSpA[] = _("Sp Atk");
+const u8 gText_NettuxHyperSpD[] = _("Sp Def");
+const u8 gText_NettuxHyperSpe[] = _("Speed");

@@ -134,13 +134,11 @@ Movement_PkmnCenterNurse_Turn:
 
 
 
-
-
 NettuxHelper_EventScript_MartHelper::
         lockall
         faceplayer
         message NettuxHelper_EventScript_MartHelper_Text_1
-        multichoice 25, 3, MULTICHOICE_NETTUX_MART_HELPER, 0
+        multichoice 25, 1, MULTICHOICE_NETTUX_MART_HELPER, 0
         closemessage
         compare VAR_RESULT, 0
         goto_if_eq NettuxHelper_EventScript_MartHelper_5
@@ -150,6 +148,8 @@ NettuxHelper_EventScript_MartHelper::
         goto_if_eq NettuxHelper_EventScript_MartHelper_7
         compare VAR_RESULT, 3
         goto_if_eq NettuxHelper_EventScript_MartHelper_8
+        compare VAR_RESULT, 4
+        goto_if_eq NettuxHelper_HyperTrain
 NettuxHelper_EventScript_MartHelper_4:
         msgbox NettuxHelper_EventScript_MartHelper_Text_2
         waitmessage
@@ -252,3 +252,151 @@ NettuxHelper_EventScript_TMMart_Text_0:
 
 NettuxHelper_EventScript_EvolveMart_Text_0:
         .string "Ready to Evolve?$"
+
+
+NettuxHelper_Text_WhichStat::
+    .string "Which stat shoud I raise?$"
+
+NettuxHelper_SetIVs::
+        checkmoney 5000
+        goto_if_eq VAR_RESULT, FALSE, NettuxHelper_EventScript_NotEnoughMoneyHyperTrain
+        special ChoosePartyMon
+        waitstate
+        compare VAR_0x8004, PARTY_SIZE
+        goto_if_ge NettuxHelper_ButIRefuse
+        specialvar VAR_RESULT, ScriptGetPartyMonSpecies
+        compare VAR_RESULT, SPECIES_EGG
+        goto_if_eq NettuxHelper_Rejected
+        message NettuxHelper_Text_WhichStat
+        multichoice 0, 0, MULTICHOICE_NETTUX_HYPER_TRAINER, 0
+        closemessage
+        compare VAR_RESULT, 0
+        goto_if_eq NettuxHelper_SetHpIVs_Proceed
+        compare VAR_RESULT, 1
+        goto_if_eq NettuxHelper_SetAtkIVs_Proceed
+        compare VAR_RESULT, 2
+        goto_if_eq NettuxHelper_SetDefIVs_Proceed
+        compare VAR_RESULT, 3
+        goto_if_eq NettuxHelper_SetSpaIVs_Proceed
+        compare VAR_RESULT, 4
+        goto_if_eq NettuxHelper_SetSpdIVs_Proceed
+        compare VAR_RESULT, 5
+        goto_if_eq NettuxHelper_SetSpeIVs_Proceed
+
+        goto NettuxHelper_ButIRefuse
+
+
+NettuxHelper_SetHpIVs_Proceed:
+        lockall
+        faceplayer
+        removemoney 5000
+        special MaxHpIvs
+        msgbox NettuxHelper_IVsSetSuccessfully 4
+        closemessage
+        releaseall
+        end
+
+NettuxHelper_SetAtkIVs_Proceed:
+        lockall
+        faceplayer
+        removemoney 5000
+        special MaxAtkIvs
+        msgbox NettuxHelper_IVsSetSuccessfully 4
+        closemessage
+        releaseall
+        end
+
+NettuxHelper_SetDefIVs_Proceed:
+        lockall
+        faceplayer
+        removemoney 5000
+        special MaxDefIvs
+        msgbox NettuxHelper_IVsSetSuccessfully 4
+        closemessage
+        releaseall
+        end
+
+NettuxHelper_SetSpaIVs_Proceed:
+        lockall
+        faceplayer
+        removemoney 5000
+        special MaxSpAtkIvs
+        msgbox NettuxHelper_IVsSetSuccessfully 4
+        closemessage
+        releaseall
+        end
+
+NettuxHelper_SetSpdIVs_Proceed:
+        lockall
+        faceplayer
+        removemoney 5000
+        special MaxSpDefIvs
+        msgbox NettuxHelper_IVsSetSuccessfully 4
+        closemessage
+        releaseall
+        end
+
+NettuxHelper_SetSpeIVs_Proceed:
+        lockall
+        faceplayer
+        removemoney 5000
+        special MaxSpdIvs
+        msgbox NettuxHelper_IVsSetSuccessfully 4
+        closemessage
+        releaseall
+        end
+
+NettuxHelper_ButIRefuse:
+        lockall
+        faceplayer
+        msgbox NettuxHelper_ComeBackAnytime 6
+        releaseall
+        end
+
+NettuxHelper_Rejected:
+        lockall
+        faceplayer
+        msgbox NettuxHelper_Reject 6
+        releaseall
+        end
+
+NettuxHelper_IVsSetSuccessfully:
+        .string "Hyper training complete!\n"
+        .string "Come back anytime.$"
+
+NettuxHelper_Reject:
+        .string "Sorry, I can't modify the stats\n"
+        .string "of an EGG.$"
+
+NettuxHelper_ComeBackAnytime:
+        .string "Come back anytime.$"
+
+NettuxHelper_HyperTrain::
+        faceplayer
+        showmoneybox 0, 0
+        msgbox NettuxHelper_HyperTrain_Text_0, MSGBOX_YESNO
+        hidemoneybox
+        compare VAR_RESULT, YES
+        goto_if_eq NettuxHelper_HyperTrain_1
+        msgbox NettuxHelper_HyperTrain_Text_1, MSGBOX_NPC
+        applymovement VAR_LAST_TALKED, Movement_PkmnCenterNurse_Turn @ Changed from Common_Movement_WalkInPlaceFasterLeft to force the follower to enter their Poké Ball
+        applymovement VAR_LAST_TALKED, Common_Movement_WalkInPlaceFasterDown
+        callnative UpdateFollowingPokemon
+        return
+
+NettuxHelper_HyperTrain_1:
+        goto NettuxHelper_SetIVs
+        return
+
+NettuxHelper_EventScript_NotEnoughMoneyHyperTrain::
+        msgbox NettuxHelper_EventScript_NotEnoughMoneyHyperTrain_Text_0, MSGBOX_NPC
+        return
+
+NettuxHelper_HyperTrain_Text_0:
+        .string "Hyper train a pokemon for ¥5000?$"
+
+NettuxHelper_HyperTrain_Text_1:
+        .string "Come back anytime.$"
+
+NettuxHelper_EventScript_NotEnoughMoneyHyperTrain_Text_0:
+        .string "Not enough money.$"

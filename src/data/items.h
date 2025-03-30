@@ -10872,7 +10872,7 @@ const struct Item gItemsInfo[] =
     [ITEM_TM_PSYCHIC] =
     {
         .name = _("TM29 - Psychic"),
-        .price = 10000,
+        .price = 9000,
         .description = COMPOUND_STRING(
             "A powerful psychic\n"
             "attack that may\n"
@@ -10887,7 +10887,7 @@ const struct Item gItemsInfo[] =
     [ITEM_TM_SHADOW_BALL] =
     {
         .name = _("TM30 - Shadow Ball"),
-        .price = 10000,
+        .price = 9000,
         .description = COMPOUND_STRING(
             "Hurls a dark lump\n"
             "at the foe. It may\n"
@@ -10902,7 +10902,7 @@ const struct Item gItemsInfo[] =
     [ITEM_TM_BRICK_BREAK] =
     {
         .name = _("TM31 - Brick Break"),
-        .price = 10000,
+        .price = 5000,
         .description = COMPOUND_STRING(
             "Destroys barriers\n"
             "like Light Screen\n"

@@ -387,10 +387,12 @@ void RunTextPrinters(void)
             if (sTextPrinters[i].active)
             {
                 u16 renderCmd = RenderFont(&sTextPrinters[i]);
+		// nettux fast text
+                CopyWindowToVram(sTextPrinters[i].printerTemplate.windowId, COPYWIN_GFX);
                 switch (renderCmd)
                 {
                 case RENDER_PRINT:
-                    CopyWindowToVram(sTextPrinters[i].printerTemplate.windowId, COPYWIN_GFX);
+                    //CopyWindowToVram(sTextPrinters[i].printerTemplate.windowId, COPYWIN_GFX);
                 case RENDER_UPDATE:
                     if (sTextPrinters[i].callback != NULL)
                         sTextPrinters[i].callback(&sTextPrinters[i].printerTemplate, renderCmd);
@@ -1053,6 +1055,7 @@ static u16 RenderText(struct TextPrinter *textPrinter)
     u16 currChar;
     s32 width;
     s32 widthHelper;
+    u8 repeats = 0;
 
     switch (textPrinter->state)
     {
@@ -1075,6 +1078,24 @@ static u16 RenderText(struct TextPrinter *textPrinter)
             textPrinter->delayCounter = 3;
         else
             textPrinter->delayCounter = textPrinter->textSpeed;
+
+
+// nettux fast text
+		switch (GetPlayerTextSpeed())
+		{
+			case OPTIONS_TEXT_SPEED_SLOW:
+				repeats = 1;
+				break;
+			case OPTIONS_TEXT_SPEED_MID:
+				repeats = 2;
+				break;
+			case OPTIONS_TEXT_SPEED_FAST:
+				repeats = 4;
+				break;
+		}
+		do {
+// nettux fast text
+
 
         currChar = *textPrinter->printerTemplate.currentChar;
         textPrinter->printerTemplate.currentChar++;
@@ -1291,6 +1312,12 @@ static u16 RenderText(struct TextPrinter *textPrinter)
             else
                 textPrinter->printerTemplate.currentX += gCurGlyph.width;
         }
+
+	// nettux fast text
+        repeats--;
+        } while (repeats > 0);
+	// nettux fast text
+
         return RENDER_PRINT;
     case RENDER_STATE_WAIT:
         if (TextPrinterWait(textPrinter))
