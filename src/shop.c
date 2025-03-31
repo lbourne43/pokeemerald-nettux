@@ -1042,6 +1042,7 @@ static const u16 sNettuxTrainingInventory_TwoBadges[] = {
     ITEM_JOLLY_MINT,
     ITEM_NAIVE_MINT,
     ITEM_SERIOUS_MINT,
+    ITEM_ABILITY_CAPSULE,
     ITEM_NONE
 };
 
@@ -1076,6 +1077,7 @@ static const u16 sNettuxTrainingInventory_ThreeBadges[] = {
     ITEM_JOLLY_MINT,
     ITEM_NAIVE_MINT,
     ITEM_SERIOUS_MINT,
+    ITEM_ABILITY_CAPSULE,
     ITEM_NONE
 };
 
@@ -1110,6 +1112,8 @@ static const u16 sNettuxTrainingInventory_FourBadges[] = {
     ITEM_JOLLY_MINT,
     ITEM_NAIVE_MINT,
     ITEM_SERIOUS_MINT,
+    ITEM_ABILITY_CAPSULE,
+    ITEM_ABILITY_PATCH,
     ITEM_NONE
 };
 
@@ -1145,6 +1149,8 @@ static const u16 sNettuxTrainingInventory_FiveBadges[] = {
     ITEM_JOLLY_MINT,
     ITEM_NAIVE_MINT,
     ITEM_SERIOUS_MINT,
+    ITEM_ABILITY_CAPSULE,
+    ITEM_ABILITY_PATCH,
     ITEM_NONE
 };
 
@@ -1180,6 +1186,8 @@ static const u16 sNettuxTrainingInventory_SixBadges[] = {
     ITEM_JOLLY_MINT,
     ITEM_NAIVE_MINT,
     ITEM_SERIOUS_MINT,
+    ITEM_ABILITY_CAPSULE,
+    ITEM_ABILITY_PATCH,
     ITEM_NONE
 };
 
@@ -1216,6 +1224,8 @@ static const u16 sNettuxTrainingInventory_SevenBadges[] = {
     ITEM_JOLLY_MINT,
     ITEM_NAIVE_MINT,
     ITEM_SERIOUS_MINT,
+    ITEM_ABILITY_CAPSULE,
+    ITEM_ABILITY_PATCH,
     ITEM_NONE
 };
 
@@ -1252,6 +1262,8 @@ static const u16 sNettuxTrainingInventory_EightBadges[] = {
     ITEM_JOLLY_MINT,
     ITEM_NAIVE_MINT,
     ITEM_SERIOUS_MINT,
+    ITEM_ABILITY_CAPSULE,
+    ITEM_ABILITY_PATCH,
     ITEM_NONE
 };
 
