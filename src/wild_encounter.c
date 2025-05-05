@@ -23,6 +23,7 @@
 #include "constants/items.h"
 #include "constants/layouts.h"
 #include "constants/weather.h"
+#include "constants/flags.h"
 #include "item.h"
 
 extern const u8 EventScript_SprayWoreOff[];
@@ -73,6 +74,7 @@ EWRAM_DATA bool8 gIsSurfingEncounter = 0;
 EWRAM_DATA u8 gChainFishingDexNavStreak = 0;
 
 #include "data/wild_encounters.h"
+#include "data/wild_encounters_vanilla.h"
 
 static const struct WildPokemon sWildFeebas = {20, 25, SPECIES_FEEBAS};
 
@@ -413,10 +415,19 @@ static u8 ChooseWildMonLevel(const struct WildPokemon *wildPokemon, u8 wildMonIn
 u16 GetCurrentMapWildMonHeaderId(void)
 {
     u16 i;
+    bool8 hardmode = FALSE;
+    const struct WildPokemonHeader *wildHeader;
+
+    if (FlagGet(FLAG_NETTUX_HARD) || FlagGet(FLAG_NETTUX_VGC))
+        hardmode = TRUE;
 
     for (i = 0; ; i++)
     {
-        const struct WildPokemonHeader *wildHeader = &gWildMonHeaders[i];
+	// nettux handle difficulty based encounters here
+	if (hardmode)
+            wildHeader = &gWildMonHeaders[i];
+	else
+            wildHeader = &gWildMonHeadersVanilla[i];
         if (wildHeader->mapGroup == MAP_GROUP(UNDEFINED))
             break;
 
@@ -679,6 +690,10 @@ bool8 StandardWildEncounter(u16 curMetatileBehavior, u16 prevMetatileBehavior)
 {
     u16 headerId;
     struct Roamer *roamer;
+    bool8 hardmode = FALSE;
+
+    if (FlagGet(FLAG_NETTUX_HARD) || FlagGet(FLAG_NETTUX_VGC))
+	hardmode = TRUE;
 
     if (sWildEncountersDisabled == TRUE)
         return FALSE;
@@ -745,12 +760,18 @@ bool8 StandardWildEncounter(u16 curMetatileBehavior, u16 prevMetatileBehavior)
                 }
 
                 // try a regular wild land encounter
-                if (TryGenerateWildMon(gWildMonHeaders[headerId].landMonsInfo, WILD_AREA_LAND, WILD_CHECK_REPEL | WILD_CHECK_KEEN_EYE) == TRUE)
+                // nettux do difficulty based encounters
+
+	        if ((hardmode && TryGenerateWildMon(gWildMonHeaders[headerId].landMonsInfo, WILD_AREA_LAND, WILD_CHECK_REPEL | WILD_CHECK_KEEN_EYE) == TRUE) || 
+		   (!hardmode && TryGenerateWildMon(gWildMonHeadersVanilla[headerId].landMonsInfo, WILD_AREA_LAND, WILD_CHECK_REPEL | WILD_CHECK_KEEN_EYE) == TRUE))
                 {
                     if (TryDoDoubleWildBattle())
                     {
                         struct Pokemon mon1 = gEnemyParty[0];
-                        TryGenerateWildMon(gWildMonHeaders[headerId].landMonsInfo, WILD_AREA_LAND, WILD_CHECK_KEEN_EYE);
+			if (hardmode)
+                            TryGenerateWildMon(gWildMonHeaders[headerId].landMonsInfo, WILD_AREA_LAND, WILD_CHECK_KEEN_EYE);
+			else
+                            TryGenerateWildMon(gWildMonHeadersVanilla[headerId].landMonsInfo, WILD_AREA_LAND, WILD_CHECK_KEEN_EYE);
                         gEnemyParty[1] = mon1;
                         BattleSetup_StartDoubleWildBattle();
                     }
@@ -787,13 +808,18 @@ bool8 StandardWildEncounter(u16 curMetatileBehavior, u16 prevMetatileBehavior)
             }
             else // try a regular surfing encounter
             {
-                if (TryGenerateWildMon(gWildMonHeaders[headerId].waterMonsInfo, WILD_AREA_WATER, WILD_CHECK_REPEL | WILD_CHECK_KEEN_EYE) == TRUE)
+		// nettux difficulty based encounter
+                if ((hardmode && TryGenerateWildMon(gWildMonHeaders[headerId].waterMonsInfo, WILD_AREA_WATER, WILD_CHECK_REPEL | WILD_CHECK_KEEN_EYE) == TRUE) ||
+                   (!hardmode && TryGenerateWildMon(gWildMonHeadersVanilla[headerId].waterMonsInfo, WILD_AREA_WATER, WILD_CHECK_REPEL | WILD_CHECK_KEEN_EYE) == TRUE))
                 {
                     gIsSurfingEncounter = TRUE;
                     if (TryDoDoubleWildBattle())
                     {
                         struct Pokemon mon1 = gEnemyParty[0];
-                        TryGenerateWildMon(gWildMonHeaders[headerId].waterMonsInfo, WILD_AREA_WATER, WILD_CHECK_KEEN_EYE);
+			if (hardmode)
+                            TryGenerateWildMon(gWildMonHeaders[headerId].waterMonsInfo, WILD_AREA_WATER, WILD_CHECK_KEEN_EYE);
+			else
+                            TryGenerateWildMon(gWildMonHeadersVanilla[headerId].waterMonsInfo, WILD_AREA_WATER, WILD_CHECK_KEEN_EYE);
                         gEnemyParty[1] = mon1;
                         BattleSetup_StartDoubleWildBattle();
                     }
@@ -815,10 +841,19 @@ bool8 StandardWildEncounter(u16 curMetatileBehavior, u16 prevMetatileBehavior)
 void RockSmashWildEncounter(void)
 {
     u16 headerId = GetCurrentMapWildMonHeaderId();
+    bool8 hardmode = FALSE;
+    const struct WildPokemonInfo *wildPokemonInfo;
+
+    if (FlagGet(FLAG_NETTUX_HARD) || FlagGet(FLAG_NETTUX_VGC))
+        hardmode = TRUE;
 
     if (headerId != HEADER_NONE)
     {
-        const struct WildPokemonInfo *wildPokemonInfo = gWildMonHeaders[headerId].rockSmashMonsInfo;
+	// difficulty based encounter
+	if (hardmode)
+            wildPokemonInfo = gWildMonHeaders[headerId].rockSmashMonsInfo;
+	else
+            wildPokemonInfo = gWildMonHeadersVanilla[headerId].rockSmashMonsInfo;
 
         if (wildPokemonInfo == NULL)
         {
@@ -845,6 +880,10 @@ bool8 SweetScentWildEncounter(void)
 {
     s16 x, y;
     u16 headerId;
+    bool8 hardmode = FALSE;
+
+    if (FlagGet(FLAG_NETTUX_HARD) || FlagGet(FLAG_NETTUX_VGC))
+        hardmode = TRUE;
 
     PlayerGetDestCoords(&x, &y);
     headerId = GetCurrentMapWildMonHeaderId();
@@ -887,7 +926,11 @@ bool8 SweetScentWildEncounter(void)
             if (DoMassOutbreakEncounterTest() == TRUE)
                 SetUpMassOutbreakEncounter(0);
             else
-                TryGenerateWildMon(gWildMonHeaders[headerId].landMonsInfo, WILD_AREA_LAND, 0);
+		// nettux difficulty based encounter
+		if (hardmode)
+                    TryGenerateWildMon(gWildMonHeaders[headerId].landMonsInfo, WILD_AREA_LAND, 0);
+	        else
+                    TryGenerateWildMon(gWildMonHeadersVanilla[headerId].landMonsInfo, WILD_AREA_LAND, 0);
 
             BattleSetup_StartWildBattle();
             return TRUE;
@@ -905,7 +948,11 @@ bool8 SweetScentWildEncounter(void)
                 return TRUE;
             }
 
-            TryGenerateWildMon(gWildMonHeaders[headerId].waterMonsInfo, WILD_AREA_WATER, 0);
+	    // nettux difficulty based encounter
+	    if (hardmode)
+                TryGenerateWildMon(gWildMonHeaders[headerId].waterMonsInfo, WILD_AREA_WATER, 0);
+	    else
+                TryGenerateWildMon(gWildMonHeadersVanilla[headerId].waterMonsInfo, WILD_AREA_WATER, 0);
             BattleSetup_StartWildBattle();
             return TRUE;
         }
@@ -917,8 +964,14 @@ bool8 SweetScentWildEncounter(void)
 bool8 DoesCurrentMapHaveFishingMons(void)
 {
     u16 headerId = GetCurrentMapWildMonHeaderId();
+    bool8 hardmode = FALSE;
 
-    if (headerId != HEADER_NONE && gWildMonHeaders[headerId].fishingMonsInfo != NULL)
+    if (FlagGet(FLAG_NETTUX_HARD) || FlagGet(FLAG_NETTUX_VGC))
+        hardmode = TRUE;
+
+    // nettux difficulty based encounter
+    if ((hardmode && headerId != HEADER_NONE && gWildMonHeaders[headerId].fishingMonsInfo != NULL) ||
+       (!hardmode && headerId != HEADER_NONE && gWildMonHeadersVanilla[headerId].fishingMonsInfo != NULL))
         return TRUE;
     else
         return FALSE;
@@ -943,6 +996,10 @@ static void UpdateChainFishingStreak()
 void FishingWildEncounter(u8 rod)
 {
     u16 species;
+    bool8 hardmode = FALSE;
+
+    if (FlagGet(FLAG_NETTUX_HARD) || FlagGet(FLAG_NETTUX_VGC))
+        hardmode = TRUE;
 
     gIsFishingEncounter = TRUE;
     if (CheckFeebas() == TRUE)
@@ -954,7 +1011,11 @@ void FishingWildEncounter(u8 rod)
     }
     else
     {
-        species = GenerateFishingWildMon(gWildMonHeaders[GetCurrentMapWildMonHeaderId()].fishingMonsInfo, rod);
+	// nettux difficulty based encounter
+	if (hardmode)
+            species = GenerateFishingWildMon(gWildMonHeaders[GetCurrentMapWildMonHeaderId()].fishingMonsInfo, rod);
+	else
+            species = GenerateFishingWildMon(gWildMonHeadersVanilla[GetCurrentMapWildMonHeaderId()].fishingMonsInfo, rod);
     }
 
     IncrementGameStat(GAME_STAT_FISHING_ENCOUNTERS);
@@ -967,13 +1028,23 @@ u16 GetLocalWildMon(bool8 *isWaterMon)
     u16 headerId;
     const struct WildPokemonInfo *landMonsInfo;
     const struct WildPokemonInfo *waterMonsInfo;
+    bool8 hardmode = FALSE;
+
+    if (FlagGet(FLAG_NETTUX_HARD) || FlagGet(FLAG_NETTUX_VGC))
+        hardmode = TRUE;
 
     *isWaterMon = FALSE;
     headerId = GetCurrentMapWildMonHeaderId();
     if (headerId == HEADER_NONE)
         return SPECIES_NONE;
-    landMonsInfo = gWildMonHeaders[headerId].landMonsInfo;
-    waterMonsInfo = gWildMonHeaders[headerId].waterMonsInfo;
+    // nettux difficulty based encounter
+    if (hardmode) {
+        landMonsInfo = gWildMonHeaders[headerId].landMonsInfo;
+        waterMonsInfo = gWildMonHeaders[headerId].waterMonsInfo;
+    } else {
+        landMonsInfo = gWildMonHeadersVanilla[headerId].landMonsInfo;
+        waterMonsInfo = gWildMonHeadersVanilla[headerId].waterMonsInfo;
+    }
     // Neither
     if (landMonsInfo == NULL && waterMonsInfo == NULL)
         return SPECIES_NONE;
@@ -1001,10 +1072,19 @@ u16 GetLocalWildMon(bool8 *isWaterMon)
 u16 GetLocalWaterMon(void)
 {
     u16 headerId = GetCurrentMapWildMonHeaderId();
+    bool8 hardmode = FALSE;
+    const struct WildPokemonInfo *waterMonsInfo;
+
+    if (FlagGet(FLAG_NETTUX_HARD) || FlagGet(FLAG_NETTUX_VGC))
+        hardmode = TRUE;
 
     if (headerId != HEADER_NONE)
     {
-        const struct WildPokemonInfo *waterMonsInfo = gWildMonHeaders[headerId].waterMonsInfo;
+	// nettux difficulty
+	if (hardmode)
+            waterMonsInfo = gWildMonHeaders[headerId].waterMonsInfo;
+	else
+            waterMonsInfo = gWildMonHeadersVanilla[headerId].waterMonsInfo;
 
         if (waterMonsInfo)
             return waterMonsInfo->wildPokemon[ChooseWildMonIndex_WaterRock()].species;
@@ -1196,7 +1276,13 @@ bool8 TryDoDoubleWildBattle(void)
 bool8 StandardWildEncounter_Debug(void)
 {
     u16 headerId = GetCurrentMapWildMonHeaderId();
-    if (TryGenerateWildMon(gWildMonHeaders[headerId].landMonsInfo, WILD_AREA_LAND, 0) != TRUE)
+    bool8 hardmode = FALSE;
+
+    if (FlagGet(FLAG_NETTUX_HARD) || FlagGet(FLAG_NETTUX_VGC))
+        hardmode = TRUE;
+    // nettux difficulty based encounters
+    if ((hardmode && TryGenerateWildMon(gWildMonHeaders[headerId].landMonsInfo, WILD_AREA_LAND, 0) != TRUE) ||
+       (!hardmode && TryGenerateWildMon(gWildMonHeadersVanilla[headerId].landMonsInfo, WILD_AREA_LAND, 0) != TRUE))
         return FALSE;
 
     DoStandardWildBattle_Debug();

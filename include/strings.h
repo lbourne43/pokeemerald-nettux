@@ -283,6 +283,9 @@ extern const u8 gText_ThisIsAPokemon[];
 extern const u8 gText_Birch_MainSpeech[];
 extern const u8 gText_Birch_AndYouAre[];
 extern const u8 gText_Birch_BoyOrGirl[];
+// nettux difficulty
+extern const u8 gText_Birch_NettuxDifficulty[];
+
 extern const u8 gText_Birch_WhatsYourName[];
 extern const u8 gText_Birch_SoItsPlayer[];
 extern const u8 gText_Birch_YourePlayer[];
@@ -2426,6 +2429,7 @@ extern const u8 gText_NettuxTrainingMart[];
 extern const u8 gText_NettuxTMMart[];
 extern const u8 gText_NettuxEvolveMart[];
 extern const u8 gText_NettuxHyperTrain[];
+extern const u8 gText_NettuxTeraTrain[];
 
 extern const u8 gText_NettuxHyperHP[];
 extern const u8 gText_NettuxHyperAtk[];
@@ -2433,6 +2437,30 @@ extern const u8 gText_NettuxHyperDef[];
 extern const u8 gText_NettuxHyperSpA[];
 extern const u8 gText_NettuxHyperSpD[];
 extern const u8 gText_NettuxHyperSpe[];
+
+extern const u8 gText_NettuxTeraNormal[];
+extern const u8 gText_NettuxTeraFire[];
+extern const u8 gText_NettuxTeraWater[];
+extern const u8 gText_NettuxTeraElectric[];
+extern const u8 gText_NettuxTeraGrass[];
+extern const u8 gText_NettuxTeraIce[];
+extern const u8 gText_NettuxTeraFighting[];
+extern const u8 gText_NettuxTeraPoison[];
+extern const u8 gText_NettuxTeraGround[];
+extern const u8 gText_NettuxTeraFlying[];
+extern const u8 gText_NettuxTeraPsychic[];
+extern const u8 gText_NettuxTeraBug[];
+extern const u8 gText_NettuxTeraRock[];
+extern const u8 gText_NettuxTeraGhost[];
+extern const u8 gText_NettuxTeraDragon[];
+extern const u8 gText_NettuxTeraDark[];
+extern const u8 gText_NettuxTeraSteel[];
+extern const u8 gText_NettuxTeraFairy[];
+extern const u8 gText_NettuxTeraStellar[];
+
+extern const u8 gText_NettuxDifficultyNormal[];
+extern const u8 gText_NettuxDifficultyHard[];
+extern const u8 gText_NettuxDifficultyDoubles[];
 
 extern const u8 gText_CleanseTagTurnOn[];
 extern const u8 gText_CleanseTagTurnOff[];

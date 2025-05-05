@@ -1302,6 +1302,7 @@ const u8 gText_NettuxBattleMart[] = _("Battle Mart");
 const u8 gText_NettuxTrainingMart[] = _("Training Mart");                                                               const u8 gText_NettuxTMMart[] = _("TM Mart");
 const u8 gText_NettuxEvolveMart[] = _("Evolvution Mart");
 const u8 gText_NettuxHyperTrain[] = _("Hyper Train");
+const u8 gText_NettuxTeraTrain[] = _("Tera Train");
 
 const u8 gText_NettuxHyperHP[] = _("HP");
 const u8 gText_NettuxHyperAtk[] = _("Attack");
@@ -1309,3 +1310,27 @@ const u8 gText_NettuxHyperDef[] = _("Defense");
 const u8 gText_NettuxHyperSpA[] = _("Sp Atk");
 const u8 gText_NettuxHyperSpD[] = _("Sp Def");
 const u8 gText_NettuxHyperSpe[] = _("Speed");
+
+const u8 gText_NettuxDifficultyNormal[] = _("Normal");
+const u8 gText_NettuxDifficultyHard[] = _("Hard");
+const u8 gText_NettuxDifficultyDoubles[] = _("Doubles");
+
+const u8 gText_NettuxTeraNormal[] = _("Normal");
+const u8 gText_NettuxTeraFire[] = _("Fire");
+const u8 gText_NettuxTeraWater[] = _("Water");
+const u8 gText_NettuxTeraElectric[] = _("Electric");
+const u8 gText_NettuxTeraGrass[] = _("Grass");
+const u8 gText_NettuxTeraIce[] = _("Ice");
+const u8 gText_NettuxTeraFighting[] = _("Fighting");
+const u8 gText_NettuxTeraPoison[] = _("Poison");
+const u8 gText_NettuxTeraGround[] = _("Ground");
+const u8 gText_NettuxTeraFlying[] = _("Flying");
+const u8 gText_NettuxTeraPsychic[] = _("Psychic");
+const u8 gText_NettuxTeraBug[] = _("Bug");
+const u8 gText_NettuxTeraRock[] = _("Rock");
+const u8 gText_NettuxTeraGhost[] = _("Ghost");
+const u8 gText_NettuxTeraDragon[] = _("Dragon");
+const u8 gText_NettuxTeraDark[] = _("Dark");
+const u8 gText_NettuxTeraSteel[] = _("Steel");
+const u8 gText_NettuxTeraFairy[] = _("Fairy");
+const u8 gText_NettuxTeraStellar[] = _("Stellar");

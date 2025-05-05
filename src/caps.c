@@ -7,9 +7,8 @@
 
 u32 GetCurrentLevelCap(void)
 {
-    static const u32 sLevelCapFlagMap[][2] =
+    static const u32 sLevelCapFlagMapHard[][2] =
     {
-#if NETTUX_HIGHER_LEVEL_CAPS == 1
         {FLAG_BADGE01_GET, 20},
         {FLAG_BADGE02_GET, 30},
         {FLAG_BADGE03_GET, 40},
@@ -22,7 +21,9 @@ u32 GetCurrentLevelCap(void)
         {FLAG_KYOGRE_ESCAPED_SEAFLOOR_CAVERN, 90},
         {FLAG_BADGE08_GET, 95},
         {FLAG_IS_CHAMPION, 100},
-#else
+    };
+    static const u32 sLevelCapFlagMap[][2] =
+    {
         {FLAG_BADGE01_GET, 15},
         {FLAG_BADGE02_GET, 19},
         {FLAG_BADGE03_GET, 24},
@@ -32,17 +33,32 @@ u32 GetCurrentLevelCap(void)
         {FLAG_BADGE07_GET, 42},
         {FLAG_BADGE08_GET, 46},
         {FLAG_IS_CHAMPION, 58},
-#endif
     };
 
     u32 i;
+    bool8 hardmode = FALSE;
+    if (FlagGet(FLAG_NETTUX_HARD) || FlagGet(FLAG_NETTUX_VGC))
+        hardmode = TRUE;
 
     if (B_LEVEL_CAP_TYPE == LEVEL_CAP_FLAG_LIST)
     {
-        for (i = 0; i < ARRAY_COUNT(sLevelCapFlagMap); i++)
-        {
-            if (!FlagGet(sLevelCapFlagMap[i][0]))
-                return sLevelCapFlagMap[i][1];
+        if (hardmode) {
+            for (i = 0; i < ARRAY_COUNT(sLevelCapFlagMapHard); i++)
+            {
+                if (!FlagGet(sLevelCapFlagMapHard[i][0]))
+                {
+                    return sLevelCapFlagMapHard[i][1];
+                }
+            }
+        } else {
+            for (i = 0; i < ARRAY_COUNT(sLevelCapFlagMap); i++)
+            {
+                if (!FlagGet(sLevelCapFlagMap[i][0]))
+                {
+                    return sLevelCapFlagMap[i][1];
+                }
+            }
+
         }
     }
     else if (B_LEVEL_CAP_TYPE == LEVEL_CAP_VARIABLE)

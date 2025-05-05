@@ -84,7 +84,8 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .baseSpAttack  = 45,
         .baseSpDefense = 55,
         .types = MON_TYPES(TYPE_GRASS),
-        .catchRate = 45,
+        //.catchRate = 45,
+        .catchRate = 255,
         .expYield = 62,
         .evYield_Speed = 1,
         .genderRatio = PERCENT_FEMALE(12.5),
@@ -293,7 +294,8 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .baseSpAttack  = 45,
         .baseSpDefense = 45,
         .types = MON_TYPES(TYPE_FIRE),
-        .catchRate = 45,
+        //.catchRate = 45,
+        .catchRate = 255,
         .expYield = 62,
         .evYield_HP = 1,
         .genderRatio = PERCENT_FEMALE(12.5),
@@ -518,7 +520,8 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .baseSpAttack  = 63,
         .baseSpDefense = 45,
         .types = MON_TYPES(TYPE_WATER),
-        .catchRate = 45,
+        //.catchRate = 45,
+        .catchRate = 255,
         .expYield = 62,
         .evYield_SpAttack = 1,
         .genderRatio = PERCENT_FEMALE(12.5),
@@ -2350,8 +2353,9 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         )
         .levelUpLearnset = sBoldoreLevelUpLearnset,
         .teachableLearnset = sBoldoreTeachableLearnset,
-        .evolutions = EVOLUTION({EVO_TRADE, 0, SPECIES_GIGALITH},
-                                {EVO_ITEM, ITEM_LINKING_CORD, SPECIES_GIGALITH}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 40, SPECIES_GIGALITH}),
+        //.evolutions = EVOLUTION({EVO_TRADE, 0, SPECIES_GIGALITH},
+        //                        {EVO_ITEM, ITEM_LINKING_CORD, SPECIES_GIGALITH}),
     },
 
     [SPECIES_GIGALITH] =
@@ -3013,8 +3017,9 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         )
         .levelUpLearnset = sGurdurrLevelUpLearnset,
         .teachableLearnset = sGurdurrTeachableLearnset,
-        .evolutions = EVOLUTION({EVO_TRADE, 0, SPECIES_CONKELDURR},
-                                {EVO_ITEM, ITEM_LINKING_CORD, SPECIES_CONKELDURR}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 40, SPECIES_CONKELDURR}),
+        //.evolutions = EVOLUTION({EVO_TRADE, 0, SPECIES_CONKELDURR},
+        //                        {EVO_ITEM, ITEM_LINKING_CORD, SPECIES_CONKELDURR}),
     },
 
     [SPECIES_CONKELDURR] =

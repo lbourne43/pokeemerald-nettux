@@ -118,6 +118,10 @@ LittlerootTown_ProfessorBirchsLab_EventScript_GiveStarterEvent::
 	waitmessage
 	playfanfare MUS_OBTAIN_ITEM
 	waitfanfare
+	goto LittlerootTown_Nettux_SetDifficulty
+
+
+LittlerootTown_Nettux_WhyNotNickname::
 	msgbox LittlerootTown_ProfessorBirchsLab_Text_WhyNotGiveNicknameToMon, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, YES, LittlerootTown_ProfessorBirchsLab_EventScript_NicknameStarter
 	goto_if_eq VAR_RESULT, NO, LittlerootTown_ProfessorBirchsLab_EventScript_GoSeeRival
@@ -999,3 +1003,38 @@ LittlerootTown_ProfessorBirchsLab_Text_ScottAboardSSTidalCall:
 	.string "we meet. I'll be waiting!\p"
 	.string "… … … … … …\n"
 	.string "… … … … … Click!$"
+
+LittlerootTown_Nettux_SetDifficulty::
+	message LittlerootTown_Nettux_SetDifficulty_Text_0
+	multichoice 25, 5, MULTICHOICE_NETTUX_DIFFICULTY, 0
+	closemessage
+	compare VAR_RESULT, 0
+	goto_if_eq LittlerootTown_Nettux_SetDifficulty_2
+	compare VAR_RESULT, 1
+	goto_if_eq LittlerootTown_Nettux_SetDifficulty_3
+	compare VAR_RESULT, 2
+	goto_if_eq LittlerootTown_Nettux_SetDifficulty_4
+
+LittlerootTown_Nettux_SetDifficulty_1:
+	waitmessage
+	goto LittlerootTown_Nettux_WhyNotNickname
+
+LittlerootTown_Nettux_SetDifficulty_2:
+	clearflag FLAG_NETTUX_HARD
+	clearflag FLAG_NETTUX_VGC
+	goto LittlerootTown_Nettux_SetDifficulty_1
+
+LittlerootTown_Nettux_SetDifficulty_3:
+	setflag FLAG_NETTUX_HARD
+	clearflag FLAG_NETTUX_VGC
+	goto LittlerootTown_Nettux_SetDifficulty_1
+
+LittlerootTown_Nettux_SetDifficulty_4:
+	clearflag FLAG_NETTUX_HARD
+	setflag FLAG_NETTUX_VGC
+	goto LittlerootTown_Nettux_SetDifficulty_1
+
+
+LittlerootTown_Nettux_SetDifficulty_Text_0:
+	.string "Difficulty setting?$"
+       

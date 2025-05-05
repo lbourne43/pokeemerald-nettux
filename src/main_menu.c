@@ -39,6 +39,10 @@
 #include "window.h"
 #include "mystery_gift_menu.h"
 
+// nettux difficulty option
+#include "difficulty.h"
+#include "constants/flags.h"
+
 /*
  * Main menu state machine
  * -----------------------
@@ -127,11 +131,17 @@
  * Task_NewGameBirchSpeech_ChooseGender
  *  - Animates by advancing to Task_NewGameBirchSpeech_SlideOutOldGenderSprite
  *    whenever the player's selection changes.
- *  - Advances to Task_NewGameBirchSpeech_WhatsYourName when done.
+ *  - Advances to Task_NewGameBirchSpeech_NettuxDifficulty when done.
  *
  * Task_NewGameBirchSpeech_SlideOutOldGenderSprite
  * Task_NewGameBirchSpeech_SlideInNewGenderSprite
  *  - Returns back to Task_NewGameBirchSpeech_ChooseGender.
+ *
+ *
+ * Task_NewGameBirchSpeech_NettuxDifficulty
+ * Task_NewGameBirchSpeech_WaitToShowNettuxDifficultyMenu
+ * Task_NewGameBirchSpeech_ChooseNettuxDifficulty 
+ *  - Advances to Task_NewGameBirchSpeech_WhatsYourName when done.
  *
  * Task_NewGameBirchSpeech_WhatsYourName
  * Task_NewGameBirchSpeech_WaitForWhatsYourNameToPrint
@@ -210,14 +220,29 @@ static void Task_NewGameBirchSpeech_SlidePlatformAway(u8);
 static void Task_NewGameBirchSpeech_StartPlayerFadeIn(u8);
 static void Task_NewGameBirchSpeech_WaitForPlayerFadeIn(u8);
 static void Task_NewGameBirchSpeech_BoyOrGirl(u8);
+
+// nettux difficulty
+static void Task_NewGameBirchSpeech_NettuxDifficulty(u8);
+
 static void LoadMainMenuWindowFrameTiles(u8, u16);
 static void DrawMainMenuWindowBorder(const struct WindowTemplate *, u16);
 static void Task_HighlightSelectedMainMenuItem(u8);
 static void Task_NewGameBirchSpeech_WaitToShowGenderMenu(u8);
 static void Task_NewGameBirchSpeech_ChooseGender(u8);
+
+// nettux difficulty
+static void Task_NewGameBirchSpeech_WaitToShowNettuxDifficultyMenu(u8);
+static void Task_NewGameBirchSpeech_ChooseNettuxDifficulty(u8);
+
 static void NewGameBirchSpeech_ShowGenderMenu(void);
 static s8 NewGameBirchSpeech_ProcessGenderMenuInput(void);
 static void NewGameBirchSpeech_ClearGenderWindow(u8, u8);
+
+// nettux difficulty
+static void NewGameBirchSpeech_ShowNettuxDifficultyMenu(void);
+static s8 NewGameBirchSpeech_ProcessNettuxDifficultyMenuInput(void);
+static void NewGameBirchSpeech_ClearNettuxDifficultyWindow(u8, u8);
+
 static void Task_NewGameBirchSpeech_WhatsYourName(u8);
 static void Task_NewGameBirchSpeech_SlideOutOldGenderSprite(u8);
 static void Task_NewGameBirchSpeech_SlideInNewGenderSprite(u8);
@@ -420,6 +445,15 @@ static const struct WindowTemplate sNewGameBirchSpeechTextWindows[] =
         .paletteNum = 15,
         .baseBlock = 0x85
     },
+    {
+        .bg = 0,
+        .tilemapLeft = 3,
+        .tilemapTop = 5,
+        .width = 6,
+        .height = 6,
+        .paletteNum = 15,
+        .baseBlock = 0x6D
+    },
     DUMMY_WIN_TEMPLATE
 };
 
@@ -475,6 +509,12 @@ static const union AffineAnimCmd *const sSpriteAffineAnimTable_PlayerShrink[] =
 static const struct MenuAction sMenuActions_Gender[] = {
     {COMPOUND_STRING("BOY"), {NULL}},
     {COMPOUND_STRING("GIRL"), {NULL}}
+};
+
+static const struct MenuAction sMenuActions_NettuxDifficulty[] = {
+    {COMPOUND_STRING("Normal"), {NULL}},
+    {COMPOUND_STRING("Hard"), {NULL}},
+    {COMPOUND_STRING("Doubles"), {NULL}}
 };
 
 static const u8 *const sMalePresetNames[] = {
@@ -1529,12 +1569,16 @@ static void Task_NewGameBirchSpeech_ChooseGender(u8 taskId)
             gSaveBlock2Ptr->playerGender = gender;
             NewGameBirchSpeech_ClearGenderWindow(1, 1);
             gTasks[taskId].func = Task_NewGameBirchSpeech_WhatsYourName;
+	    // nettux difficulty
+	    //gTasks[taskId].func = Task_NewGameBirchSpeech_NettuxDifficulty;
             break;
         case FEMALE:
             PlaySE(SE_SELECT);
             gSaveBlock2Ptr->playerGender = gender;
             NewGameBirchSpeech_ClearGenderWindow(1, 1);
             gTasks[taskId].func = Task_NewGameBirchSpeech_WhatsYourName;
+	    // nettux difficulty
+	    //gTasks[taskId].func = Task_NewGameBirchSpeech_NettuxDifficulty;
             break;
     }
     gender2 = Menu_GetCursorPos();
@@ -1590,6 +1634,63 @@ static void Task_NewGameBirchSpeech_SlideInNewGenderSprite(u8 taskId)
     }
 }
 
+// nettux difficulty
+static void Task_NewGameBirchSpeech_NettuxDifficulty(u8 taskId)
+{
+    NewGameBirchSpeech_ClearWindow(0);
+    StringExpandPlaceholders(gStringVar4, gText_Birch_NettuxDifficulty);
+    AddTextPrinterForMessage(TRUE);
+    gTasks[taskId].func = Task_NewGameBirchSpeech_WaitToShowNettuxDifficultyMenu;
+}
+
+static void Task_NewGameBirchSpeech_WaitToShowNettuxDifficultyMenu(u8 taskId)
+{
+    if (!RunTextPrintersAndIsPrinter0Active())
+    {
+        NewGameBirchSpeech_ShowNettuxDifficultyMenu();
+        gTasks[taskId].func = Task_NewGameBirchSpeech_ChooseNettuxDifficulty;
+    }
+}
+
+static void Task_NewGameBirchSpeech_ChooseNettuxDifficulty(u8 taskId)
+{
+    int nettux_difficulty = NewGameBirchSpeech_ProcessNettuxDifficultyMenuInput();
+    switch (nettux_difficulty)
+    {
+        case 0:
+            // normal
+            PlaySE(SE_SELECT);
+	    // SET DIFFICULTY HERE
+	    FlagClear(FLAG_NETTUX_HARD);
+	    FlagClear(FLAG_NETTUX_VGC);
+            SetCurrentDifficultyLevel(DIFFICULTY_NORMAL);
+            NewGameBirchSpeech_ClearNettuxDifficultyWindow(3, 1);
+            gTasks[taskId].func = Task_NewGameBirchSpeech_WhatsYourName;
+            break;
+        case 1:
+            // hard
+            PlaySE(SE_SELECT);
+	    // SET DIFFICULTY HERE
+	    FlagSet(FLAG_NETTUX_HARD);
+	    FlagClear(FLAG_NETTUX_VGC);
+            SetCurrentDifficultyLevel(DIFFICULTY_HARD);
+            NewGameBirchSpeech_ClearNettuxDifficultyWindow(3, 1);
+            gTasks[taskId].func = Task_NewGameBirchSpeech_WhatsYourName;
+            break;
+        case 2:
+            // doubles
+            PlaySE(SE_SELECT);
+	    // SET DIFFICULTY HERE
+	    FlagClear(FLAG_NETTUX_HARD);
+	    FlagSet(FLAG_NETTUX_VGC);
+            SetCurrentDifficultyLevel(DIFFICULTY_DOUBLES);
+            NewGameBirchSpeech_ClearNettuxDifficultyWindow(3, 1);
+            gTasks[taskId].func = Task_NewGameBirchSpeech_WhatsYourName;
+            break;
+    }
+}
+// nettux difficulty
+
 static void Task_NewGameBirchSpeech_WhatsYourName(u8 taskId)
 {
     NewGameBirchSpeech_ClearWindow(0);
@@ -1597,6 +1698,23 @@ static void Task_NewGameBirchSpeech_WhatsYourName(u8 taskId)
     AddTextPrinterForMessage(TRUE);
     gTasks[taskId].func = Task_NewGameBirchSpeech_WaitForWhatsYourNameToPrint;
 }
+
+// nettux difficulty
+static void NewGameBirchSpeech_ShowNettuxDifficultyMenu(void)
+{
+    DrawMainMenuWindowBorder(&sNewGameBirchSpeechTextWindows[3], 0xF3);
+    FillWindowPixelBuffer(3, PIXEL_FILL(1));
+    PrintMenuTable(3, ARRAY_COUNT(sMenuActions_NettuxDifficulty), sMenuActions_NettuxDifficulty);
+    InitMenuInUpperLeftCornerNormal(3, ARRAY_COUNT(sMenuActions_NettuxDifficulty), 0);
+    PutWindowTilemap(3);
+    CopyWindowToVram(3, COPYWIN_FULL);
+}
+
+static s8 NewGameBirchSpeech_ProcessNettuxDifficultyMenuInput(void)
+{
+    return Menu_ProcessInputNoWrap();
+}
+// nettux difficulty
 
 static void Task_NewGameBirchSpeech_WaitForWhatsYourNameToPrint(u8 taskId)
 {
@@ -2256,6 +2374,22 @@ static void NewGameBirchSpeech_ClearGenderWindow(u8 windowId, bool8 copyToVram)
     if (copyToVram == TRUE)
         CopyWindowToVram(windowId, COPYWIN_FULL);
 }
+
+// nettux difficulty
+static void NewGameBirchSpeech_ClearNettuxDifficultyWindowTilemap(u8 bg, u8 x, u8 y, u8 width, u8 height, u8 unused)
+{
+    FillBgTilemapBufferRect(bg, 0, x + 255, y + 255, width + 2, height + 2, 2);
+}
+
+static void NewGameBirchSpeech_ClearNettuxDifficultyWindow(u8 windowId, bool8 copyToVram)
+{
+    CallWindowFunction(windowId, NewGameBirchSpeech_ClearNettuxDifficultyWindowTilemap);
+    FillWindowPixelBuffer(windowId, PIXEL_FILL(1));
+    ClearWindowTilemap(windowId);
+    if (copyToVram == TRUE)
+        CopyWindowToVram(windowId, COPYWIN_FULL);
+}
+// nettux difficulty
 
 static void NewGameBirchSpeech_ClearWindow(u8 windowId)
 {

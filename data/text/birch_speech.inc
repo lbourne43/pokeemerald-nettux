@@ -35,6 +35,10 @@ gText_Birch_BoyOrGirl::
 	.string "Are you a boy?\n"
 	.string "Or are you a girl?$"
 
+gText_Birch_NettuxDifficulty::
+	.string "Which difficulty option would\n"
+	.string "you like to play?$"
+
 gText_Birch_WhatsYourName::
 	.string "All right.\n"
 	.string "What's your name?$"

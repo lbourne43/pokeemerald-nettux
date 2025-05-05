@@ -43,6 +43,8 @@ void HealPlayerParty(void)
     // Recharge Tera Orb, if possible.
     if (B_FLAG_TERA_ORB_CHARGED != 0 && CheckBagHasItem(ITEM_TERA_ORB, 1))
         FlagSet(B_FLAG_TERA_ORB_CHARGED);
+        // nettux
+        FlagSet(B_FLAG_TERA_ORB_NO_COST);
 }
 
 static void HealPlayerBoxes(void)
@@ -624,3 +626,4 @@ void Script_SetStatus1(struct ScriptContext *ctx)
         SetMonData(&gPlayerParty[slot], MON_DATA_STATUS, &status1);
     }
 }
+

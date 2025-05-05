@@ -138,7 +138,7 @@ NettuxHelper_EventScript_MartHelper::
         lockall
         faceplayer
         message NettuxHelper_EventScript_MartHelper_Text_1
-        multichoice 25, 1, MULTICHOICE_NETTUX_MART_HELPER, 0
+        multichoice 0, 0, MULTICHOICE_NETTUX_MART_HELPER, 0
         closemessage
         compare VAR_RESULT, 0
         goto_if_eq NettuxHelper_EventScript_MartHelper_5
@@ -150,6 +150,9 @@ NettuxHelper_EventScript_MartHelper::
         goto_if_eq NettuxHelper_EventScript_MartHelper_8
         compare VAR_RESULT, 4
         goto_if_eq NettuxHelper_HyperTrain
+        compare VAR_RESULT, 5
+        goto_if_eq NettuxHelper_TeraTrain
+
 NettuxHelper_EventScript_MartHelper_4:
         msgbox NettuxHelper_EventScript_MartHelper_Text_2
         waitmessage
@@ -400,3 +403,293 @@ NettuxHelper_HyperTrain_Text_1:
 
 NettuxHelper_EventScript_NotEnoughMoneyHyperTrain_Text_0:
         .string "Not enough money.$"
+
+
+NettuxHelper_EventScript_Tera_Train::
+        msgbox NettuxHelper_EventScript_Tera_Train_Text_0
+        call NettuxHelper_TeraTrain
+        releaseall
+        return
+
+NettuxHelper_SetTera::
+        checkmoney 5000
+        goto_if_eq VAR_RESULT, FALSE, NettuxHelper_EventScript_NotEnoughMoneyHyperTrain
+        special ChoosePartyMon
+        waitstate
+        compare VAR_0x8004, PARTY_SIZE
+        goto_if_ge NettuxHelper_ButIRefuse
+        specialvar VAR_RESULT, ScriptGetPartyMonSpecies
+        compare VAR_RESULT, SPECIES_EGG
+        goto_if_eq NettuxHelper_Rejected
+        message NettuxHelper_Text_WhichStat
+        multichoicegrid 0, 0, MULTICHOICE_NETTUX_TERA_TRAINER, 3, 0
+        closemessage
+        compare VAR_RESULT, 0
+        goto_if_eq NettuxHelper_SetNormalTera_Proceed
+        compare VAR_RESULT, 1
+        goto_if_eq NettuxHelper_SetFireTera_Proceed
+        compare VAR_RESULT, 2
+        goto_if_eq NettuxHelper_SetWaterTera_Proceed
+        compare VAR_RESULT, 3
+        goto_if_eq NettuxHelper_SetElectricTera_Proceed
+        compare VAR_RESULT, 4
+        goto_if_eq NettuxHelper_SetGrassTera_Proceed
+        compare VAR_RESULT, 5
+        goto_if_eq NettuxHelper_SetIceTera_Proceed
+        compare VAR_RESULT, 6
+        goto_if_eq NettuxHelper_SetFightingTera_Proceed
+        compare VAR_RESULT, 7
+        goto_if_eq NettuxHelper_SetPoisonTera_Proceed
+        compare VAR_RESULT, 8
+        goto_if_eq NettuxHelper_SetGroundTera_Proceed
+        compare VAR_RESULT, 9
+        goto_if_eq NettuxHelper_SetFlyingTera_Proceed
+        compare VAR_RESULT, 10
+        goto_if_eq NettuxHelper_SetPsychicTera_Proceed
+        compare VAR_RESULT, 11
+        goto_if_eq NettuxHelper_SetBugTera_Proceed
+        compare VAR_RESULT, 12
+        goto_if_eq NettuxHelper_SetRockTera_Proceed
+        compare VAR_RESULT, 13
+        goto_if_eq NettuxHelper_SetGhostTera_Proceed
+        compare VAR_RESULT, 14
+        goto_if_eq NettuxHelper_SetDragonTera_Proceed
+        compare VAR_RESULT, 15
+        goto_if_eq NettuxHelper_SetDarkTera_Proceed
+        compare VAR_RESULT, 16
+        goto_if_eq NettuxHelper_SetSteelTera_Proceed
+        compare VAR_RESULT, 17
+        goto_if_eq NettuxHelper_SetFairyTera_Proceed
+        compare VAR_RESULT, 18
+        goto_if_eq NettuxHelper_SetStellarTera_Proceed
+
+        goto NettuxHelper_ButIRefuse
+
+
+NettuxHelper_SetNormalTera_Proceed:
+        lockall
+        faceplayer
+        removemoney 5000
+        setteratype TYPE_NORMAL VAR_0x8004
+        msgbox NettuxHelper_TeraSetSuccessfully 4
+        closemessage
+        releaseall
+        end
+
+NettuxHelper_SetFireTera_Proceed:
+        lockall
+        faceplayer
+        removemoney 5000
+        setteratype TYPE_FIRE VAR_0x8004
+        msgbox NettuxHelper_TeraSetSuccessfully 4
+        closemessage
+        releaseall
+        end
+
+NettuxHelper_SetWaterTera_Proceed:
+        lockall
+        faceplayer
+        removemoney 5000
+        setteratype TYPE_WATER VAR_0x8004
+        msgbox NettuxHelper_TeraSetSuccessfully 4
+        closemessage
+        releaseall
+        end
+
+NettuxHelper_SetElectricTera_Proceed:
+        lockall
+        faceplayer
+        removemoney 5000
+        setteratype TYPE_ELECTRIC VAR_0x8004
+        msgbox NettuxHelper_TeraSetSuccessfully 4
+        closemessage
+        releaseall
+        end
+
+NettuxHelper_SetGrassTera_Proceed:
+        lockall
+        faceplayer
+        removemoney 5000
+        setteratype TYPE_GRASS VAR_0x8004
+        msgbox NettuxHelper_TeraSetSuccessfully 4
+        closemessage
+        releaseall
+        end
+
+NettuxHelper_SetIceTera_Proceed:
+        lockall
+        faceplayer
+        removemoney 5000
+        setteratype TYPE_ICE VAR_0x8004
+        msgbox NettuxHelper_TeraSetSuccessfully 4
+        closemessage
+        releaseall
+        end
+
+NettuxHelper_SetFightingTera_Proceed:
+        lockall
+        faceplayer
+        removemoney 5000
+        setteratype TYPE_FIGHTING VAR_0x8004
+        msgbox NettuxHelper_TeraSetSuccessfully 4
+        closemessage
+        releaseall
+        end
+
+NettuxHelper_SetPoisonTera_Proceed:
+        lockall
+        faceplayer
+        removemoney 5000
+        setteratype TYPE_POISON VAR_0x8004
+        msgbox NettuxHelper_TeraSetSuccessfully 4
+        closemessage
+        releaseall
+        end
+
+NettuxHelper_SetGroundTera_Proceed:
+        lockall
+        faceplayer
+        removemoney 5000
+        setteratype TYPE_GROUND VAR_0x8004
+        msgbox NettuxHelper_TeraSetSuccessfully 4
+        closemessage
+        releaseall
+        end
+
+NettuxHelper_SetFlyingTera_Proceed:
+        lockall
+        faceplayer
+        removemoney 5000
+        setteratype TYPE_FLYING VAR_0x8004
+        msgbox NettuxHelper_TeraSetSuccessfully 4
+        closemessage
+        releaseall
+        end
+
+NettuxHelper_SetPsychicTera_Proceed:
+        lockall
+        faceplayer
+        removemoney 5000
+        setteratype TYPE_PSYCHIC VAR_0x8004
+        msgbox NettuxHelper_TeraSetSuccessfully 4
+        closemessage
+        releaseall
+        end
+
+NettuxHelper_SetBugTera_Proceed:
+        lockall
+        faceplayer
+        removemoney 5000
+        setteratype TYPE_BUG VAR_0x8004
+        msgbox NettuxHelper_TeraSetSuccessfully 4
+        closemessage
+        releaseall
+        end
+
+
+NettuxHelper_SetRockTera_Proceed:
+        lockall
+        faceplayer
+        removemoney 5000
+        setteratype TYPE_ROCK VAR_0x8004
+        msgbox NettuxHelper_TeraSetSuccessfully 4
+        closemessage
+        releaseall
+        end
+
+NettuxHelper_SetGhostTera_Proceed:
+        lockall
+        faceplayer
+        removemoney 5000
+        setteratype TYPE_GHOST VAR_0x8004
+        msgbox NettuxHelper_TeraSetSuccessfully 4
+        closemessage
+        releaseall
+        end
+
+NettuxHelper_SetDragonTera_Proceed:
+        lockall
+        faceplayer
+        removemoney 5000
+        setteratype TYPE_DRAGON VAR_0x8004
+        msgbox NettuxHelper_TeraSetSuccessfully 4
+        closemessage
+        releaseall
+        end
+
+NettuxHelper_SetDarkTera_Proceed:
+        lockall
+        faceplayer
+        removemoney 5000
+        setteratype TYPE_DARK VAR_0x8004
+        msgbox NettuxHelper_TeraSetSuccessfully 4
+        closemessage
+        releaseall
+        end
+
+NettuxHelper_SetSteelTera_Proceed:
+        lockall
+        faceplayer
+        removemoney 5000
+        setteratype TYPE_STEEL VAR_0x8004
+        msgbox NettuxHelper_TeraSetSuccessfully 4
+        closemessage
+        releaseall
+        end
+
+NettuxHelper_SetFairyTera_Proceed:
+        lockall
+        faceplayer
+        removemoney 5000
+        setteratype TYPE_FAIRY VAR_0x8004
+        msgbox NettuxHelper_TeraSetSuccessfully 4
+        closemessage
+        releaseall
+        end
+
+NettuxHelper_SetStellarTera_Proceed:
+        lockall
+        faceplayer
+        removemoney 5000
+        setteratype TYPE_STELLAR VAR_0x8004
+        msgbox NettuxHelper_TeraSetSuccessfully 4
+        closemessage
+        releaseall
+        end
+
+NettuxHelper_TeraTrain::
+        faceplayer
+        showmoneybox 0, 0
+        msgbox NettuxHelper_TeraTrain_Text_0, MSGBOX_YESNO
+        hidemoneybox
+        compare VAR_RESULT, YES
+        goto_if_eq NettuxHelper_TeraTrain_1
+        msgbox NettuxHelper_TeraTrain_Text_1, MSGBOX_NPC
+        applymovement VAR_LAST_TALKED, Movement_PkmnCenterNurse_Turn @ Changed from Common_Movement_WalkInPlaceFasterLeft to force the follower to enter their Poké Ball
+        applymovement VAR_LAST_TALKED, Common_Movement_WalkInPlaceFasterDown
+        callnative UpdateFollowingPokemon
+        return
+
+NettuxHelper_TeraTrain_1:
+        goto NettuxHelper_SetTera
+        return
+
+NettuxHelper_EventScript_NotEnoughMoneyTeraTrain::
+        msgbox NettuxHelper_EventScript_NotEnoughMoneyTeraTrain_Text_0, MSGBOX_NPC
+        return
+
+NettuxHelper_TeraTrain_Text_0:
+        .string "Tera train a pokemon for ¥5000?$"
+
+NettuxHelper_TeraTrain_Text_1:
+        .string "Come back anytime.$"
+
+NettuxHelper_EventScript_NotEnoughMoneyTeraTrain_Text_0:
+        .string "Not enough money.$"
+
+NettuxHelper_EventScript_Tera_Train_Text_0:
+        .string "Tera Train!$"
+
+NettuxHelper_TeraSetSuccessfully:
+        .string "Tera training complete!\n"
+        .string "Come back anytime.$"

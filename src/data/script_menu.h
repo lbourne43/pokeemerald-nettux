@@ -7,6 +7,7 @@ static const struct MenuAction sMultichoiceList_NettuxMartHelper[] =
     {gText_NettuxTMMart},
     {gText_NettuxEvolveMart},
     {gText_NettuxHyperTrain},
+    {gText_NettuxTeraTrain},
 };
 
 static const struct MenuAction sMultichoiceList_NettuxHyperTrainer[] =
@@ -17,6 +18,35 @@ static const struct MenuAction sMultichoiceList_NettuxHyperTrainer[] =
     {gText_NettuxHyperSpA},
     {gText_NettuxHyperSpD},
     {gText_NettuxHyperSpe},
+};
+
+static const struct MenuAction sMultichoiceList_NettuxTeraTrainer[] =
+{
+    {gText_NettuxTeraNormal},
+    {gText_NettuxTeraFire},
+    {gText_NettuxTeraWater},
+    {gText_NettuxTeraElectric},
+    {gText_NettuxTeraGrass},
+    {gText_NettuxTeraIce},
+    {gText_NettuxTeraFighting},
+    {gText_NettuxTeraPoison},
+    {gText_NettuxTeraGround},
+    {gText_NettuxTeraFlying},
+    {gText_NettuxTeraPsychic},
+    {gText_NettuxTeraBug},
+    {gText_NettuxTeraRock},
+    {gText_NettuxTeraGhost},
+    {gText_NettuxTeraDragon},
+    {gText_NettuxTeraDark},
+    {gText_NettuxTeraSteel},
+    {gText_NettuxTeraFairy},
+};
+
+static const struct MenuAction sMultichoiceList_NettuxDifficulty[] =
+{
+    {gText_NettuxDifficultyNormal},
+    {gText_NettuxDifficultyHard},
+    {gText_NettuxDifficultyDoubles},
 };
 
 static const struct MenuAction MultichoiceList_BrineyOnDewford[] =
@@ -927,7 +957,9 @@ static const struct MultichoiceListStruct sMultichoiceLists[] =
     [MULTI_TAG_MATCH_TYPE]             = MULTICHOICE(MultichoiceList_TagMatchType),
     [MULTI_BERRY_PLOT]                 = MULTICHOICE(MultichoiceList_BerryPlot),
     [MULTICHOICE_NETTUX_MART_HELPER]   = MULTICHOICE(sMultichoiceList_NettuxMartHelper),
-    [MULTICHOICE_NETTUX_HYPER_TRAINER]   = MULTICHOICE(sMultichoiceList_NettuxHyperTrainer),
+    [MULTICHOICE_NETTUX_HYPER_TRAINER] = MULTICHOICE(sMultichoiceList_NettuxHyperTrainer),
+    [MULTICHOICE_NETTUX_DIFFICULTY]    = MULTICHOICE(sMultichoiceList_NettuxDifficulty),
+    [MULTICHOICE_NETTUX_TERA_TRAINER]  = MULTICHOICE(sMultichoiceList_NettuxTeraTrainer),
 };
 
 const u8 *const gStdStrings[] =
