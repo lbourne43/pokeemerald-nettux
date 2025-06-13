@@ -109,4 +109,7 @@ void BufferMoveDeleterNicknameAndMove(void);
 void GetNumMovesSelectedMonHas(void);
 void MoveDeleterChooseMoveToForget(void);
 
+// nettux change balls
+void ItemUseCB_PokeBall(u8 taskId, TaskFunc task);
+
 #endif // GUARD_PARTY_MENU_H

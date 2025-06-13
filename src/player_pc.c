@@ -236,6 +236,7 @@ static const u16 sNewGamePCItems[][2] =
 {
     { ITEM_POTION, 1 },
     { ITEM_CLEANSE_TAG, 1 },
+    { ITEM_POCKET_JOY, 1 },
     { ITEM_NONE, 0 }
 };
 

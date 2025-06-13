@@ -1004,6 +1004,24 @@ LittlerootTown_ProfessorBirchsLab_Text_ScottAboardSSTidalCall:
 	.string "… … … … … …\n"
 	.string "… … … … … Click!$"
 
+LittlerootTown_Nettux_SetPermadeath_Text_0:
+        .string "Do you want to enable?\n"
+	.string "perma-death?$"
+
+LittlerootTown_Nettux_SetPermadeath::
+        msgbox LittlerootTown_Nettux_SetPermadeath_Text_0, MSGBOX_YESNO
+        goto_if_eq VAR_RESULT, YES, LittlerootTown_Nettux_Permadeath_On
+        goto_if_eq VAR_RESULT, NO, LittlerootTown_Nettux_Permadeath_Off
+        end
+
+LittlerootTown_Nettux_Permadeath_On::
+        setflag FLAG_NETTUX_PERMADEATH
+	goto_if_eq LittlerootTown_Nettux_SetDifficulty_1
+
+LittlerootTown_Nettux_Permadeath_Off::
+        clearflag FLAG_NETTUX_PERMADEATH
+        goto_if_eq LittlerootTown_Nettux_SetDifficulty_1
+
 LittlerootTown_Nettux_SetDifficulty::
 	message LittlerootTown_Nettux_SetDifficulty_Text_0
 	multichoice 25, 5, MULTICHOICE_NETTUX_DIFFICULTY, 0
@@ -1020,19 +1038,22 @@ LittlerootTown_Nettux_SetDifficulty_1:
 	goto LittlerootTown_Nettux_WhyNotNickname
 
 LittlerootTown_Nettux_SetDifficulty_2:
+        setflag B_FLAG_NO_BAG_USE
 	clearflag FLAG_NETTUX_HARD
 	clearflag FLAG_NETTUX_VGC
-	goto LittlerootTown_Nettux_SetDifficulty_1
+	goto LittlerootTown_Nettux_SetPermadeath
 
 LittlerootTown_Nettux_SetDifficulty_3:
+        setflag B_FLAG_NO_BAG_USE
 	setflag FLAG_NETTUX_HARD
 	clearflag FLAG_NETTUX_VGC
-	goto LittlerootTown_Nettux_SetDifficulty_1
+	goto LittlerootTown_Nettux_SetPermadeath
 
 LittlerootTown_Nettux_SetDifficulty_4:
+        setflag B_FLAG_NO_BAG_USE
 	clearflag FLAG_NETTUX_HARD
 	setflag FLAG_NETTUX_VGC
-	goto LittlerootTown_Nettux_SetDifficulty_1
+	goto LittlerootTown_Nettux_SetPermadeath
 
 
 LittlerootTown_Nettux_SetDifficulty_Text_0:

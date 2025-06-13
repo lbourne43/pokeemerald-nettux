@@ -484,6 +484,7 @@ Route110_EventScript_RivalExit::
 	savebgm MUS_DUMMY
 	fadedefaultbgm
 	releaseall
+	setflag FLAG_NETTUX_DEFEATED_RIVAL_ROUTE110
 	end
 
 Route110_EventScript_RivalApproachPlayer1::

@@ -6,7 +6,6 @@ mart:
     potions:
       - potion
     status:
-      - full restore
       - antidote
       - burn heal
       - ice heal
@@ -14,7 +13,7 @@ mart:
       - paralyze heal
       - revive
     others:
-      - max elixer
+      - pocket joy
 
   one:
     balls:

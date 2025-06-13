@@ -302,7 +302,9 @@ static const u8 sContextMenuItems_KeyItemsPocket[] = {
 };
 
 static const u8 sContextMenuItems_BallsPocket[] = {
-    ACTION_GIVE,        ACTION_DUMMY,
+//    ACTION_GIVE,        ACTION_DUMMY,
+//    nettux change balls
+    ACTION_USE,        ACTION_GIVE,
     ACTION_TOSS,        ACTION_CANCEL
 };
 

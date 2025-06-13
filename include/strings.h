@@ -2465,4 +2465,10 @@ extern const u8 gText_NettuxDifficultyDoubles[];
 extern const u8 gText_CleanseTagTurnOn[];
 extern const u8 gText_CleanseTagTurnOff[];
 
+extern const u8 gText_Pokenav_Access_PC[];
+extern const u8 gText_Pokenav_Cannot_Access_PC[];
+
+extern const u8 gText_NettuxHealed[];
+extern const u8 gText_NettuxCantHealHere[];
+
 #endif // GUARD_STRINGS_H

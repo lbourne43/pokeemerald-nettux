@@ -856,6 +856,9 @@ static void CB2_GiveStarter(void)
     PlayBattleBGM();
     SetMainCallback2(CB2_StartFirstBattle);
     BattleTransition_Start(B_TRANSITION_BLUR);
+    if (gSpecialVar_Result > 2) {
+	*GetVarPointer(VAR_STARTER_MON) = 2;
+    }
 }
 
 static void CB2_StartFirstBattle(void)

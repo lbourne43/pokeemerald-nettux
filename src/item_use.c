@@ -46,6 +46,9 @@
 #include "constants/songs.h"
 #include "constants/map_types.h"
 
+// nettux pocket joy
+#include "script_pokemon_util.h"
+
 static void SetUpItemUseCallback(u8);
 static void FieldCB_UseItemOnField(void);
 static void Task_CallItemUseOnFieldCallback(u8);
@@ -1630,5 +1633,26 @@ void ItemUseOutOfBattle_CleanseTag(u8 taskId)
             DisplayItemMessageInBattlePyramid(taskId, gText_CleanseTagTurnOff, Task_CloseBattlePyramidBagMessage);
     }
 }
+
+void ItemUseOutOfBattle_NettuxPocketJoy(u8 taskId)
+{
+    //if (Overworld_MapTypeAllowsTeleportAndFly(gMapHeader.mapType) == TRUE) {
+	PlaySE(SE_USE_ITEM);
+        //DisplayItemMessage(taskId, FONT_NORMAL, gText_NettuxHealed, CloseItemMessage);
+	HealPlayerParty();
+        DisplayItemMessage(taskId, FONT_NORMAL, gText_NettuxHealed, CloseItemMessage);
+    //} else {
+    //    PlaySE(SE_FAILURE);
+        //DisplayItemMessage(taskId, FONT_NORMAL, gText_NettuxCantHealHere, CloseItemMessage);
+    //}
+}
+// nettux change balls
+void ItemUseOutOfBattle_PokeBall(u8 taskId)
+{
+    gItemUseCB = ItemUseCB_PokeBall;
+    gBagMenu->newScreenCallback = CB2_ShowPartyMenuForItemUse;
+    Task_FadeAndCloseBagMenu(taskId);
+}
+
 
 #undef tUsingRegisteredKeyItem

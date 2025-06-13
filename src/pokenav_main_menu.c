@@ -169,6 +169,12 @@ static const struct CompressedSpriteSheet sMenuLeftHeaderSpriteSheets[] =
 
 static const struct CompressedSpriteSheetNoSize sPokenavSubMenuLeftHeaderSpriteSheets[] =
 {
+    // nettux boxlink
+    [POKENAV_GFX_ACCESS_PC - POKENAV_GFX_SUBMENUS_START] = {
+        .data = gPokenavLeftHeaderParty_Gfx,
+        .tag = 1
+    },
+    // nettux boxlink
     [POKENAV_GFX_PARTY_MENU - POKENAV_GFX_SUBMENUS_START] = {
         .data = gPokenavLeftHeaderParty_Gfx,
         .tag = 1

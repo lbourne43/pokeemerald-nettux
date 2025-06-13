@@ -35,8 +35,23 @@ static void HealPlayerBoxes(void);
 void HealPlayerParty(void)
 {
     u32 i;
-    for (i = 0; i < gPlayerPartyCount; i++)
-        HealPokemon(&gPlayerParty[i]);
+    u32 dead = 0;
+    for (i = 0; i < gPlayerPartyCount; i++) {
+	// TODO: check if the pokemon is fainted and if the nuzlocke flag is on
+	// before healing
+	if (FlagGet(FLAG_NETTUX_PERMADEATH) && GetMonData(&gPlayerParty[i], MON_DATA_HP) == 0)
+            // don't heal
+	    dead++;
+        else {
+            HealPokemon(&gPlayerParty[i]);
+	}
+    }
+    // if everyone is dead just do a normal heal
+    if (FlagGet(FLAG_NETTUX_PERMADEATH) && dead == gPlayerPartyCount) {
+	i = 0;
+	for (i = 0; i < gPlayerPartyCount; i++)
+            HealPokemon(&gPlayerParty[i]);
+    }
     if (OW_PC_HEAL >= GEN_8)
         HealPlayerBoxes();
 

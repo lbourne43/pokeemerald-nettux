@@ -39,6 +39,7 @@ void ItemUseOutOfBattle_Honey(u8);
 void ItemUseOutOfBattle_CannotUse(u8);
 
 void ItemUseOutOfBattle_CleanseTag(u8);
+void ItemUseOutOfBattle_NettuxPocketJoy(u8);
 
 void ItemUseOutOfBattle_ExpShare(u8);
 void ItemUseInBattle_BagMenu(u8 taskId);
@@ -47,6 +48,9 @@ void ItemUseInBattle_PartyMenuChooseMove(u8 taskId);
 void Task_UseDigEscapeRopeOnField(u8 taskId);
 u8 CanUseDigOrEscapeRopeOnCurMap(void);
 u8 CheckIfItemIsTMHMOrEvolutionStone(u16 itemId);
+// nettux change balls
+void ItemUseOutOfBattle_PokeBall(u8);
+
 void FieldUseFunc_VsSeeker(u8 taskId);
 void Task_ItemUse_CloseMessageBoxAndReturnToField_VsSeeker(u8 taskId);
 void DisplayDadsAdviceCannotUseItemMessage(u8 taskId, bool8 isUsingRegisteredKeyItemOnField);

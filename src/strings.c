@@ -1334,3 +1334,9 @@ const u8 gText_NettuxTeraDark[] = _("Dark");
 const u8 gText_NettuxTeraSteel[] = _("Steel");
 const u8 gText_NettuxTeraFairy[] = _("Fairy");
 const u8 gText_NettuxTeraStellar[] = _("Stellar");
+
+const u8 gText_Pokenav_Access_PC[] = _("Access your PC.");
+const u8 gText_Pokenav_Cannot_Access_PC[] = _("Can't access PC. Go outside.");
+
+const u8 gText_NettuxHealed[] = _("Healed.{PAUSE_UNTIL_PRESS}");
+const u8 gText_NettuxCantHealHere[] = _("Can't heal here.{PAUSE_UNTIL_PRESS}");
