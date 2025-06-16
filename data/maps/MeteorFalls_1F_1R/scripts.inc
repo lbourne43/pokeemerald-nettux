@@ -70,6 +70,16 @@ MeteorFalls_1F_1R_EventScript_MagmaStealsMeteoriteScene::
 	waitmovement 0
 	msgbox MeteorFalls_1F_1R_Text_ArchieSeenYouBefore, MSGBOX_DEFAULT
 	closemessage
+	goto_if_set FLAG_NETTUX_HARD MeteorFalls_1F_1R_EventScript_MagmaStealsMeteoriteSceneBattle
+	goto_if_set FLAG_NETTUX_VGC MeteorFalls_1F_1R_EventScript_MagmaStealsMeteoriteSceneBattle
+	goto MeteorFalls_1F_1R_EventScript_MagmaStealsMeteoriteScenePart2
+
+MeteorFalls_1F_1R_EventScript_MagmaStealsMeteoriteSceneBattle::
+        msgbox MeteorFalls_1F_1R_Text_ArchieGetSunk, MSGBOX_DEFAULT
+        trainerbattle_no_intro TRAINER_ARCHIE_METEORFALLS, MeteorFalls_1F_1R_Text_ArchieGotSunk
+	goto MeteorFalls_1F_1R_EventScript_MagmaStealsMeteoriteScenePart2
+
+MeteorFalls_1F_1R_EventScript_MagmaStealsMeteoriteScenePart2::
 	applymovement LOCALID_AQUA_GRUNT_1, MeteorFalls_1F_1R_Movement_AquaGrunt1ApproachArchie
 	applymovement LOCALID_AQUA_GRUNT_2, MeteorFalls_1F_1R_Movement_AquaGrunt2ApproachArchie
 	waitmovement 0
@@ -263,6 +273,15 @@ MeteorFalls_1F_1R_Text_BeSeeingYouTeamAqua:
 	.string "MT. CHIMNEY we go!\p"
 	.string "Hehehe! Be seeing you, you TEAM\n"
 	.string "AQUA dingbats!$"
+	
+MeteorFalls_1F_1R_Text_ArchieGetSunk:
+	.string "Anyway... if you're not with us,\n"
+	.string "you may as well be with them!\p"
+	.string "Prepare to get sunk!$"
+
+MeteorFalls_1F_1R_Text_ArchieGotSunk:
+	.string "Damnit!\p"
+	.string "I got sunk!$"
 
 MeteorFalls_1F_1R_Text_ArchieSeenYouBefore:
 	.string "ARCHIE: Didn't I see you before?\n"

@@ -23729,6 +23729,40 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Scary Face
 - Take Down
 
+=== TRAINER_ARCHIE_METEORFALLS ===
+Name: ARCHIE
+Class: Aqua Leader
+Pic: Aqua Leader Archie
+Gender: Male
+Music: Aqua
+Double Battle: Yes
+AI: nettux
+Difficulty: Doubles
+
+Mightyena
+Level: 41
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Roar
+- Swagger
+- Scary Face
+- Take Down
+
+Crobat
+Level: 41
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Bite
+- Wing Attack
+- Confuse Ray
+- Air Cutter
+
+Sharpedo
+Level: 43
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Screech
+- Slash
+- Taunt
+- Swagger
+
 === TRAINER_ARCHIE ===
 Name: ARCHIE
 Class: Aqua Leader
@@ -46356,14 +46390,10 @@ Music: Hiker
 Double Battle: No
 AI: nettux
 Difficulty: Hard
+Party Size: 3
+/* Location: MtChimney */
 
-Geodude
-Level: 21
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Mud Sport
-- Rock Throw
-- Magnitude
-- Self Destruct
+{{ hiker 53 SAWYER }}
 
 === TRAINER_GRUNT_AQUA_HIDEOUT_1 ===
 Name: GRUNT
@@ -46794,10 +46824,25 @@ Music: Aqua
 Double Battle: No
 AI: nettux
 Difficulty: Hard
-Party Size: 2
 /* Location: SlateportCity_OceanicMuseum_2F */
 
-{{ team_aqua 35 GRUNT_MUSEUM_1 }}
+Golbat
+Level: 35
+Ability: Inner Focus
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Supersonic
+- Bite
+- Wing Attack
+- Confuse Ray
+
+Sharpedo
+Level: 35
+Ability: Speed Boost
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Double Team
+- Aqua Jet
+- Leer
+- Crunch
 
 === TRAINER_GRUNT_MUSEUM_2 ===
 Name: GRUNT
@@ -46808,10 +46853,34 @@ Music: Aqua
 Double Battle: No
 AI: nettux
 Difficulty: Hard
-Party Size: 3
 /* Location: SlateportCity_OceanicMuseum_2F */
 
-{{ team_aqua 35 GRUNT_MUSEUM_2 }}
+Tentacruel
+Level: 35
+Ability: Liquid Ooze
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Toxic Spikes
+- Sludge Bomb
+- Water Pulse
+- Acid Armor
+
+Ariados
+Level: 35
+Ability: Swarm
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Agility
+- Cross Poison
+- Toxic Thread
+- Shadow Sneak
+
+Quagsire
+Level: 35
+Ability: Water Absorb
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Muddy Water
+- Yawn
+- Icy Wind
+- Mud Shot
 
 === TRAINER_GRUNT_SPACE_CENTER_1 ===
 Name: GRUNT
@@ -47068,6 +47137,68 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Swagger
 - Scary Face
 - Take Down
+
+=== TRAINER_ARCHIE_METEORFALLS ===
+Name: ARCHIE
+Class: Aqua Leader
+Pic: Aqua Leader Archie
+Gender: Male
+Music: Aqua
+Double Battle: No
+AI: nettux
+Difficulty: Hard
+/* Location: MeteorFalls_1F_1R */
+
+Pelipper @ Damp Rock  
+Level: 47  
+Ability: Drizzle  
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+Nature: Timid  
+- Hurricane  
+- Weather Ball  
+- Tailwind  
+- Roost  
+
+Crobat @ Poison Barb  
+Level: 47  
+Ability: Infiltrator  
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+Nature: Jolly  
+- Cross Poison  
+- Brave Bird  
+- Taunt  
+- Rain Dance  
+
+Gyarados @ Focus Sash  
+Level: 47  
+Ability: Intimidate  
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+Nature: Jolly  
+- Hurricane  
+- Waterfall  
+- Earthquake  
+- Dragon Dance  
+
+Raichu @ Leftovers  
+Level: 47  
+Ability: Lightning Rod  
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+Nature: Timid  
+Tera Type: Flying  
+- Thunder  
+- Grass Knot  
+- Surf  
+- Thunder Wave  
+
+Sharpedo @ Sharpedonite  
+Level: 47  
+Ability: Speed Boost  
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+Nature: Jolly  
+- Crunch  
+- Waterfall  
+- Ice Fang  
+- Rain Dance  
 
 === TRAINER_ARCHIE ===
 Name: ARCHIE
@@ -47512,22 +47643,25 @@ Music: Interviewer
 Double Battle: Yes
 AI: nettux
 Difficulty: Hard
+/* Location: Route111 */
 
-Magnemite
-Level: 27
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Supersonic
-- Sonic Boom
-- Thunder Wave
-- Spark
+Magnezone
+Level: 47
+Ability: Sturdy
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Thunderbolt
+- Flash Cannon
+- Protect
+- Discharge
 
-Loudred
-Level: 27
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Uproar
-- Astonish
-- Howl
-- Supersonic
+Exploud
+Level: 47
+Ability: Scrappy
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Hyper Voice
+- Focus Blast
+- Surf
+- Protect
 
 === TRAINER_GABBY_AND_TY_3 ===
 Name: GABBY & TY
@@ -48091,30 +48225,10 @@ Music: Cool
 Double Battle: No
 AI: nettux
 Difficulty: Hard
+Party Size: 3
+/* Location: Route111 */
 
-Electrike
-Level: 17
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Thunder Wave
-- Leer
-- Howl
-- Quick Attack
-
-Wailmer
-Level: 17
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Splash
-- Growl
-- Water Gun
-- Rollout
-
-Makuhita
-Level: 17
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Focus Energy
-- Sand Attack
-- Arm Thrust
-- Vital Throw
+{{ cooltrainer 44 WILTON }}
 
 === TRAINER_EDGAR ===
 Name: EDGAR
@@ -48558,29 +48672,10 @@ Music: Cool
 Double Battle: No
 AI: nettux
 Difficulty: Hard
+Party Size: 3
+/* Location: Route111 */
 
-Wingull
-Level: 17
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Growl
-- Water Gun
-- Supersonic
-- Wing Attack
-
-Numel
-Level: 17
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Growl
-- Tackle
-- Ember
-
-Roselia
-Level: 17
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Growth
-- Poison Sting
-- Stun Spore
-- Mega Drain
+{{ cooltrainer 44 BROOKE }}
 
 === TRAINER_JENNIFER ===
 Name: JENNIFER
@@ -49299,14 +49394,10 @@ Music: Female
 Double Battle: No
 AI: nettux
 Difficulty: Hard
+Party Size: 3
+/* Location: MtChimney */
 
-Marill
-Level: 21
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Tail Whip
-- Water Gun
-- Rollout
-- Bubble Beam
+{{ beauty 53 MELISSA }}
 
 === TRAINER_SHEILA ===
 Name: SHEILA
@@ -49317,14 +49408,10 @@ Music: Female
 Double Battle: No
 AI: nettux
 Difficulty: Hard
+Party Size: 3
+/* Location: MtChimney */
 
-Shroomish
-Level: 21
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Tackle
-- Stun Spore
-- Leech Seed
-- Mega Drain
+{{ beauty 53 SHEILA }}
 
 === TRAINER_SHIRLEY ===
 Name: SHIRLEY
@@ -49335,14 +49422,10 @@ Music: Female
 Double Battle: No
 AI: nettux
 Difficulty: Hard
+Party Size: 3
+/* Location: MtChimney */
 
-Numel
-Level: 21
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Growl
-- Tackle
-- Ember
-- Magnitude
+{{ beauty 53 SHIRLEY }}
 
 === TRAINER_JESSICA_1 ===
 Name: JESSICA
@@ -49708,14 +49791,10 @@ Music: Suspicious
 Double Battle: No
 AI: nettux
 Difficulty: Hard
+Party Size: 3
+/* Location: Route114 */
 
-Aron
-Level: 19
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Mud Slap
-- Headbutt
-- Metal Claw
-- Iron Defense
+{{ pokemaniac 44 STEVE }}
 
 === TRAINER_THALIA_1 ===
 Name: THALIA
@@ -49770,14 +49849,10 @@ Music: Magma
 Double Battle: No
 AI: nettux
 Difficulty: Hard
+Party Size: 3
+/* Location: MtChimney */
 
-Numel
-Level: 20
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Growl
-- Tackle
-- Ember
-- Magnitude
+{{ team_magma 50 GRUNT_MT_CHIMNEY_1 }}
 
 === TRAINER_STEVE_2 ===
 Name: STEVE
@@ -50748,14 +50823,10 @@ Music: Intense
 Double Battle: No
 AI: nettux
 Difficulty: Hard
+Party Size: 3
+/* Location: Route111 */
 
-Machop
-Level: 19
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Leer
-- Focus Energy
-- Karate Chop
-- Seismic Toss
+{{ black_belt 44 DAISUKE }}
 
 === TRAINER_ATSUSHI ===
 Name: ATSUSHI
@@ -51032,14 +51103,10 @@ Music: Hiker
 Double Battle: No
 AI: nettux
 Difficulty: Hard
+Party Size: 3
+/* Location: LavaridgeTown_Gym */
 
-Numel
-Level: 23
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Growl
-- Tackle
-- Ember
-- Magnitude
+{{ kindler 53 COLE }}
 
 === TRAINER_JEFF ===
 Name: JEFF
@@ -51050,22 +51117,10 @@ Music: Hiker
 Double Battle: No
 AI: nettux
 Difficulty: Hard
+Party Size: 3
+/* Location: LavaridgeTown_Gym */
 
-Slugma
-Level: 22
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Yawn
-- Ember
-- Rock Throw
-- Harden
-
-Slugma
-Level: 22
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Yawn
-- Ember
-- Rock Throw
-- Harden
+{{ kindler 53 JEFF }}
 
 === TRAINER_AXLE ===
 Name: AXLE
@@ -51076,14 +51131,10 @@ Music: Hiker
 Double Battle: No
 AI: nettux
 Difficulty: Hard
+Party Size: 3
+/* Location: LavaridgeTown_Gym */
 
-Numel
-Level: 23
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Growl
-- Tackle
-- Ember
-- Magnitude
+{{ kindler 53 AXLE }}
 
 === TRAINER_JACE ===
 Name: JACE
@@ -51094,14 +51145,10 @@ Music: Hiker
 Double Battle: No
 AI: nettux
 Difficulty: Hard
+Party Size: 3
+/* Location: LavaridgeTown_Gym */
 
-Slugma
-Level: 23
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Yawn
-- Ember
-- Rock Throw
-- Harden
+{{ kindler 53 JACE }}
 
 === TRAINER_KEEGAN ===
 Name: KEEGAN
@@ -51112,14 +51159,10 @@ Music: Hiker
 Double Battle: No
 AI: nettux
 Difficulty: Hard
+Party Size: 3
+/* Location: LavaridgeTown_Gym */
 
-Slugma
-Level: 23
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
-- Yawn
-- Ember
-- Rock Throw
-- Harden
+{{ kindler 53 KEEGAN }}
 
 === TRAINER_BERNIE_1 ===
 Name: BERNIE
@@ -51130,22 +51173,10 @@ Music: Hiker
 Double Battle: No
 AI: nettux
 Difficulty: Hard
+Party Size: 3
+/* Location: Route114 */
 
-Slugma
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Smog
-- Yawn
-- Ember
-- Rock Throw
-
-Wingull
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Growl
-- Water Gun
-- Supersonic
-- Wing Attack
+{{ kindler 44 BERNIE }}
 
 === TRAINER_BERNIE_2 ===
 Name: BERNIE
@@ -51370,22 +51401,10 @@ Music: Male
 Double Battle: No
 AI: nettux
 Difficulty: Hard
+Party Size: 3
+/* Location: JaggedPass */
 
-Zigzagoon
-Level: 20
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Tail Whip
-- Headbutt
-- Sand Attack
-- Odor Sleuth
-
-Taillow
-Level: 20
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Focus Energy
-- Quick Attack
-- Wing Attack
-- Double Team
+{{ camper 53 ETHAN }}
 
 === TRAINER_AUTUMN ===
 Name: AUTUMN
@@ -51396,14 +51415,10 @@ Music: Girl
 Double Battle: No
 AI: nettux
 Difficulty: Hard
+Party Size: 3
+/* Location: JaggedPass */
 
-Shroomish
-Level: 21
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Tackle
-- Stun Spore
-- Leech Seed
-- Mega Drain
+{{ picnicker 53 AUTUMN }}
 
 === TRAINER_TRAVIS ===
 Name: TRAVIS
@@ -52869,7 +52884,7 @@ Difficulty: Hard
 /* LavaridgeTown_Gym */
 
 Torkoal @ Heat Rock  
-Level: 52  
+Level: 53
 Ability: Drought  
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 Nature: Relaxed  
@@ -52879,7 +52894,7 @@ Nature: Relaxed
 - Yawn  
 
 Ceruledge @ Focus Sash
-Level: 52  
+Level: 53  
 Ability: Flash Fire  
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 Nature: Adamant  
@@ -52889,8 +52904,9 @@ Nature: Adamant
 - Swords Dance  
 
 Arcanine @ Leftovers  
-Level: 52  
+Level: 53  
 Ability: Intimidate  
+Tera Type: Normal
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 Nature: Adamant  
 - Flare Blitz  
@@ -52899,10 +52915,9 @@ Nature: Adamant
 - Morning Sun  
 
 Venusaur @ Life Orb  
-Level: 52  
+Level: 53  
 Ability: Chlorophyll  
 Nature: Timid  
-Tera Type: Fire  
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Solar Beam  
 - Sludge Bomb  
@@ -52910,8 +52925,8 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Synthesis  
 
 Charizard @ Charizardite Y  
-Level: 52  
-Ability: Drought  
+Level: 53  
+Ability: Solar Power
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 Nature: Timid  
 - Flamethrower  
@@ -54132,22 +54147,10 @@ Music: Intense
 Double Battle: No
 AI: nettux
 Difficulty: Hard
+Party Size: 3
+/* Location: MtChimney */
 
-Meditite
-Level: 21
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Meditate
-- Confusion
-- Detect
-- Hidden Power
-
-Makuhita
-Level: 21
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Sand Attack
-- Arm Thrust
-- Vital Throw
-- Fake Out
+{{ expert 53 SHELBY }}
 
 === TRAINER_SHELBY_2 ===
 Name: SHELBY
@@ -54438,13 +54441,9 @@ Music: Male
 Double Battle: No
 AI: nettux
 Difficulty: Hard
+Party Size: 3
 
-Trapinch
-Level: 19
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Bite
-- Sand Attack
-- Feint Attack
+{{ youngster 44 JAYLEN }}
 
 === TRAINER_DILLON ===
 Name: DILLON
@@ -54455,14 +54454,10 @@ Music: Male
 Double Battle: No
 AI: nettux
 Difficulty: Hard
+Party Size: 3
+/* Location: Route113 */
 
-Aron
-Level: 19
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Mud Slap
-- Headbutt
-- Metal Claw
-- Iron Defense
+{{ youngster 44 DILLON }}
 
 === TRAINER_CALVIN_2 ===
 Name: CALVIN
@@ -54725,28 +54720,10 @@ Music: Hiker
 Double Battle: No
 AI: nettux
 Difficulty: Hard
+Party Size: 3
+/* Location: Route114 */
 
-Magikarp
-Level: 16
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Splash
-- Tackle
-
-Goldeen
-Level: 17
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Tail Whip
-- Water Sport
-- Supersonic
-- Horn Attack
-
-Barboach
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Mud Sport
-- Water Sport
-- Water Gun
-- Magnitude
+{{ fisherman 44 CLAUDE }}
 
 === TRAINER_ELLIOT_1 ===
 Name: ELLIOT
@@ -54799,14 +54776,10 @@ Music: Hiker
 Double Battle: No
 AI: nettux
 Difficulty: Hard
+Party Size: 3
+/* Location: Route114 */
 
-Barboach
-Level: 19
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Mud Sport
-- Water Sport
-- Water Gun
-- Magnitude
+{{ fisherman 44 NOLAN }}
 
 === TRAINER_BARNY ===
 Name: BARNY
@@ -56511,30 +56484,10 @@ Gender: Male
 Music: Suspicious
 Double Battle: No
 Difficulty: Hard
+Party Size: 3
+/* Location: Route113 */
 
-Koffing
-Level: 17
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Poison Gas
-- Tackle
-- Smog
-- Self Destruct
-
-Koffing
-Level: 17
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Poison Gas
-- Tackle
-- Smog
-- Self Destruct
-
-Koffing
-Level: 17
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Poison Gas
-- Tackle
-- Sludge
-- Self Destruct
+{{ ninja_boy 44 LAO }}
 
 === TRAINER_LUNG ===
 Name: LUNG
@@ -56544,22 +56497,10 @@ Gender: Male
 Music: Suspicious
 Double Battle: No
 Difficulty: Hard
+Party Size: 3
+/* Location: Route113 */
 
-Koffing
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Poison Gas
-- Tackle
-- Smog
-- Self Destruct
-
-Ninjask
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Sand Attack
-- Leech Life
-- Sand Attack
-- Fury Swipes
+{{ ninja_boy 44 LUNG }}
 
 === TRAINER_LAO_2 ===
 Name: LAO
@@ -56914,12 +56855,13 @@ Music: Female
 Double Battle: No
 AI: nettux
 Difficulty: Hard
+/* Location: Route113 */
 
-Numel
-Level: 19
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Ember
-- Tackle
+Camerupt
+Level: 44
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Flamethrower
+- Take Down
 - Magnitude
 - Sunny Day
 
@@ -57746,22 +57688,10 @@ Music: Girl
 Double Battle: No
 AI: nettux
 Difficulty: Hard
+Party Size: 3
+/* Location: Route114 */
 
-Marill
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Defense Curl
-- Tail Whip
-- Water Gun
-- Rollout
-
-Lombre
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Astonish
-- Growl
-- Absorb
-- Nature Power
+{{ picnicker 44 NANCY }}
 
 === TRAINER_MARTHA ===
 Name: MARTHA
@@ -57798,30 +57728,10 @@ Music: Girl
 Double Battle: No
 AI: nettux
 Difficulty: Hard
+Party Size: 3
+/* Location: JaggedPass */
 
-Shroomish
-Level: 19
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Tackle
-- Stun Spore
-- Leech Seed
-- Mega Drain
-
-Oddish
-Level: 19
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Sweet Scent
-- Poison Powder
-- Stun Spore
-- Sleep Powder
-
-Swablu
-Level: 19
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Growl
-- Astonish
-- Sing
-- Fury Attack
+{{ picnicker 53 DIANA }}
 
 === TRAINER_CEDRIC ===
 Name: CEDRIC
@@ -58539,14 +58449,62 @@ Music: Hiker
 Double Battle: No
 AI: nettux
 Difficulty: Hard
+Party Size: 3
+/* Location: LavaridgeTown_Gym */
 
-Numel
-Level: 23
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Growl
-- Tackle
-- Ember
-- Magnitude
+Camerupt
+Ability: Solid Rock
+Level: 53
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Earth Power
+- Lava Plume
+- Rock Slide
+- Yawn
+
+Torkoal
+Ability: Drought
+Level: 53
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Flamethrower
+- Rapid Spin
+- Stealth Rock
+- Body Press
+
+Magcargo
+Ability: Flame Body
+Level: 53
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Lava Plume
+- Ancient Power
+- Recover
+- Toxic
+
+Arcanine-Hisui @ Sitrus Berry
+Ability: Intimidate
+Level: 53
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Raging Fury
+- Head Smash
+- Rock Slide
+- Crunch
+
+Rapidash
+Ability: Flash Fire
+Level: 53
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Flare Blitz
+- High Horsepower
+- Wild Charge
+- Agility
+
+Golem @ Leftovers
+Ability: Sturdy
+Level: 53
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Fire Punch
+- Earthquake
+- Stone Edge
+- Stealth Rock
 
 === TRAINER_ANNIKA ===
 Name: ANNIKA
@@ -59031,31 +58989,31 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Safeguard
 - Aerial Ace
 
-Arcanine Hisui @ Charcoal
+Blaziken @ Charcoal
 Level: 38
-Ability: Intimidate
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+Ability: Blaze
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Flare Blitz
-- Rock Slide
-- Howl
+- High Jump Kick
+- Bulk Up
 - Protect
 
 Sceptile @ Miracle Seed
 Level: 38
 Ability: Overgrow
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Leaf Blade
 - Dragon Pulse
 - Focus Blast
 - Detect
 
-Drednaw @ Mystic Water
+Swampert @ Mystic Water
 Level: 38
-Ability: Strong Jaw
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+Ability: Torrent
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Waterfall
-- Crunch
-- Rock Tomb
+- Earthquake
+- Ice Punch
 - Protect
 
 Lucario @ Black Belt
@@ -59145,22 +59103,22 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Bulk Up
 - Protect
 
-Roserade @ Miracle Seed
+Sceptile @ Miracle Seed
 Level: 38
-Ability: Natural Cure
+Ability: Overgrow
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Giga Drain
-- Stun Spore
-- Leech Seed
-- Sludge Bomb
+- Leaf Blade
+- Dragon Pulse
+- Focus Blast
+- Detect
 
-Drednaw @ Mystic Water
+Swampert @ Mystic Water
 Level: 38
-Ability: Strong Jaw
+Ability: Torrent
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Waterfall
-- Crunch
-- Rock Tomb
+- Earthquake
+- Ice Punch
 - Protect
 
 Lucario @ Black Belt
@@ -59241,23 +59199,23 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Safeguard
 - Aerial Ace
 
-Arcanine Hisui @ Charcoal
+Blaziken @ Charcoal
 Level: 38
-Ability: Intimidate
+Ability: Blaze
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Flare Blitz
-- Rock Slide
-- Howl
+- High Jump Kick
+- Bulk Up
 - Protect
 
-Roserade @ Miracle Seed
+Sceptile @ Miracle Seed
 Level: 38
-Ability: Natural Cure
+Ability: Overgrow
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Giga Drain
-- Stun Spore
-- Leech Seed
-- Sludge Bomb
+- Leaf Blade
+- Dragon Pulse
+- Focus Blast
+- Detect
 
 Swampert @ Mystic Water
 Level: 38
@@ -59346,13 +59304,13 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Safeguard
 - Aerial Ace
 
-Arcanine Hisui @ Charcoal
+Blaziken @ Charcoal
 Level: 38
-Ability: Intimidate
+Ability: Blaze
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Flare Blitz
-- Rock Slide
-- Howl
+- High Jump Kick
+- Bulk Up
 - Protect
 
 Sceptile @ Miracle Seed
@@ -59364,13 +59322,13 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Focus Blast
 - Detect
 
-Drednaw @ Mystic Water
+Swampert @ Mystic Water
 Level: 38
-Ability: Strong Jaw
+Ability: Torrent
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Waterfall
-- Crunch
-- Rock Tomb
+- Earthquake
+- Ice Punch
 - Protect
 
 Lucario @ Black Belt
@@ -59460,22 +59418,22 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Bulk Up
 - Protect
 
-Roserade @ Miracle Seed
+Sceptile @ Miracle Seed
 Level: 38
-Ability: Natural Cure
+Ability: Overgrow
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Giga Drain
-- Stun Spore
-- Leech Seed
-- Sludge Bomb
+- Leaf Blade
+- Dragon Pulse
+- Focus Blast
+- Detect
 
-Drednaw @ Mystic Water
+Swampert @ Mystic Water
 Level: 38
-Ability: Strong Jaw
+Ability: Torrent
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Waterfall
-- Crunch
-- Rock Tomb
+- Earthquake
+- Ice Punch
 - Protect
 
 Lucario @ Black Belt
@@ -59556,23 +59514,23 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Safeguard
 - Aerial Ace
 
-Arcanine Hisui @ Charcoal
+Blaziken @ Charcoal
 Level: 38
-Ability: Intimidate
+Ability: Blaze
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Flare Blitz
-- Rock Slide
-- Howl
+- High Jump Kick
+- Bulk Up
 - Protect
 
-Roserade @ Miracle Seed
+Sceptile @ Miracle Seed
 Level: 38
-Ability: Natural Cure
+Ability: Overgrow
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Giga Drain
-- Stun Spore
-- Leech Seed
-- Sludge Bomb
+- Leaf Blade
+- Dragon Pulse
+- Focus Blast
+- Detect
 
 Swampert @ Mystic Water
 Level: 38
@@ -60555,14 +60513,62 @@ Music: Male
 Double Battle: No
 AI: nettux
 Difficulty: Hard
+Party Size: 3
+/* Location: JaggedPass */
 
-Magnemite
-Level: 21
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Thunder Shock
-- Supersonic
-- Sonic Boom
-- Thunder Wave
+Floatzel @ Mystic Water
+Ability: Swift Swim
+Level: 50
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Aqua Jet
+- Ice Fang
+- Crunch
+- Waterfall
+
+Manectric
+Ability: Lightning Rod
+Level: 50
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Thunderbolt
+- Quick Attack
+- Flamethrower
+- Charge
+
+Dodrio
+Ability: Early Bird
+Level: 50
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Drill Peck
+- Jump Kick
+- Quick Attack
+- Agility
+
+Mudsdale @ Leftovers
+Ability: Stamina
+Level: 50
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- High Horsepower
+- Heavy Slam
+- Body Press
+- Iron Defense
+
+Starmie
+Ability: Natural Cure
+Level: 50
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Surf
+- Psychic
+- Recover
+- Rapid Spin
+
+Talonflame
+Ability: Gale Wings
+Level: 50
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Acrobatics
+- Flame Charge
+- Roost
+- U-turn
 
 === TRAINER_GRUNT_SEAFLOOR_CAVERN_5 ===
 Name: GRUNT
@@ -60810,14 +60816,10 @@ Music: Magma
 Double Battle: No
 AI: nettux
 Difficulty: Hard
+Party Size: 3
+/* Location: MtChimney */
 
-Zubat
-Level: 20
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Leech Life
-- Supersonic
-- Astonish
-- Bite
+{{ team_magma 50 GRUNT_MT_CHIMNEY_2 }}
 
 === TRAINER_CLARENCE ===
 Name: CLARENCE
@@ -61062,32 +61064,32 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Safeguard  
 - Astonish  
 
-Combusken @ Charcoal  
-Level: 25  
-Ability: Blaze  
+Marshtomp @ Soft Sand
+Level: 25
+Ability: Torrent
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Flame Charge  
-- Double Kick  
-- Peck  
-- Bulk Up  
+- Mud Shot
+- Water Gun
+- Rock Tomb
+- Growl
 
-Roselia @ Miracle Seed  
-Level: 25  
-Ability: Natural Cure  
+Grovyle @ Miracle Seed
+Level: 25
+Ability: Overgrow
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Giga Drain  
-- Stun Spore  
-- Leech Seed  
-- Venoshock  
+- Leaf Blade
+- Pursuit
+- Quick Attack
+- Fury Cutter
 
-Drednaw @ Mystic Water  
-Level: 25  
-Ability: Strong Jaw  
+Combusken @ Charcoal
+Level: 25
+Ability: Blaze
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Water Gun  
-- Bite  
-- Rock Tomb  
-- Protect  
+- Flame Charge
+- Double Kick
+- Peck
+- Bulk Up
 
 === TRAINER_BRENDAN_RUSTBORO_MUDKIP ===
 Name: BRENDAN
@@ -61108,32 +61110,32 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Safeguard  
 - Astonish  
 
-Grovyle @ Miracle Seed  
-Level: 25  
-Ability: Overgrow  
+Marshtomp @ Soft Sand
+Level: 25
+Ability: Torrent
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Leaf Blade  
-- Pursuit  
-- Quick Attack  
-- Fury Cutter  
+- Mud Shot
+- Water Gun
+- Rock Tomb
+- Growl
 
-Growlithe Hisui @ Charcoal  
-Level: 25  
-Ability: Intimidate  
+Grovyle @ Miracle Seed
+Level: 25
+Ability: Overgrow
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Flame Wheel  
-- Rock Slide  
-- Howl  
-- Protect  
+- Leaf Blade
+- Pursuit
+- Quick Attack
+- Fury Cutter
 
-Drednaw @ Mystic Water  
-Level: 25  
-Ability: Strong Jaw  
+Combusken @ Charcoal
+Level: 25
+Ability: Blaze
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Water Gun  
-- Bite  
-- Rock Tomb  
-- Protect  
+- Flame Charge
+- Double Kick
+- Peck
+- Bulk Up
 
 === TRAINER_PAXTON ===
 Name: PAXTON
@@ -61214,37 +61216,47 @@ Music: Magma
 Double Battle: No
 AI: nettux
 Difficulty: Hard
+/* Location: MtChimney */
 
-Numel
-Level: 18
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-- Growl
-- Tackle
-- Ember
+Ninetales @ Heat Rock  
+Level: 50  
+Ability: Drought  
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+Nature: Timid  
+- Flamethrower  
+- Solar Beam  
+- Will-O-Wisp  
+- Sunny Day  
 
-Poochyena
-Level: 20
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-- Howl
-- Sand Attack
-- Bite
-- Odor Sleuth
+Luxray @ Shuca Berry  
+Level: 50  
+Ability: Intimidate  
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+Nature: Jolly  
+- Wild Charge  
+- Fire Fang  
+- Crunch  
+- Thunder Wave  
 
-Numel
-Level: 22
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-- Growl
-- Tackle
-- Ember
-- Magnitude
+Claydol @ Leftovers  
+Level: 50  
+Ability: Levitate  
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+Nature: Calm  
+- Earth Power  
+- Psychic  
+- Stealth Rock  
+- Sunny Day
 
-Zubat
-Level: 22
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-- Supersonic
-- Astonish
-- Bite
-- Wing Attack
+Houndoom @ Houndoominite  
+Level: 50  
+Ability: Flash Fire  
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+Nature: Modest  
+- Fire Blast  
+- Dark Pulse  
+- Solar Beam  
+- Nasty Plot  
 
 === TRAINER_JONATHAN ===
 Name: JONATHAN
@@ -61300,23 +61312,23 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Rock Tomb  
 - Growl  
 
-Growlithe Hisui @ Charcoal  
-Level: 25  
-Ability: Intimidate  
+Grovyle @ Miracle Seed
+Level: 25
+Ability: Overgrow
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Flame Wheel  
-- Rock Slide  
-- Howl  
-- Protect  
+- Leaf Blade
+- Pursuit
+- Quick Attack
+- Fury Cutter
 
-Roselia @ Miracle Seed  
-Level: 25  
-Ability: Natural Cure  
+Combusken @ Charcoal
+Level: 25
+Ability: Blaze
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Giga Drain  
-- Stun Spore  
-- Leech Seed  
-- Venoshock  
+- Flame Charge
+- Double Kick
+- Peck
+- Bulk Up
 
 === TRAINER_MAY_RUSTBORO_MUDKIP ===
 Name: MAY
@@ -61337,32 +61349,32 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Safeguard  
 - Astonish  
 
-Grovyle @ Miracle Seed  
-Level: 25  
-Ability: Overgrow  
+Marshtomp @ Soft Sand
+Level: 25
+Ability: Torrent
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Leaf Blade  
-- Pursuit  
-- Quick Attack  
-- Fury Cutter  
+- Mud Shot
+- Water Gun
+- Rock Tomb
+- Growl
 
-Growlithe Hisui @ Charcoal  
-Level: 25  
-Ability: Intimidate  
+Grovyle @ Miracle Seed
+Level: 25
+Ability: Overgrow
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Flame Wheel  
-- Rock Slide  
-- Howl  
-- Protect  
+- Leaf Blade
+- Pursuit
+- Quick Attack
+- Fury Cutter
 
-Drednaw @ Mystic Water  
-Level: 25  
-Ability: Strong Jaw  
+Combusken @ Charcoal
+Level: 25
+Ability: Blaze
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Water Gun  
-- Bite  
-- Rock Tomb  
-- Protect  
+- Flame Charge
+- Double Kick
+- Peck
+- Bulk Up
 
 === TRAINER_MAXIE_MAGMA_HIDEOUT ===
 Name: MAXIE
@@ -61409,55 +61421,56 @@ AI: nettux
 Difficulty: Hard
 /* Location: MtChimney */
 
-Mightyena  
-Level: 47
-Ability: Intimidate  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-Nature: Adamant  
-- Crunch  
-- Play Rough  
-- Sucker Punch  
-- Thunder Fang  
+Torkoal @ Heat Rock  
+Level: 50  
+Ability: Drought  
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+Nature: Relaxed  
+- Lava Plume  
+- Solar Beam  
+- Stealth Rock  
+- Yawn  
 
-Crobat  
-Level: 47  
+Crobat @ Black Sludge  
+Level: 50  
 Ability: Infiltrator  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
 Nature: Jolly  
 - Brave Bird  
 - Cross Poison  
+- U-turn  
 - Roost  
-- U-Turn  
 
-Houndoom  
-Level: 47  
+Aerodactyl @ Focus Sash  
+Level: 50  
+Ability: Pressure  
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+Nature: Jolly  
+- Stone Edge  
+- Earthquake  
+- Taunt  
+- Dual Wingbeat  
+
+Houndoom @ Coba Berry
+Level: 50  
 Ability: Flash Fire  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+Tera Type: Grass
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
 Nature: Timid  
 - Flamethrower  
-- Dark Pulse  
-- Nasty Plot  
-- Will-O-Wisp  
-
-Rhyperior  
-Level: 47  
-Ability: Solid Rock  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-Nature: Adamant  
-- Earthquake  
-- Rock Blast  
-- Megahorn  
-- Stealth Rock  
+- Dark Pulse 
+- Solar Beam  
+- Thunder Fang
 
 Camerupt @ Cameruptite  
-Level: 47  
-Ability: Magma Armor  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-Nature: Modest  
-- Eruption  
+Level: 50  
+Ability: Solid Rock  
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+Nature: Quiet  
 - Earth Power  
-- Flamethrower  
-- Stealth Rock  
+- Fire Blast  
+- Ancient Power  
+- Protect  
 
 === TRAINER_TIANA ===
 Name: TIANA
@@ -62029,6 +62042,10 @@ Music: Hiker
 Double Battle: No
 AI: nettux
 Difficulty: Hard
+Party Size: 3
+/* Location: Route114 */
+
+{{ hiker 44 LENNY }}
 
 Geodude
 Level: 18
@@ -62055,21 +62072,10 @@ Music: Hiker
 Double Battle: No
 AI: nettux
 Difficulty: Hard
+Party Size: 3
+/* Location: Route114 */
 
-Geodude
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Defense Curl
-- Mud Sport
-- Rock Throw
-- Magnitude
-
-Numel
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Growl
-- Tackle
-- Ember
+{{ hiker 44 LUCAS }}
 
 === TRAINER_ALAN ===
 Name: ALAN
@@ -62128,22 +62134,10 @@ Music: Hiker
 Double Battle: No
 AI: nettux
 Difficulty: Hard
+Party Size: 3
+/* Location: JaggedPass */
 
-Geodude
-Level: 20
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Defense Curl
-- Mud Sport
-- Rock Throw
-- Magnitude
-
-Baltoy
-Level: 20
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Mud Slap
-- Psybeam
-- Rock Tomb
-- Self Destruct
+{{ hiker 53 ERIC }}
 
 === TRAINER_LUCAS_2 ===
 Name: LUCAS
@@ -62628,14 +62622,71 @@ Music: Cool
 Double Battle: No
 AI: nettux
 Difficulty: Hard
+Party Size: 3
+/* Location: LavaridgeTown_Gym */
 
 Kecleon
-Level: 23
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Level: 53
+Nature: Protean
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Flamethrower
 - Fury Swipes
 - Feint Attack
 - Bind
+
+Blaziken @ Sitrus Berry
+Ability: Blaze
+Level: 53
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Flamethrower
+- Sky Uppercut
+- Brave Bird
+- Bulk Up
+
+Ceruledge @ Chesto Berry
+Ability: Flash Fire
+Level: 53
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Bitter Blade
+- Shadow Claw
+- Swords Dance
+- Flame Charge
+
+Talonflame
+Ability: Gale Wings
+Level: 53
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Flame Charge
+- Acrobatics
+- Roost
+- U-turn
+
+Torkoal
+Ability: Drought
+Level: 53
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Lava Plume
+- Rapid Spin
+- Stealth Rock
+- Yawn
+
+Arcanine-Hisui
+Ability: Intimidate
+Level: 53
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Flamethrower
+- Crunch
+- Rock Slide
+- Will-O-Wisp
+
+Magmortar
+Ability: Flame Body
+Level: 53
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Fire Blast
+- Thunderbolt
+- Focus Blast
+- Confuse Ray
 
 === TRAINER_VIVIAN ===
 Name: VIVIAN
@@ -62660,14 +62711,62 @@ Music: Intense
 Double Battle: No
 AI: nettux
 Difficulty: Hard
+Party Size: 3
+/* Location: LavaridgeTown_Gym */
 
-Meditite
-Level: 23
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Bide
-- Detect
-- Confusion
+Rapidash
+Ability: Flash Fire
+Level: 53
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Flare Blitz
+- High Horsepower
+- Wild Charge
+- Agility
+
+Infernape @ Expert Belt
+Ability: Iron Fist
+Level: 53
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Close Combat
 - Fire Punch
+- Thunder Punch
+- Mach Punch
+
+Blaziken
+Ability: Blaze
+Level: 53
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Flare Blitz
+- Sky Uppercut
+- Brave Bird
+- Bulk Up
+
+Ceruledge
+Ability: Flash Fire
+Level: 53
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Bitter Blade
+- Shadow Claw
+- Swords Dance
+- Flame Charge
+
+Magmortar
+Ability: Flame Body
+Level: 53
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Flamethrower
+- Thunderbolt
+- Focus Blast
+- Psychic
+
+Arcanine @ Sitrus Berry
+Ability: Intimidate
+Level: 53
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Flare Blitz
+- Extreme Speed
+- Wild Charge
+- Morning Sun
 
 === TRAINER_HIDEO ===
 Name: HIDEO
@@ -63573,19 +63672,20 @@ Music: Twins
 Double Battle: Yes
 AI: nettux
 Difficulty: Hard
+/* Location: Route113 */
 
 Spinda
-Level: 19
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Tackle
+Level: 44
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Swagger
 - Uproar
 - Feint Attack
 - Psybeam
 
 Spinda
-Level: 19
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Tackle
+Level: 44
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Swagger
 - Uproar
 - Feint Attack
 - Psybeam
@@ -63625,22 +63725,23 @@ Music: Twins
 Double Battle: Yes
 AI: nettux
 Difficulty: Hard
+/* Location: Route114 */
 
-Roselia
+Roserade
 Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Growth
 - Stun Spore
-- Mega Drain
+- Giga Drain
 - Leech Seed
 
-Graveler
+Golem
 Level: 20
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Defense Curl
 - Rollout
 - Mud Sport
-- Rock Throw
+- Rock Slide
 
 === TRAINER_MEL_AND_PAUL ===
 Name: MEL & PAUL
@@ -64233,22 +64334,10 @@ Music: Girl
 Double Battle: No
 AI: nettux
 Difficulty: Hard
+Party Size: 3
+/* Location: Route113 */
 
-Marill
-Level: 17
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Defense Curl
-- Tail Whip
-- Water Gun
-- Rollout
-
-Lombre
-Level: 19
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Growl
-- Absorb
-- Nature Power
-- Fake Out
+{{ picnicker 44 SOPHIE }}
 
 === TRAINER_COBY ===
 Name: COBY
@@ -64259,22 +64348,10 @@ Music: Cool
 Double Battle: No
 AI: nettux
 Difficulty: Hard
+Party Size: 3
+/* Location: Route113 */
 
-Skarmory
-Level: 17
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Peck
-- Sand Attack
-- Swift
-- Agility
-
-Swellow
-Level: 19
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Focus Energy
-- Quick Attack
-- Wing Attack
-- Double Team
+{{ bird_keeper 44 COBY }}
 
 === TRAINER_LAWRENCE ===
 Name: LAWRENCE
@@ -64285,22 +64362,10 @@ Music: Male
 Double Battle: No
 AI: nettux
 Difficulty: Hard
+Party Size: 3
+/* Location: Route113 */
 
-Baltoy
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Rapid Spin
-- Mud Slap
-- Psybeam
-- Rock Tomb
-
-Sandshrew
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Scratch
-- Defense Curl
-- Sand Attack
-- Poison Sting
+{{ camper 44 LAWRENCE }}
 
 === TRAINER_WYATT ===
 Name: WYATT
@@ -64311,22 +64376,10 @@ Music: Suspicious
 Double Battle: No
 AI: nettux
 Difficulty: Hard
+Party Size: 3
+/* Location: Route113 */
 
-Aron
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Mud Slap
-- Headbutt
-- Metal Claw
-- Iron Defense
-
-Aron
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Mud Slap
-- Headbutt
-- Metal Claw
-- Iron Defense
+{{ pokemaniac 44 WYATT }}
 
 === TRAINER_ANGELINA ===
 Name: ANGELINA
@@ -64337,22 +64390,10 @@ Music: Girl
 Double Battle: No
 AI: nettux
 Difficulty: Hard
+Party Size: 3
+/* Location: Route114 */
 
-Lombre
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Astonish
-- Growl
-- Absorb
-- Nature Power
-
-Marill
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Defense Curl
-- Tail Whip
-- Water Gun
-- Rollout
+{{ picnicker 44 ANGELINA }}
 
 === TRAINER_KAI ===
 Name: KAI
@@ -64363,14 +64404,10 @@ Music: Hiker
 Double Battle: No
 AI: nettux
 Difficulty: Hard
+Party Size: 3
+/* Location: Route114 */
 
-Barboach
-Level: 19
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Mud Sport
-- Water Sport
-- Water Gun
-- Magnitude
+{{ fisherman 44 KAI }}
 
 === TRAINER_CHARLOTTE ===
 Name: CHARLOTTE
@@ -64381,14 +64418,10 @@ Music: Girl
 Double Battle: No
 AI: nettux
 Difficulty: Hard
+Party Size: 3
+/* Location: Route114 */
 
-Nuzleaf
-Level: 19
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Harden
-- Growth
-- Nature Power
-- Fake Out
+{{ picnicker 44 CHARLOTTE }}
 
 === TRAINER_DEANDRE ===
 Name: DEANDRE
@@ -65633,32 +65666,32 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Safeguard  
 - Astonish  
 
-Combusken @ Charcoal  
-Level: 25  
-Ability: Blaze  
+Marshtomp @ Soft Sand
+Level: 25
+Ability: Torrent
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Flame Charge  
-- Double Kick  
-- Peck  
-- Bulk Up  
+- Mud Shot
+- Water Gun
+- Rock Tomb
+- Growl
 
-Roselia @ Miracle Seed  
-Level: 25  
-Ability: Natural Cure  
+Grovyle @ Miracle Seed
+Level: 25
+Ability: Overgrow
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Giga Drain  
-- Stun Spore  
-- Leech Seed  
-- Venoshock  
+- Leaf Blade
+- Pursuit
+- Quick Attack
+- Fury Cutter
 
-Drednaw @ Mystic Water  
-Level: 25  
-Ability: Strong Jaw  
+Combusken @ Charcoal
+Level: 25
+Ability: Blaze
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Water Gun  
-- Bite  
-- Rock Tomb  
-- Protect  
+- Flame Charge
+- Double Kick
+- Peck
+- Bulk Up
 
 === TRAINER_MAY_RUSTBORO_TORCHIC ===
 Name: MAY
@@ -65679,32 +65712,32 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Safeguard  
 - Astonish  
 
-Marshtomp @ Soft Sand  
-Level: 25  
-Ability: Torrent  
+Marshtomp @ Soft Sand
+Level: 25
+Ability: Torrent
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Mud Shot  
-- Water Gun  
-- Rock Tomb  
-- Growl  
+- Mud Shot
+- Water Gun
+- Rock Tomb
+- Growl
 
-Growlithe Hisui @ Charcoal  
-Level: 25  
-Ability: Intimidate  
+Grovyle @ Miracle Seed
+Level: 25
+Ability: Overgrow
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Flame Wheel  
-- Rock Slide  
-- Howl  
-- Protect  
+- Leaf Blade
+- Pursuit
+- Quick Attack
+- Fury Cutter
 
-Roselia @ Miracle Seed  
-Level: 25  
-Ability: Natural Cure  
+Combusken @ Charcoal
+Level: 25
+Ability: Blaze
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Giga Drain  
-- Stun Spore  
-- Leech Seed  
-- Venoshock  
+- Flame Charge
+- Double Kick
+- Peck
+- Bulk Up
 
 === TRAINER_ROXANNE_2 ===
 Name: ROXANNE

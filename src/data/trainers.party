@@ -23729,6 +23729,40 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Scary Face
 - Take Down
 
+=== TRAINER_ARCHIE_METEORFALLS ===
+Name: ARCHIE
+Class: Aqua Leader
+Pic: Aqua Leader Archie
+Gender: Male
+Music: Aqua
+Double Battle: Yes
+AI: nettux
+Difficulty: Doubles
+
+Mightyena
+Level: 41
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Roar
+- Swagger
+- Scary Face
+- Take Down
+
+Crobat
+Level: 41
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Bite
+- Wing Attack
+- Confuse Ray
+- Air Cutter
+
+Sharpedo
+Level: 43
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Screech
+- Slash
+- Taunt
+- Swagger
+
 === TRAINER_ARCHIE ===
 Name: ARCHIE
 Class: Aqua Leader
@@ -47330,278 +47364,25 @@ Music: Aqua
 Double Battle: No
 AI: nettux
 Difficulty: Hard
-Party Size: 2
 /* Location: SlateportCity_OceanicMuseum_2F */
 
-Misdreavus  
+Golbat
 Level: 35
-Ability: Levitate  
+Ability: Inner Focus
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Shadow Ball  
-- Confuse Ray  
-- Pain Split  
-- Perish Song  
-
-Misdreavus  
-Level: 35
-Ability: Levitate  
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Confuse Ray  
-- Shadow Ball  
-- Pain Split  
-- Perish Song  
-
-Misdreavus  
-Level: 35
-Ability: Levitate  
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Pain Split  
-- Perish Song  
-- Shadow Ball  
+- Supersonic
+- Bite
+- Wing Attack
 - Confuse Ray
 
-Mightyena  
+Sharpedo
 Level: 35
-Ability: Intimidate  
+Ability: Speed Boost
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Bite  
-- Howl  
-- Crunch  
-- Roar  
-
-Mightyena  
-Level: 35
-Ability: Intimidate  
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Crunch  
-- Bite  
-- Howl  
-- Roar  
-
-Mightyena  
-Level: 35
-Ability: Intimidate  
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Howl  
-- Roar  
-- Crunch  
-- Bite
-
-Weezing  
-Level: 35
-Ability: Levitate  
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Sludge Bomb  
-- Smokescreen  
-- Thunderbolt
-- Will-O-Wisp  
-
-Weezing  
-Level: 35
-Ability: Levitate  
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Heat Wave
-- Will-O-Wisp  
-- Sludge Bomb  
-- Smokescreen  
-
-Weezing  
-Level: 35
-Ability: Levitate  
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Smokescreen  
-- Sludge Bomb  
-- Will-O-Wisp  
-- Toxic
-
-Wailmer  
-Level: 35
-Ability: Water Veil  
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Water Pulse
-- Body Slam  
-- Rollout
-- Rest  
-
-Wailmer  
-Level: 35
-Ability: Oblivious  
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Rock Tomb
-- Rest  
-- Water Pulse
-- Body Slam  
-
-Wailmer  
-Level: 35
-Ability: Water Veil  
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Rest  
-- Body Slam  
-- Icy Wind
-- Water Pulse
-
-Sharpedo  
-Level: 35
-Ability: Speed Boost  
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Bite  
-- Aqua Jet  
-- Ice Fang
-- Double Team  
-
-Sharpedo  
-Level: 35
-Ability: Speed Boost  
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Poison Fang  
-- Bite  
-- Double Team  
+- Double Team
 - Aqua Jet
-
-Sharpedo  
-Level: 35
-Ability: Speed Boost  
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Double Team  
-- Aqua Jet
-- Leer  
+- Leer
 - Crunch
-
-Floatzel  
-Level: 35
-Ability: Swift Swim  
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Aqua Jet  
-- Water Pulse  
-- Quick Attack  
-- Bite  
-
-Floatzel  
-Level: 35
-Ability: Swift Swim  
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Quick Attack  
-- Aqua Jet  
-- Bite  
-- Water Pulse  
-
-Floatzel  
-Level: 35
-Ability: Swift Swim  
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Bite  
-- Quick Attack  
-- Aqua Jet  
-- Water Pulse
-
-Luxray  
-Level: 35
-Ability: Intimidate  
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Spark  
-- Crunch  
-- Roar  
-- Quick Attack  
-
-Luxray  
-Level: 35
-Ability: Intimidate  
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Crunch  
-- Spark  
-- Quick Attack  
-- Roar  
-
-Luxray  
-Level: 35
-Ability: Intimidate  
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Quick Attack  
-- Roar  
-- Crunch  
-- Spark
-
-Golbat  
-Level: 35
-Ability: Inner Focus  
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Wing Attack  
-- Confuse Ray  
-- Supersonic  
-- Bite  
-
-Golbat  
-Level: 35
-Ability: Inner Focus  
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Confuse Ray  
-- Wing Attack  
-- Bite  
-- Supersonic  
-
-Golbat  
-Level: 35
-Ability: Inner Focus  
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Supersonic  
-- Bite  
-- Wing Attack  
-- Confuse Ray
-
-Haunter  
-Level: 35
-Ability: Levitate  
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Shadow Ball  
-- Hypnosis  
-- Mean Look  
-- Curse  
-
-Haunter  
-Level: 35
-Ability: Levitate  
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Sludge Bomb
-- Shadow Ball  
-- Curse  
-- Hypnosis  
-
-Haunter  
-Level: 35
-Ability: Levitate  
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Hex  
-- Energy Ball
-- Will-O-Wisp  
-- Shadow Ball
-
-Drednaw  
-Level: 35
-Ability: Strong Jaw  
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Water Gun  
-- Bite  
-- Protect  
-- Tackle  
-
-Drednaw  
-Level: 35
-Ability: Strong Jaw  
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Bite  
-- Protect  
-- Water Gun  
-- Tackle  
-
-Drednaw  
-Level: 35
-Ability: Strong Jaw  
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Protect  
-- Water Gun  
-- Tackle  
-- Bite
 
 === TRAINER_GRUNT_MUSEUM_2 ===
 Name: GRUNT
@@ -47612,278 +47393,34 @@ Music: Aqua
 Double Battle: No
 AI: nettux
 Difficulty: Hard
-Party Size: 3
 /* Location: SlateportCity_OceanicMuseum_2F */
 
-Ariados  
+Tentacruel
 Level: 35
-Ability: Swarm  
+Ability: Liquid Ooze
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Toxic Thread  
-- Shadow Sneak  
-- Agility  
-- Cross Poison  
+- Toxic Spikes
+- Sludge Bomb
+- Water Pulse
+- Acid Armor
 
-Ariados  
+Ariados
 Level: 35
-Ability: Swarm  
+Ability: Swarm
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Shadow Sneak  
-- Agility  
-- Cross Poison  
-- Toxic Thread  
-
-Ariados  
-Level: 35
-Ability: Swarm  
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Agility  
-- Cross Poison  
-- Toxic Thread  
+- Agility
+- Cross Poison
+- Toxic Thread
 - Shadow Sneak
 
-Misdreavus  
+Quagsire
 Level: 35
-Ability: Levitate  
+Ability: Water Absorb
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Shadow Ball  
-- Confuse Ray  
-- Pain Split  
-- Perish Song  
-
-Misdreavus  
-Level: 35
-Ability: Levitate  
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Confuse Ray  
-- Shadow Ball  
-- Pain Split  
-- Perish Song  
-
-Misdreavus  
-Level: 35
-Ability: Levitate  
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Pain Split  
-- Perish Song  
-- Shadow Ball  
-- Confuse Ray
-
-Weezing  
-Level: 35
-Ability: Levitate  
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Sludge Bomb  
-- Smokescreen  
-- Thunderbolt
-- Will-O-Wisp  
-
-Weezing  
-Level: 35
-Ability: Levitate  
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Heat Wave
-- Will-O-Wisp  
-- Sludge Bomb  
-- Smokescreen  
-
-Weezing  
-Level: 35
-Ability: Levitate  
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Smokescreen  
-- Sludge Bomb  
-- Will-O-Wisp  
-- Toxic
-
-Haunter  
-Level: 35
-Ability: Levitate  
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Shadow Ball  
-- Hypnosis  
-- Mean Look  
-- Curse  
-
-Haunter  
-Level: 35
-Ability: Levitate  
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Sludge Bomb
-- Shadow Ball  
-- Curse  
-- Hypnosis  
-
-Haunter  
-Level: 35
-Ability: Levitate  
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Hex  
-- Energy Ball
-- Will-O-Wisp  
-- Shadow Ball
-
-Drednaw  
-Level: 35
-Ability: Strong Jaw  
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Water Gun  
-- Bite  
-- Protect  
-- Tackle  
-
-Drednaw  
-Level: 35
-Ability: Strong Jaw  
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Bite  
-- Protect  
-- Water Gun  
-- Tackle  
-
-Drednaw  
-Level: 35
-Ability: Strong Jaw  
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Protect  
-- Water Gun  
-- Tackle  
-- Bite
-
-Wailmer  
-Level: 35
-Ability: Water Veil  
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Water Pulse
-- Body Slam  
-- Rollout
-- Rest  
-
-Wailmer  
-Level: 35
-Ability: Oblivious  
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Rock Tomb
-- Rest  
-- Water Pulse
-- Body Slam  
-
-Wailmer  
-Level: 35
-Ability: Water Veil  
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Rest  
-- Body Slam  
+- Muddy Water
+- Yawn
 - Icy Wind
-- Water Pulse
-
-Tentacruel  
-Level: 35
-Ability: Clear Body  
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Sludge Bomb  
-- Toxic Spikes  
-- Barrier  
-- Acid  
-
-Tentacruel  
-Level: 35
-Ability: Liquid Ooze  
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Toxic Spikes  
-- Sludge Bomb  
-- Water Pulse  
-- Barrier  
-
-Tentacruel  
-Level: 35
-Ability: Clear Body  
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Acid Armor  
-- Acid  
-- Sludge Bomb  
-- Toxic Spikes
-
-Quagsire  
-Level: 35
-Ability: Damp  
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Mud Shot  
-- Water Gun  
-- Amnesia  
-- Protect  
-
-Quagsire  
-Level: 35
-Ability: Water Absorb  
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Water Gun  
-- Protect  
-- Amnesia  
-- Mud Shot  
-
-Quagsire  
-Level: 35
-Ability: Damp  
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Protect  
-- Mud Shot  
-- Water Gun  
-- Amnesia
-
-Luxray  
-Level: 35
-Ability: Intimidate  
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Spark  
-- Crunch  
-- Roar  
-- Quick Attack  
-
-Luxray  
-Level: 35
-Ability: Intimidate  
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Crunch  
-- Spark  
-- Quick Attack  
-- Roar  
-
-Luxray  
-Level: 35
-Ability: Intimidate  
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Quick Attack  
-- Roar  
-- Crunch  
-- Spark
-
-Floatzel  
-Level: 35
-Ability: Swift Swim  
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Aqua Jet  
-- Water Pulse  
-- Quick Attack  
-- Bite  
-
-Floatzel  
-Level: 35
-Ability: Swift Swim  
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Quick Attack  
-- Aqua Jet  
-- Bite  
-- Water Pulse  
-
-Floatzel  
-Level: 35
-Ability: Swift Swim  
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Bite  
-- Quick Attack  
-- Aqua Jet  
-- Water Pulse
+- Mud Shot
 
 === TRAINER_GRUNT_SPACE_CENTER_1 ===
 Name: GRUNT
@@ -48140,6 +47677,68 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Swagger
 - Scary Face
 - Take Down
+
+=== TRAINER_ARCHIE_METEORFALLS ===
+Name: ARCHIE
+Class: Aqua Leader
+Pic: Aqua Leader Archie
+Gender: Male
+Music: Aqua
+Double Battle: No
+AI: nettux
+Difficulty: Hard
+/* Location: MeteorFalls_1F_1R */
+
+Pelipper @ Damp Rock
+Level: 47
+Ability: Drizzle
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+Nature: Timid
+- Hurricane
+- Weather Ball
+- Tailwind
+- Roost
+
+Crobat @ Poison Barb
+Level: 47
+Ability: Infiltrator
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+Nature: Jolly
+- Cross Poison
+- Brave Bird
+- Taunt
+- Rain Dance
+
+Gyarados @ Focus Sash
+Level: 47
+Ability: Intimidate
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+Nature: Jolly
+- Hurricane
+- Waterfall
+- Earthquake
+- Dragon Dance
+
+Raichu @ Leftovers
+Level: 47
+Ability: Lightning Rod
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+Nature: Timid
+Tera Type: Flying
+- Thunder
+- Grass Knot
+- Surf
+- Thunder Wave
+
+Sharpedo @ Sharpedonite
+Level: 47
+Ability: Speed Boost
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+Nature: Jolly
+- Crunch
+- Waterfall
+- Ice Fang
+- Rain Dance
 
 === TRAINER_ARCHIE ===
 Name: ARCHIE
@@ -48461,7 +48060,7 @@ Milotic @ Leftovers
 Level: 35
 Ability: Marvel Scale  
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Calm Mind  
+- Ice Beam
 - Recover  
 - Water Pulse  
 - Coil  
@@ -48500,7 +48099,7 @@ Milotic @ Leftovers
 Level: 38
 Ability: Marvel Scale  
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Calm Mind  
+- Ice Beam
 - Recover  
 - Water Pulse  
 - Coil  
@@ -49120,22 +48719,25 @@ Music: Interviewer
 Double Battle: Yes
 AI: nettux
 Difficulty: Hard
+/* Location: Route111 */
 
-Magnemite
-Level: 27
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Supersonic
-- Sonic Boom
-- Thunder Wave
-- Spark
+Magnezone
+Level: 47
+Ability: Sturdy
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Thunderbolt
+- Flash Cannon
+- Protect
+- Discharge
 
-Loudred
-Level: 27
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Uproar
-- Astonish
-- Howl
-- Supersonic
+Exploud
+Level: 47
+Ability: Scrappy
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Hyper Voice
+- Focus Blast
+- Surf
+- Protect
 
 === TRAINER_GABBY_AND_TY_3 ===
 Name: GABBY & TY
@@ -50503,30 +50105,278 @@ Music: Cool
 Double Battle: No
 AI: nettux
 Difficulty: Hard
+Party Size: 3
+/* Location: Route111 */
 
-Electrike
-Level: 17
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Thunder Wave
-- Leer
-- Howl
-- Quick Attack
+Roserade  
+Level: 44
+Ability: Natural Cure  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Giga Drain  
+- Sludge Bomb  
+- Stun Spore  
+- Toxic  
 
-Wailmer
-Level: 17
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Splash
-- Growl
-- Water Gun
-- Rollout
+Roserade @ Miracle Seed  
+Level: 44
+Ability: Natural Cure  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Energy Ball  
+- Shadow Ball  
+- Leech Seed  
+- Protect  
 
-Makuhita
-Level: 17
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Focus Energy
-- Sand Attack
-- Arm Thrust
-- Vital Throw
+Roserade  
+Level: 44
+Ability: Natural Cure  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Giga Drain  
+- Toxic  
+- Aromatherapy  
+- Synthesis
+
+Milotic  
+Level: 44
+Ability: Marvel Scale  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Surf  
+- Recover  
+- Ice Beam  
+- Toxic  
+
+Milotic @ Leftovers  
+Level: 44
+Ability: Marvel Scale  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Surf  
+- Recover  
+- Hypnosis  
+- Toxic  
+
+Milotic  
+Level: 44
+Ability: Marvel Scale  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Surf  
+- Ice Beam  
+- Dragon Pulse  
+- Recover
+
+Gallade  
+Level: 44
+Ability: Steadfast  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Psycho Cut  
+- Leaf Blade  
+- Swords Dance  
+- Knock Off  
+
+Gallade @ Life Orb  
+Level: 44
+Ability: Steadfast  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Close Combat  
+- Zen Headbutt  
+- Detect  
+- Thunder Punch  
+
+Gallade  
+Level: 44
+Ability: Steadfast  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Psycho Cut  
+- Swords Dance  
+- Shadow Sneak  
+- Drain Punch
+
+Alakazam  
+Level: 44
+Ability: Synchronize  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Psychic  
+- Focus Blast  
+- Shadow Ball  
+- Recover  
+
+Alakazam @ Focus Sash  
+Level: 44
+Ability: Synchronize  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Psychic  
+- Encore  
+- Shadow Ball  
+- Focus Blast  
+
+Alakazam  
+Level: 44
+Ability: Synchronize  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Psychic  
+- Focus Blast  
+- Shadow Ball  
+- Energy Ball
+
+Manectric  
+Level: 44
+Ability: Lightning Rod  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Thunderbolt  
+- Flamethrower  
+- Volt Switch  
+- Bite  
+
+Manectric @ Life Orb  
+Level: 44
+Ability: Lightning Rod  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Thunderbolt  
+- Overheat  
+- Volt Switch  
+- Snarl  
+
+Manectric  
+Level: 44
+Ability: Lightning Rod  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Thunderbolt  
+- Volt Switch  
+- Will-O-Wisp  
+- Snarl
+
+Houndoom  
+Level: 44
+Ability: Flash Fire  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Flamethrower  
+- Dark Pulse  
+- Nasty Plot  
+- Will-O-Wisp  
+
+Houndoom @ Choice Specs  
+Level: 44
+Ability: Flash Fire  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Flamethrower  
+- Dark Pulse  
+- Solar Beam  
+- Nasty Plot  
+
+Houndoom  
+Level: 44
+Ability: Flash Fire  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Flamethrower  
+- Dark Pulse  
+- Toxic  
+- Protect
+
+Hatterene  
+Level: 44
+Ability: Magic Bounce  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Psychic  
+- Dazzling Gleam  
+- Aromatherapy  
+- Calm Mind  
+
+Hatterene @ Leftovers  
+Level: 44
+Ability: Magic Bounce  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Psychic  
+- Giga Drain  
+- Will-O-Wisp  
+- Protect  
+
+Hatterene  
+Level: 44
+Ability: Magic Bounce  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Psychic  
+- Dazzling Gleam  
+- Shadow Ball  
+- Mystical Fire
+
+Gyarados  
+Level: 44
+Ability: Intimidate  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Waterfall  
+- Dragon Dance  
+- Earthquake  
+- Ice Fang  
+
+Gyarados @ Focus Sash  
+Level: 44
+Ability: Intimidate  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Waterfall  
+- Crunch  
+- Roost  
+- Dragon Dance  
+
+Gyarados  
+Level: 44
+Ability: Intimidate  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Waterfall  
+- Bounce  
+- Earthquake  
+- Dragon Dance
+
+Sableye  
+Level: 44
+Ability: Prankster  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Foul Play  
+- Recover  
+- Will-O-Wisp  
+- Taunt  
+
+Sableye @ Leftovers  
+Level: 44
+Ability: Prankster  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Foul Play  
+- Recover  
+- Taunt  
+- Knock Off  
+
+Sableye  
+Level: 44
+Ability: Prankster  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Shadow Ball  
+- Confuse Ray  
+- Recover  
+- Toxic
+
+Scizor  
+Level: 44
+Ability: Technician  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Bullet Punch  
+- U-Turn  
+- Swords Dance  
+- Bug Bite  
+
+Scizor @ Life Orb  
+Level: 44
+Ability: Technician  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Bullet Punch  
+- Swords Dance  
+- Iron Head  
+- Roost  
+
+Scizor  
+Level: 44
+Ability: Technician  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Bullet Punch  
+- U-Turn  
+- Superpower  
+- Knock Off
 
 === TRAINER_EDGAR ===
 Name: EDGAR
@@ -50970,29 +50820,278 @@ Music: Cool
 Double Battle: No
 AI: nettux
 Difficulty: Hard
+Party Size: 3
+/* Location: Route111 */
 
-Wingull
-Level: 17
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Growl
-- Water Gun
-- Supersonic
-- Wing Attack
+Gyarados  
+Level: 44
+Ability: Intimidate  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Waterfall  
+- Dragon Dance  
+- Earthquake  
+- Ice Fang  
 
-Numel
-Level: 17
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Growl
-- Tackle
-- Ember
+Gyarados @ Focus Sash  
+Level: 44
+Ability: Intimidate  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Waterfall  
+- Crunch  
+- Roost  
+- Dragon Dance  
 
-Roselia
-Level: 17
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Growth
-- Poison Sting
-- Stun Spore
-- Mega Drain
+Gyarados  
+Level: 44
+Ability: Intimidate  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Waterfall  
+- Bounce  
+- Earthquake  
+- Dragon Dance
+
+Houndoom  
+Level: 44
+Ability: Flash Fire  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Flamethrower  
+- Dark Pulse  
+- Nasty Plot  
+- Will-O-Wisp  
+
+Houndoom @ Choice Specs  
+Level: 44
+Ability: Flash Fire  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Flamethrower  
+- Dark Pulse  
+- Solar Beam  
+- Nasty Plot  
+
+Houndoom  
+Level: 44
+Ability: Flash Fire  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Flamethrower  
+- Dark Pulse  
+- Toxic  
+- Protect
+
+Lucario  
+Level: 44
+Ability: Steadfast  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Aura Sphere  
+- Metal Claw  
+- Swords Dance  
+- Extreme Speed  
+
+Lucario @ Life Orb  
+Level: 44
+Ability: Steadfast  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Close Combat  
+- Flash Cannon  
+- Swords Dance  
+- Extreme Speed  
+
+Lucario  
+Level: 44
+Ability: Steadfast  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Aura Sphere  
+- Swords Dance  
+- Bone Rush  
+- Shadow Ball
+
+Togekiss  
+Level: 44
+Ability: Super Luck  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Air Slash  
+- Thunder Wave  
+- Roost  
+- Dazzling Gleam  
+
+Togekiss @ Leftovers  
+Level: 44
+Ability: Super Luck  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Air Slash  
+- Wish  
+- Protect  
+- Aura Sphere  
+
+Togekiss  
+Level: 44
+Ability: Super Luck  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Dazzling Gleam  
+- Air Slash  
+- Thunderbolt  
+- Psychic
+
+Gallade  
+Level: 44
+Ability: Steadfast  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Psycho Cut  
+- Leaf Blade  
+- Swords Dance  
+- Knock Off  
+
+Gallade @ Life Orb  
+Level: 44
+Ability: Steadfast  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Close Combat  
+- Zen Headbutt  
+- Detect  
+- Thunder Punch  
+
+Gallade  
+Level: 44
+Ability: Steadfast  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Psycho Cut  
+- Swords Dance  
+- Shadow Sneak  
+- Drain Punch
+
+Manectric  
+Level: 44
+Ability: Lightning Rod  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Thunderbolt  
+- Flamethrower  
+- Volt Switch  
+- Bite  
+
+Manectric @ Life Orb  
+Level: 44
+Ability: Lightning Rod  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Thunderbolt  
+- Overheat  
+- Volt Switch  
+- Snarl  
+
+Manectric  
+Level: 44
+Ability: Lightning Rod  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Thunderbolt  
+- Volt Switch  
+- Will-O-Wisp  
+- Snarl
+
+Sableye  
+Level: 44
+Ability: Prankster  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Foul Play  
+- Recover  
+- Will-O-Wisp  
+- Taunt  
+
+Sableye @ Leftovers  
+Level: 44
+Ability: Prankster  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Foul Play  
+- Recover  
+- Taunt  
+- Knock Off  
+
+Sableye  
+Level: 44
+Ability: Prankster  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Shadow Ball  
+- Confuse Ray  
+- Recover  
+- Toxic
+
+Alakazam  
+Level: 44
+Ability: Synchronize  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Psychic  
+- Focus Blast  
+- Shadow Ball  
+- Recover  
+
+Alakazam @ Focus Sash  
+Level: 44
+Ability: Synchronize  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Psychic  
+- Encore  
+- Shadow Ball  
+- Focus Blast  
+
+Alakazam  
+Level: 44
+Ability: Synchronize  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Psychic  
+- Focus Blast  
+- Shadow Ball  
+- Energy Ball
+
+Luxray  
+Level: 44
+Ability: Intimidate  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Wild Charge  
+- Crunch  
+- Superpower  
+- Ice Fang  
+
+Luxray @ Life Orb  
+Level: 44
+Ability: Intimidate  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Wild Charge  
+- Crunch  
+- Protect  
+- Thunder Wave  
+
+Luxray  
+Level: 44
+Ability: Intimidate  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Wild Charge  
+- Ice Fang  
+- Play Rough  
+- Thunder Wave
+
+Hatterene  
+Level: 44
+Ability: Magic Bounce  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Psychic  
+- Dazzling Gleam  
+- Aromatherapy  
+- Calm Mind  
+
+Hatterene @ Leftovers  
+Level: 44
+Ability: Magic Bounce  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Psychic  
+- Giga Drain  
+- Will-O-Wisp  
+- Protect  
+
+Hatterene  
+Level: 44
+Ability: Magic Bounce  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Psychic  
+- Dazzling Gleam  
+- Shadow Ball  
+- Mystical Fire
 
 === TRAINER_JENNIFER ===
 Name: JENNIFER
@@ -52656,14 +52755,278 @@ Music: Suspicious
 Double Battle: No
 AI: nettux
 Difficulty: Hard
+Party Size: 3
+/* Location: Route114 */
 
-Aron
-Level: 19
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Mud Slap
-- Headbutt
-- Metal Claw
-- Iron Defense
+Ampharos  
+Level: 44
+Ability: Static  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Thunderbolt  
+- Focus Blast  
+- Signal Beam  
+- Light Screen  
+
+Ampharos @ Leftovers  
+Level: 44
+Ability: Static  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Thunderbolt  
+- Power Gem  
+- Cotton Guard  
+- Protect  
+
+Ampharos  
+Level: 44
+Ability: Static  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Thunderbolt  
+- Dragon Pulse  
+- Focus Blast  
+- Charge Beam
+
+Torterra  
+Level: 44
+Ability: Overgrow  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Wood Hammer  
+- Earthquake  
+- Stone Edge  
+- Synthesis  
+
+Torterra @ Leftovers  
+Level: 44
+Ability: Overgrow  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Wood Hammer  
+- Crunch  
+- Leech Seed  
+- Protect  
+
+Torterra  
+Level: 44
+Ability: Overgrow  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Wood Hammer  
+- Earthquake  
+- Rock Slide  
+- Swords Dance
+
+Lickitung  
+Level: 44
+Ability: Oblivious  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Body Slam  
+- Curse  
+- Rest  
+- Knock Off  
+
+Lickitung @ Leftovers  
+Level: 44
+Ability: Oblivious  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Body Slam  
+- Heal Bell  
+- Toxic  
+- Protect  
+
+Lickitung  
+Level: 44
+Ability: Oblivious  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Seismic Toss  
+- Hyper Voice  
+- Toxic  
+- Counter
+
+Nidoqueen  
+Level: 44
+Ability: Sheer Force  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Sludge Bomb  
+- Earth Power  
+- Ice Beam  
+- Thunderbolt  
+
+Nidoqueen @ Leftovers  
+Level: 44
+Ability: Sheer Force  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Earthquake  
+- Toxic  
+- Protect  
+- Poison Jab  
+
+Nidoqueen  
+Level: 44
+Ability: Sheer Force  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Sludge Bomb  
+- Ice Beam  
+- Flamethrower  
+- Thunderbolt
+
+Nidoking  
+Level: 44
+Ability: Sheer Force  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Earth Power  
+- Sludge Bomb  
+- Ice Beam  
+- Thunderbolt  
+
+Nidoking @ Life Orb  
+Level: 44
+Ability: Sheer Force  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Earthquake  
+- Poison Jab  
+- Megahorn  
+- Ice Beam  
+
+Nidoking  
+Level: 44
+Ability: Sheer Force  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Sludge Bomb  
+- Earthquake  
+- Flamethrower  
+- Thunderbolt
+
+Feraligatr  
+Level: 44
+Ability: Torrent  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Waterfall  
+- Ice Fang  
+- Crunch  
+- Dragon Dance  
+
+Feraligatr @ Life Orb  
+Level: 44
+Ability: Torrent  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Waterfall  
+- Ice Punch  
+- Earthquake  
+- Aqua Jet  
+
+Feraligatr  
+Level: 44
+Ability: Torrent  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Waterfall  
+- Crunch  
+- Dragon Tail  
+- Protect
+
+Slowbro  
+Level: 44
+Ability: Regenerator  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Scald  
+- Psychic  
+- Slack Off  
+- Calm Mind  
+
+Slowbro @ Leftovers  
+Level: 44
+Ability: Regenerator  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Scald  
+- Psychic  
+- Thunder Wave  
+- Amnesia  
+
+Slowbro  
+Level: 44
+Ability: Regenerator  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Scald  
+- Ice Beam  
+- Calm Mind  
+- Protect
+
+Kangaskhan  
+Level: 44
+Ability: Early Bird  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Fake Out  
+- Return  
+- Sucker Punch  
+- Crunch  
+
+Kangaskhan @ Choice Band  
+Level: 44
+Ability: Early Bird  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Return  
+- Sucker Punch  
+- Power-Up Punch  
+- Double-Edge  
+
+Kangaskhan  
+Level: 44
+Ability: Early Bird  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Fake Out  
+- Return  
+- Crunch  
+- Earthquake
+
+Charizard  
+Level: 44
+Ability: Blaze  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Flamethrower  
+- Dragon Pulse  
+- Air Slash  
+- Roost  
+
+Charizard @ Charcoal  
+Level: 44
+Ability: Blaze  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Flamethrower  
+- Solar Beam  
+- Focus Blast  
+- Roost  
+
+Charizard  
+Level: 44
+Ability: Blaze  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Heat Wave  
+- Dragon Claw  
+- Air Slash  
+- Protect
+
+Marowak  
+Level: 44
+Ability: Lightning Rod  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Bonemerang  
+- Shadow Bone  
+- Swords Dance  
+- Earthquake  
+
+Marowak @ Thick Club  
+Level: 44
+Ability: Lightning Rod  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Shadow Bone  
+- Flare Blitz  
+- Bonemerang  
+- Protect  
+
+Marowak  
+Level: 44
+Ability: Lightning Rod  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Earthquake  
+- Shadow Bone  
+- Will-O-Wisp  
+- Swords Dance
 
 === TRAINER_THALIA_1 ===
 Name: THALIA
@@ -52718,14 +53081,278 @@ Music: Magma
 Double Battle: No
 AI: nettux
 Difficulty: Hard
+Party Size: 3
+/* Location: MtChimney */
 
-Numel
-Level: 20
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Growl
-- Tackle
-- Ember
-- Magnitude
+Gengar  
+Level: 50
+Ability: Cursed Body  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Shadow Ball  
+- Sludge Bomb  
+- Will-O-Wisp  
+- Dazzling Gleam  
+
+Gengar @ Chilan Berry  
+Level: 50
+Ability: Cursed Body  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Shadow Ball  
+- Energy Ball  
+- Focus Blast  
+- Will-O-Wisp  
+
+Gengar  
+Level: 50
+Ability: Cursed Body  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Hex  
+- Sludge Bomb  
+- Thunderbolt  
+- Fire Punch
+
+Magcargo  
+Level: 50
+Ability: Flame Body  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Lava Plume  
+- Ancient Power  
+- Earth Power  
+- Recover  
+
+Magcargo @ Occa Berry  
+Level: 50
+Ability: Flame Body  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Flamethrower  
+- Rock Slide  
+- Stealth Rock  
+- Yawn  
+
+Magcargo  
+Level: 50
+Ability: Flame Body  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Fire Blast  
+- Earth Power  
+- Shell Smash  
+- Ancient Power
+
+Houndoom  
+Level: 50
+Ability: Flash Fire  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Flamethrower  
+- Dark Pulse  
+- Sludge Bomb  
+- Nasty Plot  
+
+Houndoom @ Charti Berry  
+Level: 50
+Ability: Flash Fire  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Fire Blast  
+- Dark Pulse  
+- Will-O-Wisp  
+- Mud-Slap
+
+Houndoom  
+Level: 50
+Ability: Flash Fire  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Flamethrower  
+- Crunch  
+- Taunt  
+- Fire Fang
+
+Excadrill  
+Level: 50
+Ability: Mold Breaker  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Earthquake  
+- Rock Slide  
+- Iron Head  
+- Rapid Spin  
+
+Excadrill @ Rindo Berry  
+Level: 50
+Ability: Mold Breaker  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Earthquake  
+- Stone Edge  
+- Iron Head  
+- Swords Dance  
+
+Excadrill  
+Level: 50
+Ability: Mold Breaker  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Drill Run  
+- Rock Slide  
+- Sandstorm  
+- Protect
+
+Luxray  
+Level: 50
+Ability: Intimidate  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Wild Charge  
+- Crunch  
+- Fire Fang  
+- Ice Fang  
+
+Luxray @ Passho Berry  
+Level: 50
+Ability: Intimidate  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Thunder Fang  
+- Play Rough  
+- Crunch  
+- Fire Fang  
+
+Luxray  
+Level: 50
+Ability: Intimidate  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Spark  
+- Ice Fang  
+- Fire Fang  
+- Protect
+
+Mightyena  
+Level: 50
+Ability: Intimidate  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Crunch  
+- Fire Fang  
+- Play Rough  
+- Roar  
+
+Mightyena @ Figy Berry  
+Level: 50
+Ability: Intimidate  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Crunch  
+- Thunder Fang  
+- Fire Fang  
+- Sucker Punch  
+
+Mightyena  
+Level: 50
+Ability: Intimidate  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Crunch  
+- Iron Tail  
+- Fire Fang  
+- Snarl
+
+Camerupt  
+Level: 50
+Ability: Solid Rock  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Earth Power  
+- Lava Plume  
+- Rock Slide  
+- Amnesia  
+
+Camerupt @ Shuca Berry  
+Level: 50
+Ability: Solid Rock  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Earthquake  
+- Fire Blast  
+- Stone Edge  
+- Will-O-Wisp  
+
+Camerupt  
+Level: 50
+Ability: Solid Rock  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Flamethrower  
+- Earth Power  
+- Stealth Rock  
+- Yawn
+
+Arcanine Hisui  
+Level: 50
+Ability: Intimidate  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Flare Blitz  
+- Rock Slide  
+- Wild Charge  
+- Crunch  
+
+Arcanine Hisui @ Aguav Berry  
+Level: 50
+Ability: Intimidate  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Flare Blitz  
+- Head Smash  
+- Rock Slide  
+- Close Combat  
+
+Arcanine Hisui  
+Level: 50
+Ability: Intimidate  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Flare Blitz  
+- Psychic Fangs  
+- Crunch  
+- Rock Slide
+
+Crobat  
+Level: 50
+Ability: Infiltrator  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Cross Poison  
+- Brave Bird  
+- U-turn  
+- Roost  
+
+Crobat @ Sitrus Berry  
+Level: 50
+Ability: Infiltrator  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Brave Bird  
+- Heat Wave  
+- Roost  
+- U-turn  
+
+Crobat  
+Level: 50
+Ability: Infiltrator  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Acrobatics  
+- Cross Poison  
+- Confuse Ray  
+- Steel Wing
+
+Claydol  
+Level: 50
+Ability: Levitate  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Earth Power  
+- Psychic  
+- Ancient Power  
+- Rapid Spin  
+
+Claydol @ Lum Berry  
+Level: 50
+Ability: Levitate  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Earthquake  
+- Rock Tomb  
+- Psychic  
+- Light Screen  
+
+Claydol  
+Level: 50
+Ability: Levitate  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Earth Power  
+- Rock Slide  
+- Cosmic Power  
+- Explosion
 
 === TRAINER_STEVE_2 ===
 Name: STEVE
@@ -53964,14 +54591,278 @@ Music: Intense
 Double Battle: No
 AI: nettux
 Difficulty: Hard
+Party Size: 3
+/* Location: Route111 */
 
-Machop
-Level: 19
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Leer
-- Focus Energy
-- Karate Chop
-- Seismic Toss
+Hariyama  
+Level: 44
+Ability: Thick Fat  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Arm Thrust  
+- Fake Out  
+- Wide Guard  
+- Knock Off  
+
+Hariyama @ Choice Band  
+Level: 44
+Ability: Thick Fat  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Close Combat  
+- Arm Thrust  
+- Knock Off  
+- Fake Out  
+
+Hariyama  
+Level: 44
+Ability: Thick Fat  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Wide Guard  
+- Knock Off  
+- Arm Thrust  
+- Fake Out
+
+Hitmonchan  
+Level: 44
+Ability: Iron Fist  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Mach Punch  
+- Ice Punch  
+- Thunder Punch  
+- Counter  
+
+Hitmonchan @ Expert Belt  
+Level: 44
+Ability: Iron Fist  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Ice Punch  
+- Thunder Punch  
+- Mach Punch  
+- Counter  
+
+Hitmonchan  
+Level: 44
+Ability: Iron Fist  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Thunder Punch  
+- Counter  
+- Mach Punch  
+- Ice Punch
+
+Croagunk  
+Level: 44
+Ability: Dry Skin  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Drain Punch  
+- Sucker Punch  
+- Toxic  
+- Fake Out  
+
+Croagunk @ Life Orb  
+Level: 44
+Ability: Dry Skin  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Drain Punch  
+- Sucker Punch  
+- Fake Out  
+- Toxic  
+
+Croagunk  
+Level: 44
+Ability: Dry Skin  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Toxic  
+- Fake Out  
+- Drain Punch  
+- Sucker Punch
+
+Lucario  
+Level: 44
+Ability: Inner Focus  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Close Combat  
+- Aura Sphere  
+- Metal Claw  
+- Swords Dance  
+
+Lucario @ Choice Scarf  
+Level: 44
+Ability: Inner Focus  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Close Combat  
+- Aura Sphere  
+- Flash Cannon  
+- Extreme Speed  
+
+Lucario  
+Level: 44
+Ability: Inner Focus  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Swords Dance  
+- Metal Claw  
+- Close Combat  
+- Extreme Speed
+
+Meditite  
+Level: 44
+Ability: Pure Power  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Confusion  
+- Force Palm  
+- Detect  
+- Bulk Up  
+
+Meditite @ Life Orb  
+Level: 44
+Ability: Pure Power  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Psycho Cut  
+- Force Palm  
+- Bulk Up  
+- Detect  
+
+Meditite  
+Level: 44
+Ability: Pure Power  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Detect  
+- Confusion  
+- Bulk Up  
+- Force Palm
+
+Combusken  
+Level: 44
+Ability: Blaze  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Double Kick  
+- Flame Charge  
+- Bulk Up  
+- Quick Attack  
+
+Combusken @ Life Orb  
+Level: 44
+Ability: Blaze  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Double Kick  
+- Bulk Up  
+- Flame Charge  
+- Quick Attack  
+
+Combusken  
+Level: 44
+Ability: Blaze  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Quick Attack  
+- Double Kick  
+- Bulk Up  
+- Flame Charge
+
+Breloom  
+Level: 44
+Ability: Effect Spore  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Mach Punch  
+- Spore  
+- Bullet Seed  
+- Leech Seed  
+
+Breloom @ Focus Sash  
+Level: 44
+Ability: Effect Spore  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Spore  
+- Mach Punch  
+- Bullet Seed  
+- Leech Seed  
+
+Breloom  
+Level: 44
+Ability: Effect Spore  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Leech Seed  
+- Bullet Seed  
+- Spore  
+- Mach Punch
+
+Hitmontop  
+Level: 44
+Ability: Technician  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Close Combat  
+- Rapid Spin  
+- Fake Out  
+- Mach Punch  
+
+Hitmontop @ Leftovers  
+Level: 44
+Ability: Technician  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Fake Out  
+- Close Combat  
+- Rapid Spin  
+- Mach Punch  
+
+Hitmontop  
+Level: 44
+Ability: Technician  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Mach Punch  
+- Fake Out  
+- Rapid Spin  
+- Close Combat
+
+Machoke  
+Level: 44
+Ability: No Guard  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Dynamic Punch  
+- Bulk Up  
+- Karate Chop  
+- Seismic Toss  
+
+Machoke @ Focus Sash  
+Level: 44
+Ability: No Guard  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Cross Chop  
+- Bulk Up  
+- Dynamic Punch  
+- Seismic Toss  
+
+Machoke  
+Level: 44
+Ability: No Guard  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Seismic Toss  
+- Karate Chop  
+- Bulk Up  
+- Dynamic Punch
+
+Hitmonlee  
+Level: 44
+Ability: Reckless  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- High Jump Kick  
+- Blaze Kick  
+- Counter  
+- Fake Out  
+
+Hitmonlee @ Life Orb  
+Level: 44
+Ability: Reckless  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- High Jump Kick  
+- Blaze Kick  
+- Knock Off  
+- Fake Out  
+
+Hitmonlee  
+Level: 44
+Ability: Reckless  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Fake Out  
+- Knock Off  
+- Counter  
+- High Jump Kick
 
 === TRAINER_ATSUSHI ===
 Name: ATSUSHI
@@ -55150,22 +56041,278 @@ Music: Hiker
 Double Battle: No
 AI: nettux
 Difficulty: Hard
+Party Size: 3
+/* Location: Route114 */
 
-Slugma
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Smog
-- Yawn
-- Ember
-- Rock Throw
+Magmortar  
+Level: 44
+Ability: Flame Body  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Flamethrower  
+- Psychic  
+- Focus Blast  
+- Thunderbolt  
 
-Wingull
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Growl
-- Water Gun
-- Supersonic
-- Wing Attack
+Magmortar @ Choice Specs  
+Level: 44
+Ability: Flame Body  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Fire Blast  
+- Psychic  
+- Focus Blast  
+- Thunderbolt  
+
+Magmortar  
+Level: 44
+Ability: Flame Body  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Flamethrower  
+- Focus Blast  
+- Psychic  
+- Will-O-Wisp
+
+Excadrill  
+Level: 44
+Ability: Mold Breaker  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Iron Head  
+- Earthquake  
+- Rock Slide  
+- Rapid Spin  
+
+Excadrill @ Life Orb  
+Level: 44
+Ability: Mold Breaker  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Iron Head  
+- Earthquake  
+- Swords Dance  
+- Rock Slide  
+
+Excadrill  
+Level: 44
+Ability: Mold Breaker  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Rapid Spin  
+- Iron Head  
+- Earthquake  
+- Rock Slide
+
+Houndoom  
+Level: 44
+Ability: Flash Fire  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Flamethrower  
+- Dark Pulse  
+- Nasty Plot  
+- Will-O-Wisp  
+
+Houndoom @ Life Orb  
+Level: 44
+Ability: Flash Fire  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Fire Blast  
+- Sludge Bomb  
+- Dark Pulse  
+- Solar Beam  
+
+Houndoom  
+Level: 44
+Ability: Flash Fire  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Flamethrower  
+- Dark Pulse  
+- Taunt  
+- Protect
+
+Rapidash  
+Level: 44
+Ability: Flame Body  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Flare Blitz  
+- Wild Charge  
+- Morning Sun  
+- Megahorn  
+
+Rapidash @ Choice Band  
+Level: 44
+Ability: Flame Body  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Flare Blitz  
+- Wild Charge  
+- Megahorn  
+- High Horsepower  
+
+Rapidash  
+Level: 44
+Ability: Flame Body  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Wild Charge  
+- Flare Blitz  
+- Morning Sun  
+- Toxic
+
+Camerupt  
+Level: 44
+Ability: Solid Rock  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Earth Power  
+- Flamethrower  
+- Rock Slide  
+- Stealth Rock  
+
+Camerupt @ Choice Specs  
+Level: 44
+Ability: Solid Rock  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Earth Power  
+- Fire Blast  
+- Rock Slide  
+- Overheat  
+
+Camerupt  
+Level: 44
+Ability: Solid Rock  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Earthquake  
+- Flamethrower  
+- Stealth Rock  
+- Toxic
+
+Arcanine Hisui  
+Level: 44
+Ability: Intimidate  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Flame Charge
+- Rock Slide
+- Close Combat
+- Morning Sun  
+
+Arcanine Hisui @ Life Orb  
+Level: 44
+Ability: Intimidate  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Flame Charge 
+- Rock Slide
+- Extreme Speed  
+- Will-O-Wisp  
+
+Arcanine Hisui  
+Level: 44
+Ability: Intimidate  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Flame Charge
+- Morning Sun  
+- Play Rough
+- Rock Slide
+
+Typhlosion  
+Level: 44
+Ability: Blaze  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Flamethrower  
+- Eruption  
+- Focus Blast  
+- Shadow Ball  
+
+Typhlosion @ Choice Specs  
+Level: 44
+Ability: Blaze  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Fire Blast  
+- Eruption  
+- Focus Blast  
+- Shadow Ball  
+
+Typhlosion  
+Level: 44
+Ability: Blaze  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Eruption  
+- Flamethrower  
+- Focus Blast  
+- Sunny Day
+
+Lucario  
+Level: 44
+Ability: Inner Focus  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Close Combat  
+- Aura Sphere  
+- Extreme Speed  
+- Swords Dance  
+
+Lucario @ Life Orb  
+Level: 44
+Ability: Inner Focus  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Close Combat  
+- Flash Cannon  
+- Extreme Speed  
+- Swords Dance  
+
+Lucario  
+Level: 44
+Ability: Inner Focus  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Swords Dance  
+- Close Combat  
+- Extreme Speed  
+- Iron Tail
+
+Charizard  
+Level: 44
+Ability: Blaze  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Flamethrower  
+- Dragon Claw  
+- Air Slash  
+- Roost  
+
+Charizard @ Life Orb  
+Level: 44
+Ability: Blaze  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Fire Blast  
+- Solar Beam  
+- Air Slash  
+- Dragon Pulse  
+
+Charizard  
+Level: 44
+Ability: Blaze  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Heat Wave  
+- Dragon Claw  
+- Roost  
+- Protect
+
+Magcargo  
+Level: 44
+Ability: Flame Body  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Lava Plume  
+- Earth Power  
+- Rock Slide  
+- Shell Smash  
+
+Magcargo @ Leftovers  
+Level: 44
+Ability: Flame Body  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Lava Plume  
+- Stealth Rock  
+- Toxic  
+- Protect  
+
+Magcargo  
+Level: 44
+Ability: Flame Body  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Earth Power  
+- Lava Plume  
+- Rock Slide  
+- Will-O-Wisp
 
 === TRAINER_BERNIE_2 ===
 Name: BERNIE
@@ -56831,7 +57978,7 @@ IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Surf  
 - Psychic  
 - Slack Off  
-- Thunder Wave  
+- Yawn
 
 Slowbro @ Leftovers  
 Level: 38
@@ -56840,14 +57987,14 @@ IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Slack Off  
 - Psychic  
 - Scald  
-- Teleport  
+- Amnesia
 
 Slowbro  
 Level: 38
 Ability: Regenerator  
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Slack Off  
-- Thunder Wave  
+- Disable
 - Psychic  
 - Surf
 
@@ -56855,19 +58002,19 @@ Chimecho
 Level: 38
 Ability: Levitate  
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Psychic  
-- Recover  
-- Thunder Wave  
-- Safeguard  
+- Extrasensory
+- Recover
+- Take Down
+- Astonish
 
-Chimecho @ Leftovers  
+Chimecho @ Sitrus Berry
 Level: 38
 Ability: Levitate  
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Thunder Wave  
-- Psychic  
-- Recover  
-- Safeguard  
+- Shadow Ball
+- Psychic
+- Imprison
+- Taunt
 
 Chimecho  
 Level: 38
@@ -56875,8 +58022,8 @@ Ability: Levitate
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Safeguard  
 - Recover  
-- Psychic  
-- Thunder Wave
+- Extrasensory
+- Dazzling Gleam
 
 Espeon  
 Level: 38
@@ -58154,7 +59301,7 @@ Difficulty: Hard
 /* LavaridgeTown_Gym */
 
 Torkoal @ Heat Rock
-Level: 52
+Level: 53
 Ability: Drought
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 Nature: Relaxed
@@ -58164,7 +59311,7 @@ Nature: Relaxed
 - Yawn
 
 Ceruledge @ Focus Sash
-Level: 52
+Level: 53
 Ability: Flash Fire
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 Nature: Adamant
@@ -58174,7 +59321,7 @@ Nature: Adamant
 - Swords Dance
 
 Arcanine @ Leftovers
-Level: 52
+Level: 53
 Ability: Intimidate
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 Nature: Adamant
@@ -58184,7 +59331,7 @@ Nature: Adamant
 - Morning Sun
 
 Venusaur @ Life Orb
-Level: 52
+Level: 53
 Ability: Chlorophyll
 Nature: Timid
 Tera Type: Fire
@@ -58195,7 +59342,7 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Synthesis
 
 Charizard @ Charizardite Y
-Level: 52
+Level: 53
 Ability: Drought
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 Nature: Timid
@@ -59469,33 +60616,6 @@ Difficulty: Hard
 Party Size: 3
 /* Location: Route110 */
 
-Wigglytuff  
-Level: 35
-Ability: Competitive  
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Dazzling Gleam  
-- Thunderbolt  
-- Heal Bell  
-- Hyper Voice  
-
-Wigglytuff @ Leftovers  
-Level: 35
-Ability: Competitive  
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Charm  
-- Protect  
-- Dazzling Gleam  
-- Hyper Voice  
-
-Wigglytuff  
-Level: 35
-Ability: Competitive  
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Thunderbolt  
-- Heal Bell  
-- Charm  
-- Dazzling Gleam
-
 Milotic  
 Level: 35
 Ability: Marvel Scale  
@@ -59658,32 +60778,32 @@ IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Encore  
 - Thunderbolt
 
-Umbreon  
+Wigglytuff  
 Level: 35
-Ability: Synchronize  
+Ability: Competitive  
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Foul Play  
-- Moonlight  
-- Toxic  
-- Confuse Ray  
+- Dazzling Gleam  
+- Thunderbolt  
+- Heal Bell  
+- Hyper Voice  
 
-Umbreon @ Leftovers  
+Wigglytuff @ Leftovers  
 Level: 35
-Ability: Synchronize  
+Ability: Competitive  
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Moonlight  
-- Toxic  
-- Confuse Ray  
-- Foul Play  
+- Charm  
+- Protect  
+- Dazzling Gleam  
+- Hyper Voice  
 
-Umbreon  
+Wigglytuff  
 Level: 35
-Ability: Synchronize  
+Ability: Competitive  
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Confuse Ray  
-- Foul Play  
-- Moonlight  
-- Toxic
+- Thunderbolt  
+- Heal Bell  
+- Charm  
+- Dazzling Gleam
 
 Roserade  
 Level: 35
@@ -59738,6 +60858,33 @@ IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Quiver Dance  
 - Sleep Powder  
 - Aromatherapy
+
+Granbull  
+Level: 35
+Ability: Intimidate  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Play Rough  
+- Crunch  
+- Thunder Wave  
+- Fire Fang  
+
+Granbull @ Leftovers  
+Level: 35
+Ability: Intimidate  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Thunder Wave  
+- Play Rough  
+- Fire Fang  
+- Crunch  
+
+Granbull  
+Level: 35
+Ability: Intimidate  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Fire Fang  
+- Crunch  
+- Play Rough  
+- Thunder Wave
 
 === TRAINER_COLTON ===
 Name: COLTON
@@ -59998,33 +61145,6 @@ IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Return  
 - Baton Pass
 
-Umbreon  
-Level: 35
-Ability: Synchronize  
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Foul Play  
-- Moonlight  
-- Toxic  
-- Confuse Ray  
-
-Umbreon @ Leftovers  
-Level: 35
-Ability: Synchronize  
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Moonlight  
-- Toxic  
-- Confuse Ray  
-- Foul Play  
-
-Umbreon  
-Level: 35
-Ability: Synchronize  
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Confuse Ray  
-- Foul Play  
-- Moonlight  
-- Toxic
-
 Nidoqueen  
 Level: 35
 Ability: Sheer Force  
@@ -60240,6 +61360,33 @@ IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Giga Drain  
 - Sludge Bomb  
 - Stun Spore
+
+Ninetales  
+Level: 35
+Ability: Flash Fire  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Flamethrower  
+- Will-O-Wisp  
+- Confuse Ray  
+- Extrasensory  
+
+Ninetales @ Leftovers  
+Level: 35
+Ability: Flash Fire  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Will-O-Wisp  
+- Flamethrower  
+- Confuse Ray  
+- Extrasensory  
+
+Ninetales  
+Level: 35
+Ability: Flash Fire  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Confuse Ray  
+- Extrasensory  
+- Flamethrower  
+- Will-O-Wisp
 
 === TRAINER_ISABEL_2 ===
 Name: ISABEL
@@ -61830,13 +62977,277 @@ Music: Male
 Double Battle: No
 AI: nettux
 Difficulty: Hard
+Party Size: 3
 
-Trapinch
-Level: 19
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Bite
+Mightyena  
+Level: 44
+Ability: Intimidate  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Crunch  
+- Bite  
+- Howl  
+- Roar  
+
+Mightyena @ Choice Band  
+Level: 44
+Ability: Intimidate  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Crunch  
+- Play Rough  
+- Sucker Punch  
+- Thunder Fang  
+
+Mightyena  
+Level: 44
+Ability: Intimidate  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Sucker Punch  
+- Thunder Fang  
+- Roar  
+- Howl
+
+Primeape  
+Level: 44
+Ability: Vital Spirit  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Close Combat  
+- Revenge  
+- Cross Chop  
+- Leer  
+
+Primeape @ Choice Band  
+Level: 44
+Ability: Vital Spirit  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Close Combat  
+- Cross Chop  
+- Brick Break  
+- Earthquake  
+
+Primeape  
+Level: 44
+Ability: Vital Spirit  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Cross Chop  
+- Revenge  
+- Leer  
+- Close Combat
+
+Poliwhirl  
+Level: 44
+Ability: Water Absorb  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Bubble Beam  
+- Hypnosis  
+- Water Gun  
+- Double Slap  
+
+Poliwhirl @ Mystic Water  
+Level: 44
+Ability: Water Absorb  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Hydro Pump  
+- Hypnosis  
+- Bubble Beam  
+- Double Slap  
+
+Poliwhirl  
+Level: 44
+Ability: Water Absorb  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Double Slap  
+- Water Gun  
+- Hypnosis  
+- Bubble Beam
+
+Linoone  
+Level: 44
+Ability: Pickup  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Slash  
+- Quick Attack  
+- Growl  
+- Tail Whip  
+
+Linoone @ Life Orb  
+Level: 44
+Ability: Pickup  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Return  
+- Slash  
+- Shadow Claw  
+- Sucker Punch  
+
+Linoone  
+Level: 44
+Ability: Pickup  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Growl  
+- Quick Attack  
+- Sucker Punch  
+- Shadow Claw
+
+Grimer  
+Level: 44
+Ability: Poison Touch  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Sludge Bomb  
+- Minimize  
+- Poison Gas  
+- Pound  
+
+Grimer @ Black Sludge  
+Level: 44
+Ability: Poison Touch  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Sludge Bomb  
+- Pound  
+- Poison Gas  
+- Minimize  
+
+Grimer  
+Level: 44
+Ability: Poison Touch  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Poison Gas  
+- Minimize  
+- Sludge Bomb  
+- Pound
+
+Furret  
+Level: 44
+Ability: Run Away  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Return  
+- Agility  
+- Double-Edge  
+- Quick Attack  
+
+Furret @ Choice Scarf  
+Level: 44
+Ability: Run Away  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Return  
+- U-Turn  
+- Quick Attack  
+- Double-Edge  
+
+Furret  
+Level: 44
+Ability: Run Away  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Quick Attack  
+- Double-Edge  
+- Agility  
+- Return
+
+Loudred  
+Level: 44
+Ability: Soundproof  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Hyper Voice  
+- Screech  
+- Overheat  
+- Uproar  
+
+Loudred @ Leftovers  
+Level: 44
+Ability: Soundproof  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Hyper Voice  
+- Overheat  
+- Uproar  
+- Screech  
+
+Loudred  
+Level: 44
+Ability: Soundproof  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Screech  
+- Uproar  
+- Overheat  
+- Hyper Voice
+
+Machoke  
+Level: 44
+Ability: No Guard  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Dynamic Punch  
+- Bulk Up  
+- Karate Chop  
+- Seismic Toss  
+
+Machoke @ Focus Sash  
+Level: 44
+Ability: No Guard  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Cross Chop  
+- Bulk Up  
+- Dynamic Punch  
+- Seismic Toss  
+
+Machoke  
+Level: 44
+Ability: No Guard  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Seismic Toss  
+- Karate Chop  
+- Bulk Up  
+- Dynamic Punch
+
+Raticate  
+Level: 44
+Ability: Guts  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Hyper Fang  
+- Focus Energy  
+- Quick Attack  
+- Sucker Punch  
+
+Raticate @ Life Orb  
+Level: 44
+Ability: Guts  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Hyper Fang  
+- Sucker Punch  
+- Return  
+- Brick Break  
+
+Raticate  
+Level: 44
+Ability: Guts  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Quick Attack  
+- Brick Break  
+- Sucker Punch  
+- Focus Energy
+
+Sandslash  
+Level: 44
+Ability: Sand Rush  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Earthquake  
+- Slash  
+- Swords Dance  
+- Sand Attack  
+
+Sandslash @ Rocky Helmet  
+Level: 44
+Ability: Sand Rush  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Earthquake  
+- Swords Dance  
+- Iron Tail  
+- Rock Slide  
+
+Sandslash  
+Level: 44
+Ability: Sand Rush  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Iron Tail  
+- Rock Slide  
+- Slash  
 - Sand Attack
-- Feint Attack
 
 === TRAINER_DILLON ===
 Name: DILLON
@@ -61847,14 +63258,278 @@ Music: Male
 Double Battle: No
 AI: nettux
 Difficulty: Hard
+Party Size: 3
+/* Location: Route113 */
 
-Aron
-Level: 19
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Mud Slap
-- Headbutt
-- Metal Claw
-- Iron Defense
+Mightyena  
+Level: 44
+Ability: Intimidate  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Crunch  
+- Bite  
+- Howl  
+- Roar  
+
+Mightyena @ Choice Band  
+Level: 44
+Ability: Intimidate  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Crunch  
+- Play Rough  
+- Sucker Punch  
+- Thunder Fang  
+
+Mightyena  
+Level: 44
+Ability: Intimidate  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Sucker Punch  
+- Thunder Fang  
+- Roar  
+- Howl
+
+Furret  
+Level: 44
+Ability: Run Away  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Return  
+- Agility  
+- Double-Edge  
+- Quick Attack  
+
+Furret @ Choice Scarf  
+Level: 44
+Ability: Run Away  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Return  
+- U-Turn  
+- Quick Attack  
+- Double-Edge  
+
+Furret  
+Level: 44
+Ability: Run Away  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Quick Attack  
+- Double-Edge  
+- Agility  
+- Return
+
+Sandslash  
+Level: 44
+Ability: Sand Rush  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Earthquake  
+- Slash  
+- Swords Dance  
+- Sand Attack  
+
+Sandslash @ Rocky Helmet  
+Level: 44
+Ability: Sand Rush  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Earthquake  
+- Swords Dance  
+- Iron Tail  
+- Rock Slide  
+
+Sandslash  
+Level: 44
+Ability: Sand Rush  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Iron Tail  
+- Rock Slide  
+- Slash  
+- Sand Attack
+
+Raticate  
+Level: 44
+Ability: Guts  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Hyper Fang  
+- Focus Energy  
+- Quick Attack  
+- Sucker Punch  
+
+Raticate @ Life Orb  
+Level: 44
+Ability: Guts  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Hyper Fang  
+- Sucker Punch  
+- Return  
+- Brick Break  
+
+Raticate  
+Level: 44
+Ability: Guts  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Quick Attack  
+- Brick Break  
+- Sucker Punch  
+- Focus Energy
+
+Linoone  
+Level: 44
+Ability: Pickup  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Slash  
+- Quick Attack  
+- Growl  
+- Tail Whip  
+
+Linoone @ Life Orb  
+Level: 44
+Ability: Pickup  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Return  
+- Slash  
+- Shadow Claw  
+- Sucker Punch  
+
+Linoone  
+Level: 44
+Ability: Pickup  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Growl  
+- Quick Attack  
+- Sucker Punch  
+- Shadow Claw
+
+Poliwhirl  
+Level: 44
+Ability: Water Absorb  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Bubble Beam  
+- Hypnosis  
+- Water Gun  
+- Double Slap  
+
+Poliwhirl @ Mystic Water  
+Level: 44
+Ability: Water Absorb  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Hydro Pump  
+- Hypnosis  
+- Bubble Beam  
+- Double Slap  
+
+Poliwhirl  
+Level: 44
+Ability: Water Absorb  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Double Slap  
+- Water Gun  
+- Hypnosis  
+- Bubble Beam
+
+Loudred  
+Level: 44
+Ability: Soundproof  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Hyper Voice  
+- Screech  
+- Overheat  
+- Uproar  
+
+Loudred @ Leftovers  
+Level: 44
+Ability: Soundproof  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Hyper Voice  
+- Overheat  
+- Uproar  
+- Screech  
+
+Loudred  
+Level: 44
+Ability: Soundproof  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Screech  
+- Uproar  
+- Overheat  
+- Hyper Voice
+
+Machoke  
+Level: 44
+Ability: No Guard  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Dynamic Punch  
+- Bulk Up  
+- Karate Chop  
+- Seismic Toss  
+
+Machoke @ Focus Sash  
+Level: 44
+Ability: No Guard  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Cross Chop  
+- Bulk Up  
+- Dynamic Punch  
+- Seismic Toss  
+
+Machoke  
+Level: 44
+Ability: No Guard  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Seismic Toss  
+- Karate Chop  
+- Bulk Up  
+- Dynamic Punch
+
+Grimer  
+Level: 44
+Ability: Poison Touch  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Sludge Bomb  
+- Minimize  
+- Poison Gas  
+- Pound  
+
+Grimer @ Black Sludge  
+Level: 44
+Ability: Poison Touch  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Sludge Bomb  
+- Pound  
+- Poison Gas  
+- Minimize  
+
+Grimer  
+Level: 44
+Ability: Poison Touch  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Poison Gas  
+- Minimize  
+- Sludge Bomb  
+- Pound
+
+Primeape  
+Level: 44
+Ability: Vital Spirit  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Close Combat  
+- Revenge  
+- Cross Chop  
+- Leer  
+
+Primeape @ Choice Band  
+Level: 44
+Ability: Vital Spirit  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Close Combat  
+- Cross Chop  
+- Brick Break  
+- Earthquake  
+
+Primeape  
+Level: 44
+Ability: Vital Spirit  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Cross Chop  
+- Revenge  
+- Leer  
+- Close Combat
 
 === TRAINER_CALVIN_2 ===
 Name: CALVIN
@@ -63155,28 +64830,253 @@ Music: Hiker
 Double Battle: No
 AI: nettux
 Difficulty: Hard
+Party Size: 3
+/* Location: Route114 */
 
-Magikarp
-Level: 16
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Splash
-- Tackle
+Starmie  
+Level: 44
+Ability: Natural Cure  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Surf  
+- Psychic  
+- Rapid Spin  
+- Recover  
 
-Goldeen
-Level: 17
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Tail Whip
-- Water Sport
-- Supersonic
-- Horn Attack
+Starmie @ Leftovers  
+Level: 44
+Ability: Natural Cure  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Rapid Spin  
+- Surf  
+- Recover  
+- Psychic  
 
-Barboach
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Mud Sport
-- Water Sport
+Starmie  
+Level: 44
+Ability: Natural Cure  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Recover  
+- Psychic  
+- Surf  
+- Rapid Spin
+
+
+
+Buizel  
+Level: 44
+Ability: Swift Swim  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Aqua Jet  
+- Water Pulse  
+- Quick Attack  
+- Bite  
+
+Buizel @ Choice Specs  
+Level: 44
+Ability: Swift Swim  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Surf  
+- Aqua Jet  
+- Ice Beam  
+- Signal Beam  
+
+Buizel  
+Level: 44
+Ability: Swift Swim  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Water Pulse  
+- Bite  
+- Aqua Jet  
+- Quick Attack
+
+Pelipper  
+Level: 44
+Ability: Drizzle  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Scald  
+- Tailwind  
+- Roost  
+- Hurricane  
+
+Pelipper @ Damp Rock  
+Level: 44
+Ability: Drizzle  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Hurricane  
+- Tailwind  
+- Roost  
+- Scald  
+
+Pelipper  
+Level: 44
+Ability: Drizzle  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Tailwind  
+- Roost  
+- Hurricane  
+- Scald
+
+Sharpedo  
+Level: 44
+Ability: Speed Boost  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Bite  
+- Water Pulse  
+- Leer  
+- Double Team  
+
+Sharpedo @ Life Orb  
+Level: 44
+Ability: Speed Boost  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Crunch  
+- Waterfall  
+- Ice Fang  
+- Protect  
+
+Sharpedo  
+Level: 44
+Ability: Speed Boost  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Ice Fang  
+- Bite  
+- Water Pulse  
+- Double Team
+
+Slowbro  
+Level: 44
+Ability: Regenerator  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Surf  
+- Psychic  
+- Slack Off  
+- Amnesia  
+
+Slowbro @ Leftovers  
+Level: 44
+Ability: Regenerator  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Amnesia  
+- Psychic  
+- Surf  
+- Slack Off  
+
+Slowbro  
+Level: 44
+Ability: Regenerator  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Slack Off  
+- Surf  
+- Psychic  
+- Amnesia
+
+Croconaw  
+Level: 44
+Ability: Torrent  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Water Gun  
+- Ice Fang  
+- Crunch  
+- Scratch  
+
+Croconaw @ Life Orb  
+Level: 44
+Ability: Torrent  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Ice Fang  
+- Water Gun  
+- Crunch  
+- Aqua Tail  
+
+Croconaw  
+Level: 44
+Ability: Torrent  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Crunch  
+- Scratch  
+- Water Gun  
+- Ice Fang
+
+Drednaw  
+Level: 44
+Ability: Strong Jaw  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Bite  
+- Water Gun  
+- Protect  
+- Tackle  
+
+Drednaw @ Life Orb  
+Level: 44
+Ability: Strong Jaw  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Water Gun  
+- Bite  
+- Protect  
+- Rock Tomb  
+
+Drednaw  
+Level: 44
+Ability: Strong Jaw  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Protect  
+- Tackle  
+- Bite  
 - Water Gun
-- Magnitude
+
+Corphish  
+Level: 44
+Ability: Adaptability  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Crabhammer  
+- Bubble Beam  
+- Leer  
+- Protect  
+
+Corphish @ Life Orb  
+Level: 44
+Ability: Adaptability  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Crabhammer  
+- Swords Dance  
+- Leer  
+- Protect  
+
+Corphish  
+Level: 44
+Ability: Adaptability  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Swords Dance  
+- Protect  
+- Crabhammer  
+- Bubble Beam
+
+Gyarados  
+Level: 44
+Ability: Intimidate  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Aqua Tail  
+- Dragon Dance  
+- Bite  
+- Leer  
+
+Gyarados @ Life Orb  
+Level: 44
+Ability: Intimidate  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Waterfall  
+- Dragon Dance  
+- Ice Fang  
+- Crunch  
+
+Gyarados  
+Level: 44
+Ability: Intimidate  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Crunch  
+- Aqua Tail  
+- Dragon Dance  
+- Ice Fang
 
 === TRAINER_ELLIOT_1 ===
 Name: ELLIOT
@@ -64002,14 +65902,253 @@ Music: Hiker
 Double Battle: No
 AI: nettux
 Difficulty: Hard
+Party Size: 3
+/* Location: Route114 */
 
-Barboach
-Level: 19
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Mud Sport
-- Water Sport
+
+
+Buizel  
+Level: 44
+Ability: Swift Swim  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Aqua Jet  
+- Water Pulse  
+- Quick Attack  
+- Bite  
+
+Buizel @ Choice Specs  
+Level: 44
+Ability: Swift Swim  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Surf  
+- Aqua Jet  
+- Ice Beam  
+- Signal Beam  
+
+Buizel  
+Level: 44
+Ability: Swift Swim  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Water Pulse  
+- Bite  
+- Aqua Jet  
+- Quick Attack
+
+Slowbro  
+Level: 44
+Ability: Regenerator  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Surf  
+- Psychic  
+- Slack Off  
+- Amnesia  
+
+Slowbro @ Leftovers  
+Level: 44
+Ability: Regenerator  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Amnesia  
+- Psychic  
+- Surf  
+- Slack Off  
+
+Slowbro  
+Level: 44
+Ability: Regenerator  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Slack Off  
+- Surf  
+- Psychic  
+- Amnesia
+
+Pelipper  
+Level: 44
+Ability: Drizzle  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Scald  
+- Tailwind  
+- Roost  
+- Hurricane  
+
+Pelipper @ Damp Rock  
+Level: 44
+Ability: Drizzle  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Hurricane  
+- Tailwind  
+- Roost  
+- Scald  
+
+Pelipper  
+Level: 44
+Ability: Drizzle  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Tailwind  
+- Roost  
+- Hurricane  
+- Scald
+
+Sharpedo  
+Level: 44
+Ability: Speed Boost  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Bite  
+- Water Pulse  
+- Leer  
+- Double Team  
+
+Sharpedo @ Life Orb  
+Level: 44
+Ability: Speed Boost  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Crunch  
+- Waterfall  
+- Ice Fang  
+- Protect  
+
+Sharpedo  
+Level: 44
+Ability: Speed Boost  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Ice Fang  
+- Bite  
+- Water Pulse  
+- Double Team
+
+Croconaw  
+Level: 44
+Ability: Torrent  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Water Gun  
+- Ice Fang  
+- Crunch  
+- Scratch  
+
+Croconaw @ Life Orb  
+Level: 44
+Ability: Torrent  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Ice Fang  
+- Water Gun  
+- Crunch  
+- Aqua Tail  
+
+Croconaw  
+Level: 44
+Ability: Torrent  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Crunch  
+- Scratch  
+- Water Gun  
+- Ice Fang
+
+Corphish  
+Level: 44
+Ability: Adaptability  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Crabhammer  
+- Bubble Beam  
+- Leer  
+- Protect  
+
+Corphish @ Life Orb  
+Level: 44
+Ability: Adaptability  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Crabhammer  
+- Swords Dance  
+- Leer  
+- Protect  
+
+Corphish  
+Level: 44
+Ability: Adaptability  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Swords Dance  
+- Protect  
+- Crabhammer  
+- Bubble Beam
+
+Starmie  
+Level: 44
+Ability: Natural Cure  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Surf  
+- Psychic  
+- Rapid Spin  
+- Recover  
+
+Starmie @ Leftovers  
+Level: 44
+Ability: Natural Cure  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Rapid Spin  
+- Surf  
+- Recover  
+- Psychic  
+
+Starmie  
+Level: 44
+Ability: Natural Cure  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Recover  
+- Psychic  
+- Surf  
+- Rapid Spin
+
+Gyarados  
+Level: 44
+Ability: Intimidate  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Aqua Tail  
+- Dragon Dance  
+- Bite  
+- Leer  
+
+Gyarados @ Life Orb  
+Level: 44
+Ability: Intimidate  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Waterfall  
+- Dragon Dance  
+- Ice Fang  
+- Crunch  
+
+Gyarados  
+Level: 44
+Ability: Intimidate  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Crunch  
+- Aqua Tail  
+- Dragon Dance  
+- Ice Fang
+
+Drednaw  
+Level: 44
+Ability: Strong Jaw  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Bite  
+- Water Gun  
+- Protect  
+- Tackle  
+
+Drednaw @ Life Orb  
+Level: 44
+Ability: Strong Jaw  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Water Gun  
+- Bite  
+- Protect  
+- Rock Tomb  
+
+Drednaw  
+Level: 44
+Ability: Strong Jaw  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Protect  
+- Tackle  
+- Bite  
 - Water Gun
-- Magnitude
 
 === TRAINER_BARNY ===
 Name: BARNY
@@ -67836,30 +69975,278 @@ Gender: Male
 Music: Suspicious
 Double Battle: No
 Difficulty: Hard
+Party Size: 3
+/* Location: Route113 */
 
-Koffing
-Level: 17
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Poison Gas
-- Tackle
-- Smog
-- Self Destruct
+Weezing  
+Level: 44
+Ability: Levitate  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Sludge Bomb  
+- Will-O-Wisp  
+- Pain Split  
+- Toxic  
 
-Koffing
-Level: 17
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Poison Gas
-- Tackle
-- Smog
-- Self Destruct
+Weezing @ Black Sludge  
+Level: 44
+Ability: Levitate  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Sludge Bomb  
+- Haze  
+- Toxic  
+- Protect  
 
-Koffing
-Level: 17
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Poison Gas
-- Tackle
-- Sludge
-- Self Destruct
+Weezing  
+Level: 44
+Ability: Levitate  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Sludge Bomb  
+- Flamethrower  
+- Will-O-Wisp  
+- Pain Split
+
+Drapion  
+Level: 44
+Ability: Battle Armor  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Cross Poison  
+- Earthquake  
+- Night Slash  
+- Swords Dance  
+
+Drapion @ Black Sludge  
+Level: 44
+Ability: Battle Armor  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Cross Poison  
+- Night Slash  
+- Toxic  
+- Protect  
+
+Drapion  
+Level: 44
+Ability: Battle Armor  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Cross Poison  
+- Earthquake  
+- Knock Off  
+- Swords Dance
+
+Magmortar  
+Level: 44
+Ability: Flame Body  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Flamethrower  
+- Psychic  
+- Focus Blast  
+- Fire Punch  
+
+Magmortar @ Choice Specs  
+Level: 44
+Ability: Flame Body  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Flamethrower  
+- Psychic  
+- Focus Blast  
+- Thunderbolt  
+
+Magmortar  
+Level: 44
+Ability: Flame Body  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Flamethrower  
+- Psychic  
+- Will-O-Wisp  
+- Protect
+
+Banette  
+Level: 44
+Ability: Frisk  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Shadow Claw  
+- Will-O-Wisp  
+- Sucker Punch  
+- Destiny Bond  
+
+Banette @ Focus Sash  
+Level: 44
+Ability: Frisk  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Shadow Claw  
+- Sucker Punch  
+- Knock Off  
+- Protect  
+
+Banette  
+Level: 44
+Ability: Frisk  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Shadow Claw  
+- Will-O-Wisp  
+- Destiny Bond  
+- Taunt
+
+Ninjask  
+Level: 44
+Ability: Speed Boost  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- X-Scissor  
+- Aerial Ace  
+- Swords Dance  
+- Baton Pass  
+
+Ninjask @ Focus Sash  
+Level: 44
+Ability: Speed Boost  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Protect  
+- Swords Dance  
+- X-Scissor  
+- Substitute  
+
+Ninjask  
+Level: 44
+Ability: Speed Boost  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- X-Scissor  
+- Agility  
+- Double Team  
+- Baton Pass
+
+Crobat  
+Level: 44
+Ability: Infiltrator  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Cross Poison  
+- Brave Bird  
+- Roost  
+- Taunt  
+
+Crobat @ Black Sludge  
+Level: 44
+Ability: Infiltrator  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Acrobatics  
+- U-Turn  
+- Confuse Ray  
+- Taunt  
+
+Crobat  
+Level: 44
+Ability: Infiltrator  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Cross Poison  
+- Air Slash  
+- Toxic  
+- Protect
+
+Zangoose  
+Level: 44
+Ability: Toxic Boost  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Close Combat  
+- Swords Dance  
+- Facade  
+- Quick Attack  
+
+Zangoose @ Life Orb  
+Level: 44
+Ability: Toxic Boost  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Close Combat  
+- Knock Off  
+- Quick Attack  
+- Swords Dance  
+
+Zangoose  
+Level: 44
+Ability: Toxic Boost  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Close Combat  
+- Shadow Claw  
+- Quick Attack  
+- Swords Dance
+
+Croagunk  
+Level: 44
+Ability: Dry Skin  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Poison Jab  
+- Drain Punch  
+- Sucker Punch  
+- Toxic  
+
+Croagunk @ Black Sludge  
+Level: 44
+Ability: Dry Skin  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Toxic  
+- Sucker Punch  
+- Drain Punch  
+- Protect  
+
+Croagunk  
+Level: 44
+Ability: Dry Skin  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Poison Jab  
+- Ice Punch  
+- Drain Punch  
+- Fake Out
+
+Greninja  
+Level: 44
+Ability: Protean  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Hydro Pump  
+- Dark Pulse  
+- Ice Beam  
+- U-Turn  
+
+Greninja @ Life Orb  
+Level: 44
+Ability: Protean  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Hydro Pump  
+- Dark Pulse  
+- Extrasensory  
+- U-Turn  
+
+Greninja  
+Level: 44
+Ability: Protean  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Hydro Pump  
+- Ice Beam  
+- Dark Pulse  
+- Water Shuriken
+
+Sneasler  
+Level: 44
+Ability: Unburden  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Close Combat  
+- Poison Jab  
+- Sucker Punch  
+- Ice Punch  
+
+Sneasler @ Life Orb  
+Level: 44
+Ability: Unburden  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Close Combat  
+- Knock Off  
+- Sucker Punch  
+- Fake Out  
+
+Sneasler  
+Level: 44
+Ability: Pressure  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Close Combat  
+- Ice Punch  
+- Fake Out  
+- Swords Dance
 
 === TRAINER_LUNG ===
 Name: LUNG
@@ -67869,22 +70256,278 @@ Gender: Male
 Music: Suspicious
 Double Battle: No
 Difficulty: Hard
+Party Size: 3
+/* Location: Route113 */
 
-Koffing
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Poison Gas
-- Tackle
-- Smog
-- Self Destruct
+Drapion  
+Level: 44
+Ability: Battle Armor  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Cross Poison  
+- Earthquake  
+- Night Slash  
+- Swords Dance  
 
-Ninjask
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Sand Attack
-- Leech Life
-- Sand Attack
-- Fury Swipes
+Drapion @ Black Sludge  
+Level: 44
+Ability: Battle Armor  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Cross Poison  
+- Night Slash  
+- Toxic  
+- Protect  
+
+Drapion  
+Level: 44
+Ability: Battle Armor  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Cross Poison  
+- Earthquake  
+- Knock Off  
+- Swords Dance
+
+Weezing  
+Level: 44
+Ability: Levitate  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Sludge Bomb  
+- Will-O-Wisp  
+- Pain Split  
+- Toxic  
+
+Weezing @ Black Sludge  
+Level: 44
+Ability: Levitate  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Sludge Bomb  
+- Haze  
+- Toxic  
+- Protect  
+
+Weezing  
+Level: 44
+Ability: Levitate  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Sludge Bomb  
+- Flamethrower  
+- Will-O-Wisp  
+- Pain Split
+
+Banette  
+Level: 44
+Ability: Frisk  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Shadow Claw  
+- Will-O-Wisp  
+- Sucker Punch  
+- Destiny Bond  
+
+Banette @ Focus Sash  
+Level: 44
+Ability: Frisk  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Shadow Claw  
+- Sucker Punch  
+- Knock Off  
+- Protect  
+
+Banette  
+Level: 44
+Ability: Frisk  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Shadow Claw  
+- Will-O-Wisp  
+- Destiny Bond  
+- Taunt
+
+Crobat  
+Level: 44
+Ability: Infiltrator  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Cross Poison  
+- Brave Bird  
+- Roost  
+- Taunt  
+
+Crobat @ Black Sludge  
+Level: 44
+Ability: Infiltrator  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Acrobatics  
+- U-Turn  
+- Confuse Ray  
+- Taunt  
+
+Crobat  
+Level: 44
+Ability: Infiltrator  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Cross Poison  
+- Air Slash  
+- Toxic  
+- Protect
+
+Magmortar  
+Level: 44
+Ability: Flame Body  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Flamethrower  
+- Psychic  
+- Focus Blast  
+- Fire Punch  
+
+Magmortar @ Choice Specs  
+Level: 44
+Ability: Flame Body  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Flamethrower  
+- Psychic  
+- Focus Blast  
+- Thunderbolt  
+
+Magmortar  
+Level: 44
+Ability: Flame Body  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Flamethrower  
+- Psychic  
+- Will-O-Wisp  
+- Protect
+
+Greninja  
+Level: 44
+Ability: Protean  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Hydro Pump  
+- Dark Pulse  
+- Ice Beam  
+- U-Turn  
+
+Greninja @ Life Orb  
+Level: 44
+Ability: Protean  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Hydro Pump  
+- Dark Pulse  
+- Extrasensory  
+- U-Turn  
+
+Greninja  
+Level: 44
+Ability: Protean  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Hydro Pump  
+- Ice Beam  
+- Dark Pulse  
+- Water Shuriken
+
+Croagunk  
+Level: 44
+Ability: Dry Skin  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Poison Jab  
+- Drain Punch  
+- Sucker Punch  
+- Toxic  
+
+Croagunk @ Black Sludge  
+Level: 44
+Ability: Dry Skin  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Toxic  
+- Sucker Punch  
+- Drain Punch  
+- Protect  
+
+Croagunk  
+Level: 44
+Ability: Dry Skin  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Poison Jab  
+- Ice Punch  
+- Drain Punch  
+- Fake Out
+
+Ninjask  
+Level: 44
+Ability: Speed Boost  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- X-Scissor  
+- Aerial Ace  
+- Swords Dance  
+- Baton Pass  
+
+Ninjask @ Focus Sash  
+Level: 44
+Ability: Speed Boost  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Protect  
+- Swords Dance  
+- X-Scissor  
+- Substitute  
+
+Ninjask  
+Level: 44
+Ability: Speed Boost  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- X-Scissor  
+- Agility  
+- Double Team  
+- Baton Pass
+
+Zangoose  
+Level: 44
+Ability: Toxic Boost  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Close Combat  
+- Swords Dance  
+- Facade  
+- Quick Attack  
+
+Zangoose @ Life Orb  
+Level: 44
+Ability: Toxic Boost  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Close Combat  
+- Knock Off  
+- Quick Attack  
+- Swords Dance  
+
+Zangoose  
+Level: 44
+Ability: Toxic Boost  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Close Combat  
+- Shadow Claw  
+- Quick Attack  
+- Swords Dance
+
+Sneasler  
+Level: 44
+Ability: Unburden  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Close Combat  
+- Poison Jab  
+- Sucker Punch  
+- Ice Punch  
+
+Sneasler @ Life Orb  
+Level: 44
+Ability: Unburden  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Close Combat  
+- Knock Off  
+- Sucker Punch  
+- Fake Out  
+
+Sneasler  
+Level: 44
+Ability: Pressure  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Close Combat  
+- Ice Punch  
+- Fake Out  
+- Swords Dance
 
 === TRAINER_LAO_2 ===
 Name: LAO
@@ -68775,12 +71418,13 @@ Music: Female
 Double Battle: No
 AI: nettux
 Difficulty: Hard
+/* Location: Route113 */
 
-Numel
-Level: 19
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Ember
-- Tackle
+Camerupt
+Level: 44
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Flamethrower
+- Take Down
 - Magnitude
 - Sunny Day
 
@@ -69650,33 +72294,6 @@ IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Leech Seed  
 - Aromatherapy
 
-Togekiss  
-Level: 42
-Ability: Serene Grace  
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Air Slash  
-- Thunder Wave  
-- Roost  
-- Aura Sphere  
-
-Togekiss @ Leftovers  
-Level: 42
-Ability: Serene Grace  
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Dazzling Gleam  
-- Heal Bell  
-- Air Slash  
-- Protect  
-
-Togekiss  
-Level: 42
-Ability: Serene Grace  
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Air Slash  
-- Thunder Wave  
-- Roost  
-- Protect
-
 Espeon  
 Level: 42
 Ability: Synchronize  
@@ -69704,31 +72321,31 @@ IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Baton Pass  
 - Calm Mind
 
-Umbreon  
+Togekiss  
 Level: 42
-Ability: Synchronize  
+Ability: Serene Grace  
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Foul Play  
-- Toxic  
-- Wish  
-- Protect  
+- Air Slash  
+- Thunder Wave  
+- Roost  
+- Aura Sphere  
 
-Umbreon @ Leftovers  
+Togekiss @ Leftovers  
 Level: 42
-Ability: Synchronize  
+Ability: Serene Grace  
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Foul Play  
+- Dazzling Gleam  
 - Heal Bell  
-- Toxic  
+- Air Slash  
 - Protect  
 
-Umbreon  
+Togekiss  
 Level: 42
-Ability: Synchronize  
+Ability: Serene Grace  
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Toxic  
-- Foul Play  
-- Moonlight  
+- Air Slash  
+- Thunder Wave  
+- Roost  
 - Protect
 
 Nidoqueen  
@@ -69866,6 +72483,33 @@ IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Thunder Wave  
 - Aromatherapy
 
+Pachirisu  
+Level: 42
+Ability: Volt Absorb  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Thunderbolt  
+- Super Fang  
+- Encore  
+- Protect  
+
+Pachirisu @ Leftovers  
+Level: 42
+Ability: Volt Absorb  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Thunderbolt  
+- Discharge  
+- Nuzzle  
+- Taunt  
+
+Pachirisu  
+Level: 42
+Ability: Volt Absorb  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Thunderbolt  
+- Super Fang  
+- Taunt  
+- Protect
+
 === TRAINER_NANCY ===
 Name: NANCY
 Class: Picnicker
@@ -69875,22 +72519,278 @@ Music: Girl
 Double Battle: No
 AI: nettux
 Difficulty: Hard
+Party Size: 3
+/* Location: Route114 */
 
-Marill
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Defense Curl
-- Tail Whip
-- Water Gun
-- Rollout
+Granbull  
+Level: 44
+Ability: Intimidate  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Play Rough  
+- Crunch  
+- Thunder Wave  
+- Heal Bell  
 
-Lombre
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Astonish
-- Growl
-- Absorb
-- Nature Power
+Granbull @ Life Orb  
+Level: 44
+Ability: Intimidate  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Play Rough  
+- Fire Fang  
+- Earthquake  
+- Thunder Wave  
+
+Granbull  
+Level: 44
+Ability: Intimidate  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Play Rough  
+- Thunder Wave  
+- Toxic  
+- Heal Bell
+
+Togekiss  
+Level: 44
+Ability: Serene Grace  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Air Slash  
+- Thunder Wave  
+- Roost  
+- Aura Sphere  
+
+Togekiss @ Leftovers  
+Level: 44
+Ability: Serene Grace  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Dazzling Gleam  
+- Heal Bell  
+- Air Slash  
+- Protect  
+
+Togekiss  
+Level: 44
+Ability: Serene Grace  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Air Slash  
+- Thunder Wave  
+- Roost  
+- Protect
+
+Nidoqueen  
+Level: 44
+Ability: Sheer Force  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Earth Power  
+- Sludge Bomb  
+- Ice Beam  
+- Thunderbolt  
+
+Nidoqueen @ Leftovers  
+Level: 44
+Ability: Sheer Force  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Earth Power  
+- Sludge Bomb  
+- Flamethrower  
+- Toxic  
+
+Nidoqueen  
+Level: 44
+Ability: Sheer Force  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Earthquake  
+- Poison Jab  
+- Ice Beam  
+- Thunderbolt
+
+Ninetales  
+Level: 44
+Ability: Drought  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Flamethrower  
+- Solar Beam  
+- Will-O-Wisp  
+- Protect  
+
+Ninetales @ Light Clay  
+Level: 44
+Ability: Drought  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Flamethrower  
+- Aurora Veil  
+- Encore  
+- Solar Beam  
+
+Ninetales  
+Level: 44
+Ability: Drought  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Heat Wave  
+- Solar Beam  
+- Will-O-Wisp  
+- Protect
+
+Milotic  
+Level: 44
+Ability: Marvel Scale  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Scald  
+- Ice Beam  
+- Recover  
+- Toxic  
+
+Milotic @ Leftovers  
+Level: 44
+Ability: Marvel Scale  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Dragon Pulse  
+- Ice Beam  
+- Recover  
+- Toxic  
+
+Milotic  
+Level: 44
+Ability: Marvel Scale  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Scald  
+- Dragon Pulse  
+- Recover  
+- Haze
+
+Roserade  
+Level: 44
+Ability: Natural Cure  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Sludge Bomb  
+- Giga Drain  
+- Toxic Spikes  
+- Spikes  
+
+Roserade @ Black Sludge  
+Level: 44
+Ability: Natural Cure  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Sludge Bomb  
+- Shadow Ball  
+- Toxic Spikes  
+- Spikes  
+
+Roserade  
+Level: 44
+Ability: Natural Cure  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Giga Drain  
+- Sludge Bomb  
+- Toxic  
+- Aromatherapy
+
+Pachirisu  
+Level: 44
+Ability: Volt Absorb  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Thunderbolt  
+- Super Fang  
+- Encore  
+- Protect  
+
+Pachirisu @ Leftovers  
+Level: 44
+Ability: Volt Absorb  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Thunderbolt  
+- Discharge  
+- Nuzzle  
+- Taunt  
+
+Pachirisu  
+Level: 44
+Ability: Volt Absorb  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Thunderbolt  
+- Super Fang  
+- Taunt  
+- Protect
+
+Wigglytuff  
+Level: 44
+Ability: Competitive  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Hyper Voice  
+- Thunder Wave  
+- Dazzling Gleam  
+- Protect  
+
+Wigglytuff @ Leftovers  
+Level: 44
+Ability: Competitive  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Play Rough  
+- Heal Bell  
+- Hyper Voice  
+- Protect  
+
+Wigglytuff  
+Level: 44
+Ability: Competitive  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Hyper Voice  
+- Dazzling Gleam  
+- Toxic  
+- Thunder Wave
+
+Espeon  
+Level: 44
+Ability: Synchronize  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Psychic  
+- Shadow Ball  
+- Calm Mind  
+- Morning Sun  
+
+Espeon @ Focus Sash  
+Level: 44
+Ability: Synchronize  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Psychic  
+- Dazzling Gleam  
+- Calm Mind  
+- Morning Sun  
+
+Espeon  
+Level: 44
+Ability: Synchronize  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Psychic  
+- Shadow Ball  
+- Baton Pass  
+- Calm Mind
+
+Kadabra  
+Level: 44
+Ability: Synchronize  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Psychic  
+- Shadow Ball  
+- Reflect  
+- Recover  
+
+Kadabra @ Life Orb  
+Level: 44
+Ability: Synchronize  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Psychic  
+- Focus Blast  
+- Shadow Ball  
+- Encore  
+
+Kadabra  
+Level: 44
+Ability: Synchronize  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Calm Mind  
+- Psychic  
+- Shadow Ball  
+- Recover
 
 === TRAINER_MARTHA ===
 Name: MARTHA
@@ -70171,59 +73071,59 @@ IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Toxic  
 - Heal Bell
 
-Umbreon  
+Pachirisu  
 Level: 42
-Ability: Synchronize  
+Ability: Volt Absorb  
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Foul Play  
-- Toxic  
-- Wish  
+- Thunderbolt  
+- Super Fang  
+- Encore  
 - Protect  
 
-Umbreon @ Leftovers  
+Pachirisu @ Leftovers  
 Level: 42
-Ability: Synchronize  
+Ability: Volt Absorb  
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Foul Play  
-- Heal Bell  
-- Toxic  
-- Protect  
+- Thunderbolt  
+- Discharge  
+- Nuzzle  
+- Taunt  
 
-Umbreon  
+Pachirisu  
 Level: 42
-Ability: Synchronize  
+Ability: Volt Absorb  
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Toxic  
-- Foul Play  
-- Moonlight  
+- Thunderbolt  
+- Super Fang  
+- Taunt  
 - Protect
 
-Roserade  
+Togekiss  
 Level: 42
-Ability: Natural Cure  
+Ability: Serene Grace  
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Sludge Bomb  
-- Giga Drain  
-- Toxic Spikes  
-- Spikes  
+- Air Slash  
+- Thunder Wave  
+- Roost  
+- Aura Sphere  
 
-Roserade @ Black Sludge  
+Togekiss @ Leftovers  
 Level: 42
-Ability: Natural Cure  
+Ability: Serene Grace  
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Sludge Bomb  
-- Shadow Ball  
-- Toxic Spikes  
-- Spikes  
+- Dazzling Gleam  
+- Heal Bell  
+- Air Slash  
+- Protect  
 
-Roserade  
+Togekiss  
 Level: 42
-Ability: Natural Cure  
+Ability: Serene Grace  
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Giga Drain  
-- Sludge Bomb  
-- Toxic  
-- Aromatherapy
+- Air Slash  
+- Thunder Wave  
+- Roost  
+- Protect
 
 Espeon  
 Level: 42
@@ -72500,13 +75400,13 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Safeguard
 - Aerial Ace
 
-Arcanine Hisui @ Charcoal
+Blaziken @ Charcoal
 Level: 38
-Ability: Intimidate
+Ability: Blaze
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Flare Blitz
-- Rock Slide
-- Howl
+- High Jump Kick
+- Bulk Up
 - Protect
 
 Sceptile @ Miracle Seed
@@ -72518,13 +75418,13 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Focus Blast
 - Detect
 
-Drednaw @ Mystic Water
+Swampert @ Mystic Water
 Level: 38
-Ability: Strong Jaw
+Ability: Torrent
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Waterfall
-- Crunch
-- Rock Tomb
+- Earthquake
+- Ice Punch
 - Protect
 
 Lucario @ Black Belt
@@ -72614,22 +75514,22 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Bulk Up
 - Protect
 
-Roserade @ Miracle Seed
+Sceptile @ Miracle Seed
 Level: 38
-Ability: Natural Cure
+Ability: Overgrow
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Giga Drain
-- Stun Spore
-- Leech Seed
-- Sludge Bomb
+- Leaf Blade
+- Dragon Pulse
+- Focus Blast
+- Detect
 
-Drednaw @ Mystic Water
+Swampert @ Mystic Water
 Level: 38
-Ability: Strong Jaw
+Ability: Torrent
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Waterfall
-- Crunch
-- Rock Tomb
+- Earthquake
+- Ice Punch
 - Protect
 
 Lucario @ Black Belt
@@ -72710,23 +75610,23 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Safeguard
 - Aerial Ace
 
-Arcanine Hisui @ Charcoal
+Blaziken @ Charcoal
 Level: 38
-Ability: Intimidate
+Ability: Blaze
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Flare Blitz
-- Rock Slide
-- Howl
+- High Jump Kick
+- Bulk Up
 - Protect
 
-Roserade @ Miracle Seed
+Sceptile @ Miracle Seed
 Level: 38
-Ability: Natural Cure
+Ability: Overgrow
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Giga Drain
-- Stun Spore
-- Leech Seed
-- Sludge Bomb
+- Leaf Blade
+- Dragon Pulse
+- Focus Blast
+- Detect
 
 Swampert @ Mystic Water
 Level: 38
@@ -72815,13 +75715,13 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Safeguard
 - Aerial Ace
 
-Arcanine Hisui @ Charcoal
+Blaziken @ Charcoal
 Level: 38
-Ability: Intimidate
+Ability: Blaze
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Flare Blitz
-- Rock Slide
-- Howl
+- High Jump Kick
+- Bulk Up
 - Protect
 
 Sceptile @ Miracle Seed
@@ -72833,13 +75733,13 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Focus Blast
 - Detect
 
-Drednaw @ Mystic Water
+Swampert @ Mystic Water
 Level: 38
-Ability: Strong Jaw
+Ability: Torrent
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Waterfall
-- Crunch
-- Rock Tomb
+- Earthquake
+- Ice Punch
 - Protect
 
 Lucario @ Black Belt
@@ -72929,22 +75829,22 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Bulk Up
 - Protect
 
-Roserade @ Miracle Seed
+Sceptile @ Miracle Seed
 Level: 38
-Ability: Natural Cure
+Ability: Overgrow
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Giga Drain
-- Stun Spore
-- Leech Seed
-- Sludge Bomb
+- Leaf Blade
+- Dragon Pulse
+- Focus Blast
+- Detect
 
-Drednaw @ Mystic Water
+Swampert @ Mystic Water
 Level: 38
-Ability: Strong Jaw
+Ability: Torrent
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Waterfall
-- Crunch
-- Rock Tomb
+- Earthquake
+- Ice Punch
 - Protect
 
 Lucario @ Black Belt
@@ -73025,23 +75925,23 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Safeguard
 - Aerial Ace
 
-Arcanine Hisui @ Charcoal
+Blaziken @ Charcoal
 Level: 38
-Ability: Intimidate
+Ability: Blaze
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Flare Blitz
-- Rock Slide
-- Howl
+- High Jump Kick
+- Bulk Up
 - Protect
 
-Roserade @ Miracle Seed
+Sceptile @ Miracle Seed
 Level: 38
-Ability: Natural Cure
+Ability: Overgrow
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Giga Drain
-- Stun Spore
-- Leech Seed
-- Sludge Bomb
+- Leaf Blade
+- Dragon Pulse
+- Focus Blast
+- Detect
 
 Swampert @ Mystic Water
 Level: 38
@@ -75887,14 +78787,278 @@ Music: Magma
 Double Battle: No
 AI: nettux
 Difficulty: Hard
+Party Size: 3
+/* Location: MtChimney */
 
-Zubat
-Level: 20
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Leech Life
-- Supersonic
-- Astonish
-- Bite
+Luxray  
+Level: 50
+Ability: Intimidate  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Wild Charge  
+- Crunch  
+- Fire Fang  
+- Ice Fang  
+
+Luxray @ Passho Berry  
+Level: 50
+Ability: Intimidate  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Thunder Fang  
+- Play Rough  
+- Crunch  
+- Fire Fang  
+
+Luxray  
+Level: 50
+Ability: Intimidate  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Spark  
+- Ice Fang  
+- Fire Fang  
+- Protect
+
+Camerupt  
+Level: 50
+Ability: Solid Rock  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Earth Power  
+- Lava Plume  
+- Rock Slide  
+- Amnesia  
+
+Camerupt @ Shuca Berry  
+Level: 50
+Ability: Solid Rock  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Earthquake  
+- Fire Blast  
+- Stone Edge  
+- Will-O-Wisp  
+
+Camerupt  
+Level: 50
+Ability: Solid Rock  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Flamethrower  
+- Earth Power  
+- Stealth Rock  
+- Yawn
+
+Crobat  
+Level: 50
+Ability: Infiltrator  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Cross Poison  
+- Brave Bird  
+- U-turn  
+- Roost  
+
+Crobat @ Sitrus Berry  
+Level: 50
+Ability: Infiltrator  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Brave Bird  
+- Heat Wave  
+- Roost  
+- U-turn  
+
+Crobat  
+Level: 50
+Ability: Infiltrator  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Acrobatics  
+- Cross Poison  
+- Confuse Ray  
+- Steel Wing
+
+Arcanine Hisui  
+Level: 50
+Ability: Intimidate  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Flare Blitz  
+- Rock Slide  
+- Wild Charge  
+- Crunch  
+
+Arcanine Hisui @ Aguav Berry  
+Level: 50
+Ability: Intimidate  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Flare Blitz  
+- Head Smash  
+- Rock Slide  
+- Close Combat  
+
+Arcanine Hisui  
+Level: 50
+Ability: Intimidate  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Flare Blitz  
+- Psychic Fangs  
+- Crunch  
+- Rock Slide
+
+Mightyena  
+Level: 50
+Ability: Intimidate  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Crunch  
+- Fire Fang  
+- Play Rough  
+- Roar  
+
+Mightyena @ Figy Berry  
+Level: 50
+Ability: Intimidate  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Crunch  
+- Thunder Fang  
+- Fire Fang  
+- Sucker Punch  
+
+Mightyena  
+Level: 50
+Ability: Intimidate  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Crunch  
+- Iron Tail  
+- Fire Fang  
+- Snarl
+
+Magcargo  
+Level: 50
+Ability: Flame Body  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Lava Plume  
+- Ancient Power  
+- Earth Power  
+- Recover  
+
+Magcargo @ Occa Berry  
+Level: 50
+Ability: Flame Body  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Flamethrower  
+- Rock Slide  
+- Stealth Rock  
+- Yawn  
+
+Magcargo  
+Level: 50
+Ability: Flame Body  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Fire Blast  
+- Earth Power  
+- Shell Smash  
+- Ancient Power
+
+Excadrill  
+Level: 50
+Ability: Mold Breaker  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Earthquake  
+- Rock Slide  
+- Iron Head  
+- Rapid Spin  
+
+Excadrill @ Rindo Berry  
+Level: 50
+Ability: Mold Breaker  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Earthquake  
+- Stone Edge  
+- Iron Head  
+- Swords Dance  
+
+Excadrill  
+Level: 50
+Ability: Mold Breaker  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Drill Run  
+- Rock Slide  
+- Sandstorm  
+- Protect
+
+Claydol  
+Level: 50
+Ability: Levitate  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Earth Power  
+- Psychic  
+- Ancient Power  
+- Rapid Spin  
+
+Claydol @ Lum Berry  
+Level: 50
+Ability: Levitate  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Earthquake  
+- Rock Tomb  
+- Psychic  
+- Light Screen  
+
+Claydol  
+Level: 50
+Ability: Levitate  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Earth Power  
+- Rock Slide  
+- Cosmic Power  
+- Explosion
+
+Gengar  
+Level: 50
+Ability: Cursed Body  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Shadow Ball  
+- Sludge Bomb  
+- Will-O-Wisp  
+- Dazzling Gleam  
+
+Gengar @ Chilan Berry  
+Level: 50
+Ability: Cursed Body  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Shadow Ball  
+- Energy Ball  
+- Focus Blast  
+- Will-O-Wisp  
+
+Gengar  
+Level: 50
+Ability: Cursed Body  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Hex  
+- Sludge Bomb  
+- Thunderbolt  
+- Fire Punch
+
+Houndoom  
+Level: 50
+Ability: Flash Fire  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Flamethrower  
+- Dark Pulse  
+- Sludge Bomb  
+- Nasty Plot  
+
+Houndoom @ Charti Berry  
+Level: 50
+Ability: Flash Fire  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Fire Blast  
+- Dark Pulse  
+- Will-O-Wisp  
+- Mud-Slap
+
+Houndoom  
+Level: 50
+Ability: Flash Fire  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Flamethrower  
+- Crunch  
+- Taunt  
+- Fire Fang
 
 === TRAINER_CLARENCE ===
 Name: CLARENCE
@@ -76139,6 +79303,24 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Safeguard
 - Astonish
 
+Marshtomp @ Soft Sand
+Level: 25
+Ability: Torrent
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Mud Shot
+- Water Gun
+- Rock Tomb
+- Growl
+
+Grovyle @ Miracle Seed
+Level: 25
+Ability: Overgrow
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Leaf Blade
+- Pursuit
+- Quick Attack
+- Fury Cutter
+
 Combusken @ Charcoal
 Level: 25
 Ability: Blaze
@@ -76147,24 +79329,6 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Double Kick
 - Peck
 - Bulk Up
-
-Roselia @ Miracle Seed
-Level: 25
-Ability: Natural Cure
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Giga Drain
-- Stun Spore
-- Leech Seed
-- Venoshock
-
-Drednaw @ Mystic Water
-Level: 25
-Ability: Strong Jaw
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Water Gun
-- Bite
-- Rock Tomb
-- Protect
 
 === TRAINER_BRENDAN_RUSTBORO_MUDKIP ===
 Name: BRENDAN
@@ -76185,6 +79349,15 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Safeguard
 - Astonish
 
+Marshtomp @ Soft Sand
+Level: 25
+Ability: Torrent
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Mud Shot
+- Water Gun
+- Rock Tomb
+- Growl
+
 Grovyle @ Miracle Seed
 Level: 25
 Ability: Overgrow
@@ -76194,23 +79367,14 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Quick Attack
 - Fury Cutter
 
-Growlithe Hisui @ Charcoal
+Combusken @ Charcoal
 Level: 25
-Ability: Intimidate
+Ability: Blaze
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Flame Wheel
-- Rock Slide
-- Howl
-- Protect
-
-Drednaw @ Mystic Water
-Level: 25
-Ability: Strong Jaw
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Water Gun
-- Bite
-- Rock Tomb
-- Protect
+- Flame Charge
+- Double Kick
+- Peck
+- Bulk Up
 
 === TRAINER_PAXTON ===
 Name: PAXTON
@@ -76291,37 +79455,47 @@ Music: Magma
 Double Battle: No
 AI: nettux
 Difficulty: Hard
+/* Location: MtChimney */
 
-Numel
-Level: 18
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-- Growl
-- Tackle
-- Ember
+Ninetales @ Heat Rock
+Level: 50
+Ability: Drought
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+Nature: Timid
+- Flamethrower
+- Solar Beam
+- Will-O-Wisp
+- Sunny Day
 
-Poochyena
-Level: 20
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-- Howl
-- Sand Attack
-- Bite
-- Odor Sleuth
+Luxray @ Shuca Berry
+Level: 50
+Ability: Intimidate
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+Nature: Jolly
+- Wild Charge
+- Fire Fang
+- Crunch
+- Thunder Wave
 
-Numel
-Level: 22
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-- Growl
-- Tackle
-- Ember
-- Magnitude
+Claydol @ Leftovers
+Level: 50
+Ability: Levitate
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+Nature: Calm
+- Earth Power
+- Psychic
+- Stealth Rock
+- Sunny Day
 
-Zubat
-Level: 22
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-- Supersonic
-- Astonish
-- Bite
-- Wing Attack
+Houndoom @ Houndoominite
+Level: 50
+Ability: Flash Fire
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+Nature: Modest
+- Fire Blast
+- Dark Pulse
+- Solar Beam
+- Nasty Plot
 
 === TRAINER_JONATHAN ===
 Name: JONATHAN
@@ -76377,23 +79551,23 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Rock Tomb
 - Growl
 
-Growlithe Hisui @ Charcoal
+Grovyle @ Miracle Seed
 Level: 25
-Ability: Intimidate
+Ability: Overgrow
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Flame Wheel
-- Rock Slide
-- Howl
-- Protect
+- Leaf Blade
+- Pursuit
+- Quick Attack
+- Fury Cutter
 
-Roselia @ Miracle Seed
+Combusken @ Charcoal
 Level: 25
-Ability: Natural Cure
+Ability: Blaze
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Giga Drain
-- Stun Spore
-- Leech Seed
-- Venoshock
+- Flame Charge
+- Double Kick
+- Peck
+- Bulk Up
 
 === TRAINER_MAY_RUSTBORO_MUDKIP ===
 Name: MAY
@@ -76414,6 +79588,15 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Safeguard
 - Astonish
 
+Marshtomp @ Soft Sand
+Level: 25
+Ability: Torrent
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Mud Shot
+- Water Gun
+- Rock Tomb
+- Growl
+
 Grovyle @ Miracle Seed
 Level: 25
 Ability: Overgrow
@@ -76423,23 +79606,14 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Quick Attack
 - Fury Cutter
 
-Growlithe Hisui @ Charcoal
+Combusken @ Charcoal
 Level: 25
-Ability: Intimidate
+Ability: Blaze
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Flame Wheel
-- Rock Slide
-- Howl
-- Protect
-
-Drednaw @ Mystic Water
-Level: 25
-Ability: Strong Jaw
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Water Gun
-- Bite
-- Rock Tomb
-- Protect
+- Flame Charge
+- Double Kick
+- Peck
+- Bulk Up
 
 === TRAINER_MAXIE_MAGMA_HIDEOUT ===
 Name: MAXIE
@@ -76486,55 +79660,56 @@ AI: nettux
 Difficulty: Hard
 /* Location: MtChimney */
 
-Mightyena
-Level: 47
-Ability: Intimidate
+Torkoal @ Heat Rock
+Level: 50
+Ability: Drought
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-Nature: Adamant
-- Crunch
-- Play Rough
-- Sucker Punch
-- Thunder Fang
+Nature: Relaxed
+- Lava Plume
+- Solar Beam
+- Stealth Rock
+- Yawn
 
-Crobat
-Level: 47
+Crobat @ Black Sludge
+Level: 50
 Ability: Infiltrator
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 Nature: Jolly
 - Brave Bird
 - Cross Poison
+- U-turn
 - Roost
-- U-Turn
 
-Houndoom
-Level: 47
+Aerodactyl @ Focus Sash
+Level: 50
+Ability: Pressure
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+Nature: Jolly
+- Stone Edge
+- Earthquake
+- Taunt
+- Dual Wingbeat
+
+Houndoom @ Coba Berry
+Level: 50
 Ability: Flash Fire
+Tera Type: Grass
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 Nature: Timid
 - Flamethrower
 - Dark Pulse
-- Nasty Plot
-- Will-O-Wisp
-
-Rhyperior
-Level: 47
-Ability: Solid Rock
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-Nature: Adamant
-- Earthquake
-- Rock Blast
-- Megahorn
-- Stealth Rock
+- Solar Beam
+- Thunder Fang
 
 Camerupt @ Cameruptite
-Level: 47
-Ability: Magma Armor
+Level: 50
+Ability: Solid Rock
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-Nature: Modest
-- Eruption
+Nature: Quiet
 - Earth Power
-- Flamethrower
-- Stealth Rock
+- Fire Blast
+- Ancient Power
+- Protect
 
 === TRAINER_TIANA ===
 Name: TIANA
@@ -79416,6 +82591,278 @@ Music: Hiker
 Double Battle: No
 AI: nettux
 Difficulty: Hard
+Party Size: 3
+/* Location: Route114 */
+
+Donphan  
+Level: 44
+Ability: Sturdy  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Earthquake  
+- Ice Shard  
+- Rapid Spin  
+- Stone Edge  
+
+Donphan @ Leftovers  
+Level: 44
+Ability: Sturdy  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Stealth Rock  
+- Earthquake  
+- Ice Shard  
+- Protect  
+
+Donphan  
+Level: 44
+Ability: Sturdy  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Earthquake  
+- Rapid Spin  
+- Stone Edge  
+- Toxic
+
+Torkoal  
+Level: 44
+Ability: Drought  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Lava Plume  
+- Rapid Spin  
+- Stealth Rock  
+- Protect  
+
+Torkoal @ Heat Rock  
+Level: 44
+Ability: Drought  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Fire Blast  
+- Solar Beam  
+- Stealth Rock  
+- Rapid Spin  
+
+Torkoal  
+Level: 44
+Ability: Drought  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Lava Plume  
+- Earth Power  
+- Rapid Spin  
+- Stealth Rock
+
+Golbat  
+Level: 44
+Ability: Infiltrator  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Brave Bird  
+- Roost  
+- Toxic  
+- U-Turn  
+
+Golbat @ Leftovers  
+Level: 44
+Ability: Infiltrator  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Brave Bird  
+- Toxic  
+- Roost  
+- Defog  
+
+Golbat  
+Level: 44
+Ability: Infiltrator  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- U-Turn  
+- Brave Bird  
+- Roost  
+- Toxic
+
+Sandslash  
+Level: 44
+Ability: Sand Rush  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Earthquake  
+- Iron Head  
+- Rock Slide  
+- Swords Dance  
+
+Sandslash @ Life Orb  
+Level: 44
+Ability: Sand Rush  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Earthquake  
+- Swords Dance  
+- Rock Slide  
+- Protect  
+
+Sandslash  
+Level: 44
+Ability: Sand Rush  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Iron Head  
+- Earthquake  
+- Rock Slide  
+- Toxic
+
+Hariyama  
+Level: 44
+Ability: Guts  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Close Combat  
+- Fake Out  
+- Knock Off  
+- Bullet Punch  
+
+Hariyama @ Assault Vest  
+Level: 44
+Ability: Guts  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Close Combat  
+- Ice Punch  
+- Earthquake  
+- Bulk Up  
+
+Hariyama  
+Level: 44
+Ability: Guts  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Bulk Up  
+- Close Combat  
+- Knock Off  
+- Earthquake
+
+Pupitar  
+Level: 44
+Ability: Shed Skin  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Rock Slide  
+- Earthquake  
+- Crunch  
+- Stealth Rock  
+
+Pupitar @ Focus Sash  
+Level: 44
+Ability: Shed Skin  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Stealth Rock  
+- Rock Slide  
+- Earthquake  
+- Protect  
+
+Pupitar  
+Level: 44
+Ability: Shed Skin  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Crunch  
+- Rock Slide  
+- Earthquake  
+- Stealth Rock
+
+Steelix  
+Level: 44
+Ability: Sturdy  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Iron Tail  
+- Earthquake  
+- Stealth Rock  
+- Dragon Tail  
+
+Steelix @ Leftovers  
+Level: 44
+Ability: Sturdy  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Iron Tail  
+- Earthquake  
+- Stealth Rock  
+- Toxic  
+
+Steelix  
+Level: 44
+Ability: Sturdy  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Earthquake  
+- Iron Tail  
+- Stealth Rock  
+- Curse
+
+Dugtrio Alola  
+Level: 44
+Ability: Tangled Feet  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Earthquake  
+- Iron Head  
+- Rock Slide  
+- Sucker Punch  
+
+Dugtrio Alola @ Focus Sash  
+Level: 44
+Ability: Tangled Feet  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Earthquake  
+- Sucker Punch  
+- Protect  
+- Iron Head  
+
+Dugtrio Alola  
+Level: 44
+Ability: Tangled Feet  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Rock Slide  
+- Earthquake  
+- Sucker Punch  
+- Toxic
+
+Machoke  
+Level: 44
+Ability: Guts  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Cross Chop  
+- Bulk Up  
+- Knock Off  
+- Protect  
+
+Machoke @ Choice Band  
+Level: 44
+Ability: Guts  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Cross Chop  
+- Stone Edge  
+- Earthquake  
+- Bulk Up  
+
+Machoke  
+Level: 44
+Ability: Guts  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Bulk Up  
+- Cross Chop  
+- Knock Off  
+- Earthquake
+
+Graveler Alola  
+Level: 44
+Ability: Sturdy  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Earthquake  
+- Stone Edge  
+- Explosion  
+- Stealth Rock  
+
+Graveler Alola @ Focus Sash  
+Level: 44
+Ability: Sturdy  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Earthquake  
+- Stealth Rock  
+- Explosion  
+- Protect  
+
+Graveler Alola  
+Level: 44
+Ability: Sturdy  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Stone Edge  
+- Earthquake  
+- Stealth Rock  
+- Curse
 
 Geodude
 Level: 18
@@ -79442,21 +82889,278 @@ Music: Hiker
 Double Battle: No
 AI: nettux
 Difficulty: Hard
+Party Size: 3
+/* Location: Route114 */
 
-Geodude
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Defense Curl
-- Mud Sport
-- Rock Throw
-- Magnitude
+Excadrill  
+Level: 44
+Ability: Mold Breaker  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Iron Head  
+- Earthquake  
+- Rock Slide  
+- Rapid Spin  
 
-Numel
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Growl
-- Tackle
-- Ember
+Excadrill @ Life Orb  
+Level: 44
+Ability: Mold Breaker  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Iron Head  
+- Earthquake  
+- Swords Dance  
+- Rock Slide  
+
+Excadrill  
+Level: 44
+Ability: Mold Breaker  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Rapid Spin  
+- Iron Head  
+- Earthquake  
+- Rock Slide
+
+Stoutland  
+Level: 44
+Ability: Intimidate  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Return  
+- Crunch  
+- Play Rough  
+- Superpower  
+
+Stoutland @ Leftovers  
+Level: 44
+Ability: Intimidate  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Return  
+- Crunch  
+- Superpower  
+- Roar  
+
+Stoutland  
+Level: 44
+Ability: Intimidate  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Play Rough  
+- Return  
+- Crunch  
+- Toxic
+
+Boldore  
+Level: 44
+Ability: Sturdy  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Stealth Rock  
+- Rock Slide  
+- Earthquake  
+- Explosion  
+
+Boldore @ Focus Sash  
+Level: 44
+Ability: Sturdy  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Stealth Rock  
+- Explosion  
+- Earthquake  
+- Protect  
+
+Boldore  
+Level: 44
+Ability: Sturdy  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Rock Slide  
+- Earthquake  
+- Explosion  
+- Curse
+
+Lairon  
+Level: 44
+Ability: Sturdy  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Iron Head  
+- Rock Slide  
+- Stealth Rock  
+- Body Slam  
+
+Lairon @ Leftovers  
+Level: 44
+Ability: Sturdy  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Heavy Slam  
+- Toxic  
+- Stealth Rock  
+- Protect  
+
+Lairon  
+Level: 44
+Ability: Sturdy  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Iron Head  
+- Earthquake  
+- Stealth Rock  
+- Curse
+
+Sandslash  
+Level: 44
+Ability: Sand Rush  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Earthquake  
+- Iron Head  
+- Rock Slide  
+- Swords Dance  
+
+Sandslash @ Life Orb  
+Level: 44
+Ability: Sand Rush  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Earthquake  
+- Swords Dance  
+- Rock Slide  
+- Protect  
+
+Sandslash  
+Level: 44
+Ability: Sand Rush  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Iron Head  
+- Earthquake  
+- Rock Slide  
+- Toxic
+
+Hariyama  
+Level: 44
+Ability: Guts  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Close Combat  
+- Fake Out  
+- Knock Off  
+- Bullet Punch  
+
+Hariyama @ Assault Vest  
+Level: 44
+Ability: Guts  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Close Combat  
+- Ice Punch  
+- Earthquake  
+- Bulk Up  
+
+Hariyama  
+Level: 44
+Ability: Guts  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Bulk Up  
+- Close Combat  
+- Knock Off  
+- Earthquake
+
+Pupitar  
+Level: 44
+Ability: Shed Skin  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Rock Slide  
+- Earthquake  
+- Crunch  
+- Stealth Rock  
+
+Pupitar @ Focus Sash  
+Level: 44
+Ability: Shed Skin  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Stealth Rock  
+- Rock Slide  
+- Earthquake  
+- Protect  
+
+Pupitar  
+Level: 44
+Ability: Shed Skin  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Crunch  
+- Rock Slide  
+- Earthquake  
+- Stealth Rock
+
+Machoke  
+Level: 44
+Ability: Guts  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Cross Chop  
+- Bulk Up  
+- Knock Off  
+- Protect  
+
+Machoke @ Choice Band  
+Level: 44
+Ability: Guts  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Cross Chop  
+- Stone Edge  
+- Earthquake  
+- Bulk Up  
+
+Machoke  
+Level: 44
+Ability: Guts  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Bulk Up  
+- Cross Chop  
+- Knock Off  
+- Earthquake
+
+Dugtrio  
+Level: 44
+Ability: Sand Veil  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Earthquake  
+- Rock Slide  
+- Sucker Punch  
+- Stone Edge  
+
+Dugtrio @ Focus Sash  
+Level: 44
+Ability: Sand Veil
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Earthquake  
+- Sucker Punch  
+- Stone Edge  
+- Protect  
+
+Dugtrio  
+Level: 44
+Ability: Sand Veil
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Stone Edge  
+- Earthquake  
+- Sucker Punch  
+- Toxic
+
+Golbat  
+Level: 44
+Ability: Infiltrator  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Brave Bird  
+- Roost  
+- Toxic  
+- U-Turn  
+
+Golbat @ Leftovers  
+Level: 44
+Ability: Infiltrator  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Brave Bird  
+- Toxic  
+- Roost  
+- Defog  
+
+Golbat  
+Level: 44
+Ability: Infiltrator  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- U-Turn  
+- Brave Bird  
+- Roost  
+- Toxic
 
 === TRAINER_ALAN ===
 Name: ALAN
@@ -81764,19 +85468,20 @@ Music: Twins
 Double Battle: Yes
 AI: nettux
 Difficulty: Hard
+/* Location: Route113 */
 
 Spinda
-Level: 19
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Tackle
+Level: 44
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Swagger
 - Uproar
 - Feint Attack
 - Psybeam
 
 Spinda
-Level: 19
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Tackle
+Level: 44
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Swagger
 - Uproar
 - Feint Attack
 - Psybeam
@@ -81816,22 +85521,23 @@ Music: Twins
 Double Battle: Yes
 AI: nettux
 Difficulty: Hard
+/* Location: Route114 */
 
-Roselia
+Roserade
 Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Growth
 - Stun Spore
-- Mega Drain
+- Giga Drain
 - Leech Seed
 
-Graveler
+Golem
 Level: 20
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Defense Curl
 - Rollout
 - Mud Sport
-- Rock Throw
+- Rock Slide
 
 === TRAINER_MEL_AND_PAUL ===
 Name: MEL & PAUL
@@ -83421,114 +87127,6 @@ IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Bug Buzz  
 - Quiver Dance
 
-Ninetales  
-Level: 35
-Ability: Flash Fire  
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Flamethrower  
-- Will-O-Wisp  
-- Confuse Ray  
-- Extrasensory  
-
-Ninetales @ Leftovers  
-Level: 35
-Ability: Flash Fire  
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Will-O-Wisp  
-- Flamethrower  
-- Confuse Ray  
-- Extrasensory  
-
-Ninetales  
-Level: 35
-Ability: Flash Fire  
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Confuse Ray  
-- Extrasensory  
-- Flamethrower  
-- Will-O-Wisp
-
-Nidoking  
-Level: 35
-Ability: Sheer Force  
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Earth Power  
-- Poison Jab  
-- Megahorn  
-- Flamethrower  
-
-Nidoking @ Life Orb  
-Level: 35
-Ability: Sheer Force  
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Megahorn  
-- Flamethrower  
-- Earth Power  
-- Poison Jab  
-
-Nidoking  
-Level: 35
-Ability: Sheer Force  
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Poison Jab  
-- Earth Power  
-- Megahorn  
-- Flamethrower
-
-Umbreon  
-Level: 35
-Ability: Synchronize  
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Foul Play  
-- Moonlight  
-- Toxic  
-- Confuse Ray  
-
-Umbreon @ Leftovers  
-Level: 35
-Ability: Synchronize  
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Moonlight  
-- Toxic  
-- Confuse Ray  
-- Foul Play  
-
-Umbreon  
-Level: 35
-Ability: Synchronize  
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Confuse Ray  
-- Foul Play  
-- Moonlight  
-- Toxic
-
-Granbull  
-Level: 35
-Ability: Intimidate  
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Play Rough  
-- Crunch  
-- Thunder Wave  
-- Fire Fang  
-
-Granbull @ Leftovers  
-Level: 35
-Ability: Intimidate  
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Thunder Wave  
-- Play Rough  
-- Fire Fang  
-- Crunch  
-
-Granbull  
-Level: 35
-Ability: Intimidate  
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Fire Fang  
-- Crunch  
-- Play Rough  
-- Thunder Wave
-
 Milotic  
 Level: 35
 Ability: Marvel Scale  
@@ -83583,32 +87181,86 @@ IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Calm Mind  
 - Psychic
 
-Espeon  
+Nidoking  
 Level: 35
-Ability: Synchronize  
+Ability: Sheer Force  
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Psychic  
-- Morning Sun  
-- Shadow Ball  
-- Calm Mind  
+- Earth Power  
+- Poison Jab  
+- Megahorn  
+- Flamethrower  
 
-Espeon @ Leftovers  
+Nidoking @ Life Orb  
 Level: 35
-Ability: Synchronize  
+Ability: Sheer Force  
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Calm Mind  
-- Psychic  
-- Shadow Ball  
-- Morning Sun  
+- Megahorn  
+- Flamethrower  
+- Earth Power  
+- Poison Jab  
 
-Espeon  
+Nidoking  
 Level: 35
-Ability: Synchronize  
+Ability: Sheer Force  
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Shadow Ball  
-- Psychic  
-- Calm Mind  
-- Morning Sun
+- Poison Jab  
+- Earth Power  
+- Megahorn  
+- Flamethrower
+
+Togekiss  
+Level: 35
+Ability: Serene Grace  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Air Slash  
+- Aura Sphere  
+- Roost  
+- Thunder Wave  
+
+Togekiss @ Leftovers  
+Level: 35
+Ability: Serene Grace  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Roost  
+- Thunder Wave  
+- Air Slash  
+- Aura Sphere  
+
+Togekiss  
+Level: 35
+Ability: Serene Grace  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Aura Sphere  
+- Roost  
+- Thunder Wave  
+- Air Slash
+
+Granbull  
+Level: 35
+Ability: Intimidate  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Play Rough  
+- Crunch  
+- Thunder Wave  
+- Fire Fang  
+
+Granbull @ Leftovers  
+Level: 35
+Ability: Intimidate  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Thunder Wave  
+- Play Rough  
+- Fire Fang  
+- Crunch  
+
+Granbull  
+Level: 35
+Ability: Intimidate  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Fire Fang  
+- Crunch  
+- Play Rough  
+- Thunder Wave
 
 Roserade  
 Level: 35
@@ -83636,6 +87288,60 @@ IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Giga Drain  
 - Sludge Bomb  
 - Stun Spore
+
+Pachirisu  
+Level: 35
+Ability: Run Away  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Thunderbolt  
+- Encore  
+- Super Fang  
+- Nuzzle  
+
+Pachirisu @ Leftovers  
+Level: 35
+Ability: Run Away  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Encore  
+- Thunderbolt  
+- Nuzzle  
+- Super Fang  
+
+Pachirisu  
+Level: 35
+Ability: Run Away  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Super Fang  
+- Nuzzle  
+- Encore  
+- Thunderbolt
+
+Espeon  
+Level: 35
+Ability: Synchronize  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Psychic  
+- Morning Sun  
+- Shadow Ball  
+- Calm Mind  
+
+Espeon @ Leftovers  
+Level: 35
+Ability: Synchronize  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Calm Mind  
+- Psychic  
+- Shadow Ball  
+- Morning Sun  
+
+Espeon  
+Level: 35
+Ability: Synchronize  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Shadow Ball  
+- Psychic  
+- Calm Mind  
+- Morning Sun
 
 === TRAINER_JOSEPH ===
 Name: JOSEPH
@@ -85207,7 +88913,7 @@ Milotic @ Leftovers
 Level: 38
 Ability: Marvel Scale  
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Calm Mind  
+- Ice Beam
 - Recover  
 - Water Pulse  
 - Coil  
@@ -85503,59 +89209,32 @@ IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Thunder Wave  
 - Aromatherapy
 
-Togekiss  
+Wigglytuff  
 Level: 38
-Ability: Serene Grace  
+Ability: Competitive  
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Air Slash  
+- Hyper Voice  
 - Thunder Wave  
-- Roost  
-- Aura Sphere  
-
-Togekiss @ Leftovers  
-Level: 38
-Ability: Serene Grace  
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Dazzling Gleam  
-- Heal Bell  
-- Air Slash  
 - Protect  
 
-Togekiss  
+Wigglytuff @ Leftovers  
 Level: 38
-Ability: Serene Grace  
+Ability: Competitive  
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Air Slash  
-- Thunder Wave  
-- Roost  
-- Protect
+- Play Rough  
+- Heal Bell  
+- Hyper Voice  
+- Protect  
 
-Espeon  
+Wigglytuff  
 Level: 38
-Ability: Synchronize  
+Ability: Competitive  
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Psychic  
-- Shadow Ball  
-- Calm Mind  
-- Morning Sun  
-
-Espeon @ Focus Sash  
-Level: 38
-Ability: Synchronize  
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Psychic  
+- Hyper Voice  
 - Dazzling Gleam  
-- Calm Mind  
-- Morning Sun  
-
-Espeon  
-Level: 38
-Ability: Synchronize  
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Psychic  
-- Shadow Ball  
-- Baton Pass  
-- Calm Mind
+- Toxic  
+- Thunder Wave
 
 Nidoqueen  
 Level: 38
@@ -85576,6 +89255,33 @@ IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Toxic  
 
 Nidoqueen  
+Level: 38
+Ability: Sheer Force  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Earthquake  
+- Poison Jab  
+- Ice Beam  
+- Thunderbolt
+
+Nidoking  
+Level: 38
+Ability: Sheer Force  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Earth Power  
+- Sludge Bomb  
+- Ice Beam  
+- Thunderbolt  
+
+Nidoking @ Life Orb  
+Level: 38
+Ability: Sheer Force  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Earth Power  
+- Sludge Bomb  
+- Flamethrower  
+- Thunderbolt  
+
+Nidoking  
 Level: 38
 Ability: Sheer Force  
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
@@ -85902,22 +89608,278 @@ Music: Girl
 Double Battle: No
 AI: nettux
 Difficulty: Hard
+Party Size: 3
+/* Location: Route113 */
 
-Marill
-Level: 17
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Defense Curl
-- Tail Whip
-- Water Gun
-- Rollout
+Nidoqueen  
+Level: 44
+Ability: Sheer Force  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Earth Power  
+- Sludge Bomb  
+- Ice Beam  
+- Thunderbolt  
 
-Lombre
-Level: 19
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Growl
-- Absorb
-- Nature Power
-- Fake Out
+Nidoqueen @ Leftovers  
+Level: 44
+Ability: Sheer Force  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Earth Power  
+- Sludge Bomb  
+- Flamethrower  
+- Toxic  
+
+Nidoqueen  
+Level: 44
+Ability: Sheer Force  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Earthquake  
+- Poison Jab  
+- Ice Beam  
+- Thunderbolt
+
+Beautifly  
+Level: 44
+Ability: Swarm  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Bug Buzz  
+- Quiver Dance  
+- Energy Ball  
+- Sleep Powder  
+
+Beautifly @ Focus Sash  
+Level: 44
+Ability: Swarm  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Bug Buzz  
+- Quiver Dance  
+- Giga Drain  
+- Sleep Powder  
+
+Beautifly  
+Level: 44
+Ability: Swarm  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Quiver Dance  
+- Bug Buzz  
+- Energy Ball  
+- Protect
+
+Pachirisu  
+Level: 44
+Ability: Volt Absorb  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Thunderbolt  
+- Super Fang  
+- Encore  
+- Protect  
+
+Pachirisu @ Leftovers  
+Level: 44
+Ability: Volt Absorb  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Thunderbolt  
+- Discharge  
+- Nuzzle  
+- Taunt  
+
+Pachirisu  
+Level: 44
+Ability: Volt Absorb  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Thunderbolt  
+- Super Fang  
+- Taunt  
+- Protect
+
+Wigglytuff  
+Level: 44
+Ability: Competitive  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Hyper Voice  
+- Thunder Wave  
+- Dazzling Gleam  
+- Protect  
+
+Wigglytuff @ Leftovers  
+Level: 44
+Ability: Competitive  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Play Rough  
+- Heal Bell  
+- Hyper Voice  
+- Protect  
+
+Wigglytuff  
+Level: 44
+Ability: Competitive  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Hyper Voice  
+- Dazzling Gleam  
+- Toxic  
+- Thunder Wave
+
+Nidoking  
+Level: 44
+Ability: Sheer Force  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Earth Power  
+- Sludge Bomb  
+- Ice Beam  
+- Thunderbolt  
+
+Nidoking @ Life Orb  
+Level: 44
+Ability: Sheer Force  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Earth Power  
+- Sludge Bomb  
+- Flamethrower  
+- Thunderbolt  
+
+Nidoking  
+Level: 44
+Ability: Sheer Force  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Earthquake  
+- Poison Jab  
+- Ice Beam  
+- Thunderbolt
+
+Kadabra  
+Level: 44
+Ability: Synchronize  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Psychic  
+- Shadow Ball  
+- Reflect  
+- Recover  
+
+Kadabra @ Life Orb  
+Level: 44
+Ability: Synchronize  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Psychic  
+- Focus Blast  
+- Shadow Ball  
+- Encore  
+
+Kadabra  
+Level: 44
+Ability: Synchronize  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Calm Mind  
+- Psychic  
+- Shadow Ball  
+- Recover
+
+Milotic  
+Level: 44
+Ability: Marvel Scale  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Scald  
+- Ice Beam  
+- Recover  
+- Toxic  
+
+Milotic @ Leftovers  
+Level: 44
+Ability: Marvel Scale  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Dragon Pulse  
+- Ice Beam  
+- Recover  
+- Toxic  
+
+Milotic  
+Level: 44
+Ability: Marvel Scale  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Scald  
+- Dragon Pulse  
+- Recover  
+- Haze
+
+Espeon  
+Level: 44
+Ability: Synchronize  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Psychic  
+- Shadow Ball  
+- Calm Mind  
+- Morning Sun  
+
+Espeon @ Focus Sash  
+Level: 44
+Ability: Synchronize  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Psychic  
+- Dazzling Gleam  
+- Calm Mind  
+- Morning Sun  
+
+Espeon  
+Level: 44
+Ability: Synchronize  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Psychic  
+- Shadow Ball  
+- Baton Pass  
+- Calm Mind
+
+Clefable  
+Level: 44
+Ability: Magic Guard  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Moonblast  
+- Soft-Boiled  
+- Thunder Wave  
+- Calm Mind  
+
+Clefable @ Leftovers  
+Level: 44
+Ability: Magic Guard  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Flamethrower  
+- Moonblast  
+- Wish  
+- Protect  
+
+Clefable  
+Level: 44
+Ability: Magic Guard  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Calm Mind  
+- Moonblast  
+- Thunder Wave  
+- Aromatherapy
+
+Roserade  
+Level: 44
+Ability: Natural Cure  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Sludge Bomb  
+- Giga Drain  
+- Toxic Spikes  
+- Spikes  
+
+Roserade @ Black Sludge  
+Level: 44
+Ability: Natural Cure  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Sludge Bomb  
+- Shadow Ball  
+- Toxic Spikes  
+- Spikes  
+
+Roserade  
+Level: 44
+Ability: Natural Cure  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Giga Drain  
+- Sludge Bomb  
+- Toxic  
+- Aromatherapy
 
 === TRAINER_COBY ===
 Name: COBY
@@ -85928,22 +89890,278 @@ Music: Cool
 Double Battle: No
 AI: nettux
 Difficulty: Hard
+Party Size: 3
+/* Location: Route113 */
 
-Skarmory
-Level: 17
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Peck
-- Sand Attack
-- Swift
-- Agility
+Talonflame  
+Level: 44
+Ability: Gale Wings  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Brave Bird  
+- Flare Blitz  
+- Swords Dance  
+- Roost  
 
-Swellow
-Level: 19
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Focus Energy
+Talonflame @ Life Orb  
+Level: 44
+Ability: Gale Wings  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Brave Bird  
+- Flare Blitz  
+- Tailwind  
+- Roost  
+
+Talonflame  
+Level: 44
+Ability: Gale Wings  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Brave Bird  
+- Flare Blitz  
+- Will-O-Wisp  
+- Roost
+
+Dodrio  
+Level: 44
+Ability: Early Bird  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Brave Bird  
+- Drill Peck  
+- Quick Attack  
+- Return  
+
+Dodrio @ Life Orb  
+Level: 44
+Ability: Early Bird  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Brave Bird  
+- Return  
+- Quick Attack  
+- Drill Peck  
+
+Dodrio  
+Level: 44
+Ability: Early Bird  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Brave Bird  
+- Quick Attack  
+- U-Turn  
+- Protect
+
+Blaziken  
+Level: 44
+Ability: Blaze  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Blaze Kick  
+- Sky Uppercut  
+- Swords Dance  
+- Protect  
+
+Blaziken @ Life Orb  
+Level: 44
+Ability: Blaze  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Flare Blitz  
+- Sky Uppercut  
+- Bulk Up  
+- Protect  
+
+Blaziken  
+Level: 44
+Ability: Blaze  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Flare Blitz  
+- High Jump Kick  
+- Swords Dance  
+- Roost
+
+Fearow  
+Level: 44
+Ability: Keen Eye  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Drill Peck  
+- Return  
+- Quick Attack  
+- Roost  
+
+Fearow @ Life Orb  
+Level: 44
+Ability: Keen Eye  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Drill Peck  
+- Quick Attack  
+- U-Turn  
+- Roost  
+
+Fearow  
+Level: 44
+Ability: Keen Eye  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Drill Peck  
+- Roost  
+- Toxic  
 - Quick Attack
-- Wing Attack
-- Double Team
+
+Staraptor  
+Level: 44
+Ability: Intimidate  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Brave Bird  
+- Close Combat  
+- U-Turn  
+- Quick Attack  
+
+Staraptor @ Life Orb  
+Level: 44
+Ability: Intimidate  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Brave Bird  
+- Double-Edge  
+- Quick Attack  
+- U-Turn  
+
+Staraptor  
+Level: 44
+Ability: Intimidate  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Brave Bird  
+- Bulk Up  
+- Roost  
+- U-Turn
+
+Skarmory  
+Level: 44
+Ability: Sturdy  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Brave Bird  
+- Roost  
+- Spikes  
+- Whirlwind  
+
+Skarmory @ Leftovers  
+Level: 44
+Ability: Sturdy  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Brave Bird  
+- Roost  
+- Stealth Rock  
+- Whirlwind  
+
+Skarmory  
+Level: 44
+Ability: Sturdy  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Brave Bird  
+- Iron Head  
+- Defog  
+- Roost
+
+Corviknight  
+Level: 44
+Ability: Pressure  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Brave Bird  
+- Roost  
+- Defog  
+- Iron Head  
+
+Corviknight @ Leftovers  
+Level: 44
+Ability: Pressure  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Brave Bird  
+- Roost  
+- Defog  
+- U-Turn  
+
+Corviknight  
+Level: 44
+Ability: Pressure  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Brave Bird  
+- Iron Head  
+- Toxic  
+- Roost
+
+Noctowl  
+Level: 44
+Ability: Insomnia  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Air Slash  
+- Psychic  
+- Roost  
+- Hypnosis  
+
+Noctowl @ Leftovers  
+Level: 44
+Ability: Insomnia  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Air Slash  
+- Psychic  
+- Hypnosis  
+- Roost  
+
+Noctowl  
+Level: 44
+Ability: Insomnia  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Air Slash  
+- Reflect  
+- Roost  
+- Thunder Wave
+
+Swellow  
+Level: 44
+Ability: Guts  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Brave Bird  
+- Facade  
+- Quick Attack  
+- Steel Wing  
+
+Swellow @ Black Sludge  
+Level: 44
+Ability: Guts  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Brave Bird  
+- Quick Attack  
+- Facade  
+- Protect  
+
+Swellow  
+Level: 44
+Ability: Guts  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Brave Bird  
+- U-Turn  
+- Quick Attack  
+- Toxic
+
+Pidgeot  
+Level: 44
+Ability: Keen Eye  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Brave Bird  
+- Roost  
+- U-Turn  
+- Quick Attack  
+
+Pidgeot @ Leftovers  
+Level: 44
+Ability: Keen Eye  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Brave Bird  
+- Quick Attack  
+- Tailwind  
+- Roost  
+
+Pidgeot  
+Level: 44
+Ability: Keen Eye  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Brave Bird  
+- Heat Wave  
+- U-Turn  
+- Quick Attack
 
 === TRAINER_LAWRENCE ===
 Name: LAWRENCE
@@ -85954,22 +90172,278 @@ Music: Male
 Double Battle: No
 AI: nettux
 Difficulty: Hard
+Party Size: 3
+/* Location: Route113 */
 
-Baltoy
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Rapid Spin
-- Mud Slap
-- Psybeam
-- Rock Tomb
+Lairon  
+Level: 44
+Ability: Sturdy  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Iron Head  
+- Rock Slide  
+- Stealth Rock  
+- Body Slam  
 
-Sandshrew
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Scratch
-- Defense Curl
-- Sand Attack
-- Poison Sting
+Lairon @ Leftovers  
+Level: 44
+Ability: Sturdy  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Heavy Slam  
+- Toxic  
+- Stealth Rock  
+- Protect  
+
+Lairon  
+Level: 44
+Ability: Sturdy  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Iron Head  
+- Earthquake  
+- Stealth Rock  
+- Curse
+
+Boldore  
+Level: 44
+Ability: Sturdy  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Stealth Rock  
+- Rock Slide  
+- Earthquake  
+- Explosion  
+
+Boldore @ Focus Sash  
+Level: 44
+Ability: Sturdy  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Stealth Rock  
+- Explosion  
+- Earthquake  
+- Protect  
+
+Boldore  
+Level: 44
+Ability: Sturdy  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Rock Slide  
+- Earthquake  
+- Explosion  
+- Curse
+
+Hariyama  
+Level: 44
+Ability: Guts  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Close Combat  
+- Fake Out  
+- Knock Off  
+- Bullet Punch  
+
+Hariyama @ Assault Vest  
+Level: 44
+Ability: Guts  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Close Combat  
+- Ice Punch  
+- Earthquake  
+- Bulk Up  
+
+Hariyama  
+Level: 44
+Ability: Guts  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Bulk Up  
+- Close Combat  
+- Knock Off  
+- Earthquake
+
+Sandslash  
+Level: 44
+Ability: Sand Rush  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Earthquake  
+- Iron Head  
+- Rock Slide  
+- Swords Dance  
+
+Sandslash @ Life Orb  
+Level: 44
+Ability: Sand Rush  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Earthquake  
+- Swords Dance  
+- Rock Slide  
+- Protect  
+
+Sandslash  
+Level: 44
+Ability: Sand Rush  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Iron Head  
+- Earthquake  
+- Rock Slide  
+- Toxic
+
+Graveler  
+Level: 44
+Ability: Sturdy  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Earthquake  
+- Rock Slide  
+- Explosion  
+- Stealth Rock  
+
+Graveler @ Focus Sash  
+Level: 44
+Ability: Sturdy  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Earthquake  
+- Stealth Rock  
+- Explosion  
+- Protect  
+
+Graveler  
+Level: 44
+Ability: Sturdy  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Stone Edge  
+- Earthquake  
+- Stealth Rock  
+- Curse
+
+Stoutland  
+Level: 44
+Ability: Intimidate  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Return  
+- Crunch  
+- Play Rough  
+- Superpower  
+
+Stoutland @ Leftovers  
+Level: 44
+Ability: Intimidate  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Return  
+- Crunch  
+- Superpower  
+- Roar  
+
+Stoutland  
+Level: 44
+Ability: Intimidate  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Play Rough  
+- Return  
+- Crunch  
+- Toxic
+
+Gogoat  
+Level: 44
+Ability: Sap Sipper  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Horn Leech  
+- Bulk Up  
+- Earthquake  
+- Milk Drink  
+
+Gogoat @ Assault Vest  
+Level: 44
+Ability: Sap Sipper  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Horn Leech  
+- Earthquake  
+- Rock Slide  
+- Bulk Up  
+
+Gogoat  
+Level: 44
+Ability: Sap Sipper  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Horn Leech  
+- Rock Slide  
+- Earthquake  
+- Leech Seed
+
+Probopass  
+Level: 44
+Ability: Sturdy  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Power Gem  
+- Earth Power  
+- Stealth Rock  
+- Thunder Wave  
+
+Probopass @ Leftovers  
+Level: 44
+Ability: Sturdy  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Stealth Rock  
+- Power Gem  
+- Earth Power  
+- Toxic  
+
+Probopass  
+Level: 44
+Ability: Sturdy  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Thunder Wave  
+- Earth Power  
+- Stealth Rock  
+- Power Gem
+
+Nidoqueen  
+Level: 44
+Ability: Sheer Force  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Earth Power  
+- Sludge Bomb  
+- Ice Beam  
+- Thunderbolt  
+
+Nidoqueen @ Leftovers  
+Level: 44
+Ability: Sheer Force  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Earth Power  
+- Sludge Bomb  
+- Flamethrower  
+- Toxic  
+
+Nidoqueen  
+Level: 44
+Ability: Sheer Force  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Earthquake  
+- Poison Jab  
+- Ice Beam  
+- Thunderbolt
+
+Nidoking  
+Level: 44
+Ability: Sheer Force  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Earth Power  
+- Sludge Bomb  
+- Ice Beam  
+- Thunderbolt  
+
+Nidoking @ Life Orb  
+Level: 44
+Ability: Sheer Force  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Earth Power  
+- Sludge Bomb  
+- Flamethrower  
+- Thunderbolt  
+
+Nidoking  
+Level: 44
+Ability: Sheer Force  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Earthquake  
+- Poison Jab  
+- Ice Beam  
+- Thunderbolt
 
 === TRAINER_WYATT ===
 Name: WYATT
@@ -85980,22 +90454,278 @@ Music: Suspicious
 Double Battle: No
 AI: nettux
 Difficulty: Hard
+Party Size: 3
+/* Location: Route113 */
 
-Aron
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Mud Slap
-- Headbutt
-- Metal Claw
-- Iron Defense
+Torterra  
+Level: 44
+Ability: Overgrow  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Wood Hammer  
+- Earthquake  
+- Stone Edge  
+- Synthesis  
 
-Aron
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Mud Slap
-- Headbutt
-- Metal Claw
-- Iron Defense
+Torterra @ Leftovers  
+Level: 44
+Ability: Overgrow  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Wood Hammer  
+- Crunch  
+- Leech Seed  
+- Protect  
+
+Torterra  
+Level: 44
+Ability: Overgrow  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Wood Hammer  
+- Earthquake  
+- Rock Slide  
+- Swords Dance
+
+Nidoking  
+Level: 44
+Ability: Sheer Force  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Earth Power  
+- Sludge Bomb  
+- Ice Beam  
+- Thunderbolt  
+
+Nidoking @ Life Orb  
+Level: 44
+Ability: Sheer Force  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Earthquake  
+- Poison Jab  
+- Megahorn  
+- Ice Beam  
+
+Nidoking  
+Level: 44
+Ability: Sheer Force  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Sludge Bomb  
+- Earthquake  
+- Flamethrower  
+- Thunderbolt
+
+Kangaskhan  
+Level: 44
+Ability: Early Bird  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Fake Out  
+- Return  
+- Sucker Punch  
+- Crunch  
+
+Kangaskhan @ Choice Band  
+Level: 44
+Ability: Early Bird  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Return  
+- Sucker Punch  
+- Power-Up Punch  
+- Double-Edge  
+
+Kangaskhan  
+Level: 44
+Ability: Early Bird  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Fake Out  
+- Return  
+- Crunch  
+- Earthquake
+
+Charizard  
+Level: 44
+Ability: Blaze  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Flamethrower  
+- Dragon Pulse  
+- Air Slash  
+- Roost  
+
+Charizard @ Charcoal  
+Level: 44
+Ability: Blaze  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Flamethrower  
+- Solar Beam  
+- Focus Blast  
+- Roost  
+
+Charizard  
+Level: 44
+Ability: Blaze  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Heat Wave  
+- Dragon Claw  
+- Air Slash  
+- Protect
+
+Marowak  
+Level: 44
+Ability: Lightning Rod  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Bonemerang  
+- Shadow Bone  
+- Swords Dance  
+- Earthquake  
+
+Marowak @ Thick Club  
+Level: 44
+Ability: Lightning Rod  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Shadow Bone  
+- Flare Blitz  
+- Bonemerang  
+- Protect  
+
+Marowak  
+Level: 44
+Ability: Lightning Rod  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Earthquake  
+- Shadow Bone  
+- Will-O-Wisp  
+- Swords Dance
+
+Slowbro  
+Level: 44
+Ability: Regenerator  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Scald  
+- Psychic  
+- Slack Off  
+- Calm Mind  
+
+Slowbro @ Leftovers  
+Level: 44
+Ability: Regenerator  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Scald  
+- Psychic  
+- Thunder Wave  
+- Amnesia  
+
+Slowbro  
+Level: 44
+Ability: Regenerator  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Scald  
+- Ice Beam  
+- Calm Mind  
+- Protect
+
+Nidoqueen  
+Level: 44
+Ability: Sheer Force  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Sludge Bomb  
+- Earth Power  
+- Ice Beam  
+- Thunderbolt  
+
+Nidoqueen @ Leftovers  
+Level: 44
+Ability: Sheer Force  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Earthquake  
+- Toxic  
+- Protect  
+- Poison Jab  
+
+Nidoqueen  
+Level: 44
+Ability: Sheer Force  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Sludge Bomb  
+- Ice Beam  
+- Flamethrower  
+- Thunderbolt
+
+Lickitung  
+Level: 44
+Ability: Oblivious  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Body Slam  
+- Curse  
+- Rest  
+- Knock Off  
+
+Lickitung @ Leftovers  
+Level: 44
+Ability: Oblivious  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Body Slam  
+- Heal Bell  
+- Toxic  
+- Protect  
+
+Lickitung  
+Level: 44
+Ability: Oblivious  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Seismic Toss  
+- Hyper Voice  
+- Toxic  
+- Counter
+
+Feraligatr  
+Level: 44
+Ability: Torrent  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Waterfall  
+- Ice Fang  
+- Crunch  
+- Dragon Dance  
+
+Feraligatr @ Life Orb  
+Level: 44
+Ability: Torrent  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Waterfall  
+- Ice Punch  
+- Earthquake  
+- Aqua Jet  
+
+Feraligatr  
+Level: 44
+Ability: Torrent  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Waterfall  
+- Crunch  
+- Dragon Tail  
+- Protect
+
+Ampharos  
+Level: 44
+Ability: Static  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Thunderbolt  
+- Focus Blast  
+- Signal Beam  
+- Light Screen  
+
+Ampharos @ Leftovers  
+Level: 44
+Ability: Static  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Thunderbolt  
+- Power Gem  
+- Cotton Guard  
+- Protect  
+
+Ampharos  
+Level: 44
+Ability: Static  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe  
+- Thunderbolt  
+- Dragon Pulse  
+- Focus Blast  
+- Charge Beam
 
 === TRAINER_ANGELINA ===
 Name: ANGELINA
@@ -86006,22 +90736,278 @@ Music: Girl
 Double Battle: No
 AI: nettux
 Difficulty: Hard
+Party Size: 3
+/* Location: Route114 */
 
-Lombre
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Astonish
-- Growl
-- Absorb
-- Nature Power
+Ninetales  
+Level: 44
+Ability: Drought  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Flamethrower  
+- Solar Beam  
+- Will-O-Wisp  
+- Protect  
 
-Marill
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Defense Curl
-- Tail Whip
-- Water Gun
-- Rollout
+Ninetales @ Light Clay  
+Level: 44
+Ability: Drought  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Flamethrower  
+- Aurora Veil  
+- Encore  
+- Solar Beam  
+
+Ninetales  
+Level: 44
+Ability: Drought  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Heat Wave  
+- Solar Beam  
+- Will-O-Wisp  
+- Protect
+
+Wigglytuff  
+Level: 44
+Ability: Competitive  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Hyper Voice  
+- Thunder Wave  
+- Dazzling Gleam  
+- Protect  
+
+Wigglytuff @ Leftovers  
+Level: 44
+Ability: Competitive  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Play Rough  
+- Heal Bell  
+- Hyper Voice  
+- Protect  
+
+Wigglytuff  
+Level: 44
+Ability: Competitive  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Hyper Voice  
+- Dazzling Gleam  
+- Toxic  
+- Thunder Wave
+
+Milotic  
+Level: 44
+Ability: Marvel Scale  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Scald  
+- Ice Beam  
+- Recover  
+- Toxic  
+
+Milotic @ Leftovers  
+Level: 44
+Ability: Marvel Scale  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Dragon Pulse  
+- Ice Beam  
+- Recover  
+- Toxic  
+
+Milotic  
+Level: 44
+Ability: Marvel Scale  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Scald  
+- Dragon Pulse  
+- Recover  
+- Haze
+
+Lilligant  
+Level: 44
+Ability: Chlorophyll  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Quiver Dance  
+- Giga Drain  
+- Sleep Powder  
+- Hidden Power
+
+Lilligant @ Focus Sash  
+Level: 44
+Ability: Chlorophyll  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Quiver Dance  
+- Petal Dance  
+- Sleep Powder  
+- Hidden Power
+
+Lilligant  
+Level: 44
+Ability: Chlorophyll  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Giga Drain  
+- Quiver Dance  
+- Leech Seed  
+- Aromatherapy
+
+Roserade  
+Level: 44
+Ability: Natural Cure  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Sludge Bomb  
+- Giga Drain  
+- Toxic Spikes  
+- Spikes  
+
+Roserade @ Black Sludge  
+Level: 44
+Ability: Natural Cure  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Sludge Bomb  
+- Shadow Ball  
+- Toxic Spikes  
+- Spikes  
+
+Roserade  
+Level: 44
+Ability: Natural Cure  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Giga Drain  
+- Sludge Bomb  
+- Toxic  
+- Aromatherapy
+
+Togekiss  
+Level: 44
+Ability: Serene Grace  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Air Slash  
+- Thunder Wave  
+- Roost  
+- Aura Sphere  
+
+Togekiss @ Leftovers  
+Level: 44
+Ability: Serene Grace  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Dazzling Gleam  
+- Heal Bell  
+- Air Slash  
+- Protect  
+
+Togekiss  
+Level: 44
+Ability: Serene Grace  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Air Slash  
+- Thunder Wave  
+- Roost  
+- Protect
+
+Pachirisu  
+Level: 44
+Ability: Volt Absorb  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Thunderbolt  
+- Super Fang  
+- Encore  
+- Protect  
+
+Pachirisu @ Leftovers  
+Level: 44
+Ability: Volt Absorb  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Thunderbolt  
+- Discharge  
+- Nuzzle  
+- Taunt  
+
+Pachirisu  
+Level: 44
+Ability: Volt Absorb  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Thunderbolt  
+- Super Fang  
+- Taunt  
+- Protect
+
+Nidoking  
+Level: 44
+Ability: Sheer Force  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Earth Power  
+- Sludge Bomb  
+- Ice Beam  
+- Thunderbolt  
+
+Nidoking @ Life Orb  
+Level: 44
+Ability: Sheer Force  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Earth Power  
+- Sludge Bomb  
+- Flamethrower  
+- Thunderbolt  
+
+Nidoking  
+Level: 44
+Ability: Sheer Force  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Earthquake  
+- Poison Jab  
+- Ice Beam  
+- Thunderbolt
+
+Granbull  
+Level: 44
+Ability: Intimidate  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Play Rough  
+- Crunch  
+- Thunder Wave  
+- Heal Bell  
+
+Granbull @ Life Orb  
+Level: 44
+Ability: Intimidate  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Play Rough  
+- Fire Fang  
+- Earthquake  
+- Thunder Wave  
+
+Granbull  
+Level: 44
+Ability: Intimidate  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Play Rough  
+- Thunder Wave  
+- Toxic  
+- Heal Bell
+
+Nidoqueen  
+Level: 44
+Ability: Sheer Force  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Earth Power  
+- Sludge Bomb  
+- Ice Beam  
+- Thunderbolt  
+
+Nidoqueen @ Leftovers  
+Level: 44
+Ability: Sheer Force  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Earth Power  
+- Sludge Bomb  
+- Flamethrower  
+- Toxic  
+
+Nidoqueen  
+Level: 44
+Ability: Sheer Force  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Earthquake  
+- Poison Jab  
+- Ice Beam  
+- Thunderbolt
 
 === TRAINER_KAI ===
 Name: KAI
@@ -86032,14 +91018,253 @@ Music: Hiker
 Double Battle: No
 AI: nettux
 Difficulty: Hard
+Party Size: 3
+/* Location: Route114 */
 
-Barboach
-Level: 19
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Mud Sport
-- Water Sport
+Corphish  
+Level: 44
+Ability: Adaptability  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Crabhammer  
+- Bubble Beam  
+- Leer  
+- Protect  
+
+Corphish @ Life Orb  
+Level: 44
+Ability: Adaptability  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Crabhammer  
+- Swords Dance  
+- Leer  
+- Protect  
+
+Corphish  
+Level: 44
+Ability: Adaptability  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Swords Dance  
+- Protect  
+- Crabhammer  
+- Bubble Beam
+
+Croconaw  
+Level: 44
+Ability: Torrent  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Water Gun  
+- Ice Fang  
+- Crunch  
+- Scratch  
+
+Croconaw @ Life Orb  
+Level: 44
+Ability: Torrent  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Ice Fang  
+- Water Gun  
+- Crunch  
+- Aqua Tail  
+
+Croconaw  
+Level: 44
+Ability: Torrent  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Crunch  
+- Scratch  
+- Water Gun  
+- Ice Fang
+
+Drednaw  
+Level: 44
+Ability: Strong Jaw  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Bite  
+- Water Gun  
+- Protect  
+- Tackle  
+
+Drednaw @ Life Orb  
+Level: 44
+Ability: Strong Jaw  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Water Gun  
+- Bite  
+- Protect  
+- Rock Tomb  
+
+Drednaw  
+Level: 44
+Ability: Strong Jaw  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Protect  
+- Tackle  
+- Bite  
 - Water Gun
-- Magnitude
+
+Buizel  
+Level: 44
+Ability: Swift Swim  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Aqua Jet  
+- Water Pulse  
+- Quick Attack  
+- Bite  
+
+Buizel @ Choice Specs  
+Level: 44
+Ability: Swift Swim  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Surf  
+- Aqua Jet  
+- Ice Beam  
+- Signal Beam  
+
+Buizel  
+Level: 44
+Ability: Swift Swim  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Water Pulse  
+- Bite  
+- Aqua Jet  
+- Quick Attack
+
+
+
+Pelipper  
+Level: 44
+Ability: Drizzle  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Scald  
+- Tailwind  
+- Roost  
+- Hurricane  
+
+Pelipper @ Damp Rock  
+Level: 44
+Ability: Drizzle  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Hurricane  
+- Tailwind  
+- Roost  
+- Scald  
+
+Pelipper  
+Level: 44
+Ability: Drizzle  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Tailwind  
+- Roost  
+- Hurricane  
+- Scald
+
+Slowbro  
+Level: 44
+Ability: Regenerator  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Surf  
+- Psychic  
+- Slack Off  
+- Amnesia  
+
+Slowbro @ Leftovers  
+Level: 44
+Ability: Regenerator  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Amnesia  
+- Psychic  
+- Surf  
+- Slack Off  
+
+Slowbro  
+Level: 44
+Ability: Regenerator  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Slack Off  
+- Surf  
+- Psychic  
+- Amnesia
+
+Sharpedo  
+Level: 44
+Ability: Speed Boost  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Bite  
+- Water Pulse  
+- Leer  
+- Double Team  
+
+Sharpedo @ Life Orb  
+Level: 44
+Ability: Speed Boost  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Crunch  
+- Waterfall  
+- Ice Fang  
+- Protect  
+
+Sharpedo  
+Level: 44
+Ability: Speed Boost  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Ice Fang  
+- Bite  
+- Water Pulse  
+- Double Team
+
+Gyarados  
+Level: 44
+Ability: Intimidate  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Aqua Tail  
+- Dragon Dance  
+- Bite  
+- Leer  
+
+Gyarados @ Life Orb  
+Level: 44
+Ability: Intimidate  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Waterfall  
+- Dragon Dance  
+- Ice Fang  
+- Crunch  
+
+Gyarados  
+Level: 44
+Ability: Intimidate  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Crunch  
+- Aqua Tail  
+- Dragon Dance  
+- Ice Fang
+
+Starmie  
+Level: 44
+Ability: Natural Cure  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Surf  
+- Psychic  
+- Rapid Spin  
+- Recover  
+
+Starmie @ Leftovers  
+Level: 44
+Ability: Natural Cure  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Rapid Spin  
+- Surf  
+- Recover  
+- Psychic  
+
+Starmie  
+Level: 44
+Ability: Natural Cure  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Recover  
+- Psychic  
+- Surf  
+- Rapid Spin
 
 === TRAINER_CHARLOTTE ===
 Name: CHARLOTTE
@@ -86050,14 +91275,278 @@ Music: Girl
 Double Battle: No
 AI: nettux
 Difficulty: Hard
+Party Size: 3
+/* Location: Route114 */
 
-Nuzleaf
-Level: 19
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Harden
-- Growth
-- Nature Power
-- Fake Out
+Espeon  
+Level: 44
+Ability: Synchronize  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Psychic  
+- Shadow Ball  
+- Calm Mind  
+- Morning Sun  
+
+Espeon @ Focus Sash  
+Level: 44
+Ability: Synchronize  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Psychic  
+- Dazzling Gleam  
+- Calm Mind  
+- Morning Sun  
+
+Espeon  
+Level: 44
+Ability: Synchronize  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Psychic  
+- Shadow Ball  
+- Baton Pass  
+- Calm Mind
+
+Ninetales  
+Level: 44
+Ability: Drought  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Flamethrower  
+- Solar Beam  
+- Will-O-Wisp  
+- Protect  
+
+Ninetales @ Light Clay  
+Level: 44
+Ability: Drought  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Flamethrower  
+- Aurora Veil  
+- Encore  
+- Solar Beam  
+
+Ninetales  
+Level: 44
+Ability: Drought  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Heat Wave  
+- Solar Beam  
+- Will-O-Wisp  
+- Protect
+
+Wigglytuff  
+Level: 44
+Ability: Competitive  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Hyper Voice  
+- Thunder Wave  
+- Dazzling Gleam  
+- Protect  
+
+Wigglytuff @ Leftovers  
+Level: 44
+Ability: Competitive  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Play Rough  
+- Heal Bell  
+- Hyper Voice  
+- Protect  
+
+Wigglytuff  
+Level: 44
+Ability: Competitive  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Hyper Voice  
+- Dazzling Gleam  
+- Toxic  
+- Thunder Wave
+
+Pachirisu  
+Level: 44
+Ability: Volt Absorb  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Thunderbolt  
+- Super Fang  
+- Encore  
+- Protect  
+
+Pachirisu @ Leftovers  
+Level: 44
+Ability: Volt Absorb  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Thunderbolt  
+- Discharge  
+- Nuzzle  
+- Taunt  
+
+Pachirisu  
+Level: 44
+Ability: Volt Absorb  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Thunderbolt  
+- Super Fang  
+- Taunt  
+- Protect
+
+Beautifly  
+Level: 44
+Ability: Swarm  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Bug Buzz  
+- Quiver Dance  
+- Energy Ball  
+- Sleep Powder  
+
+Beautifly @ Focus Sash  
+Level: 44
+Ability: Swarm  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Bug Buzz  
+- Quiver Dance  
+- Giga Drain  
+- Sleep Powder  
+
+Beautifly  
+Level: 44
+Ability: Swarm  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Quiver Dance  
+- Bug Buzz  
+- Energy Ball  
+- Protect
+
+Granbull  
+Level: 44
+Ability: Intimidate  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Play Rough  
+- Crunch  
+- Thunder Wave  
+- Heal Bell  
+
+Granbull @ Life Orb  
+Level: 44
+Ability: Intimidate  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Play Rough  
+- Fire Fang  
+- Earthquake  
+- Thunder Wave  
+
+Granbull  
+Level: 44
+Ability: Intimidate  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Play Rough  
+- Thunder Wave  
+- Toxic  
+- Heal Bell
+
+Roserade  
+Level: 44
+Ability: Natural Cure  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Sludge Bomb  
+- Giga Drain  
+- Toxic Spikes  
+- Spikes  
+
+Roserade @ Black Sludge  
+Level: 44
+Ability: Natural Cure  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Sludge Bomb  
+- Shadow Ball  
+- Toxic Spikes  
+- Spikes  
+
+Roserade  
+Level: 44
+Ability: Natural Cure  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Giga Drain  
+- Sludge Bomb  
+- Toxic  
+- Aromatherapy
+
+Kadabra  
+Level: 44
+Ability: Synchronize  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Psychic  
+- Shadow Ball  
+- Reflect  
+- Recover  
+
+Kadabra @ Life Orb  
+Level: 44
+Ability: Synchronize  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Psychic  
+- Focus Blast  
+- Shadow Ball  
+- Encore  
+
+Kadabra  
+Level: 44
+Ability: Synchronize  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Calm Mind  
+- Psychic  
+- Shadow Ball  
+- Recover
+
+Clefable  
+Level: 44
+Ability: Magic Guard  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Moonblast  
+- Soft-Boiled  
+- Thunder Wave  
+- Calm Mind  
+
+Clefable @ Leftovers  
+Level: 44
+Ability: Magic Guard  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Flamethrower  
+- Moonblast  
+- Wish  
+- Protect  
+
+Clefable  
+Level: 44
+Ability: Magic Guard  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Calm Mind  
+- Moonblast  
+- Thunder Wave  
+- Aromatherapy
+
+Lilligant  
+Level: 44
+Ability: Chlorophyll  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Quiver Dance  
+- Giga Drain  
+- Sleep Powder  
+- Hidden Power
+
+Lilligant @ Focus Sash  
+Level: 44
+Ability: Chlorophyll  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Quiver Dance  
+- Petal Dance  
+- Sleep Powder  
+- Hidden Power
+
+Lilligant  
+Level: 44
+Ability: Chlorophyll  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Giga Drain  
+- Quiver Dance  
+- Leech Seed  
+- Aromatherapy
 
 === TRAINER_DEANDRE ===
 Name: DEANDRE
@@ -87094,17 +92583,17 @@ Arcanine Hisui
 Level: 42
 Ability: Intimidate  
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Flare Blitz  
-- Wild Charge  
-- Close Combat  
+- Flame Charge
+- Rock Slide
+- Close Combat
 - Morning Sun  
 
 Arcanine Hisui @ Life Orb  
 Level: 42
 Ability: Intimidate  
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Flare Blitz  
-- Wild Charge  
+- Flame Charge 
+- Rock Slide
 - Extreme Speed  
 - Will-O-Wisp  
 
@@ -87112,10 +92601,10 @@ Arcanine Hisui
 Level: 42
 Ability: Intimidate  
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Flare Blitz  
+- Flame Charge
 - Morning Sun  
-- Wild Charge  
-- Thunder Fang
+- Play Rough
+- Rock Slide
 
 Rapidash  
 Level: 42
@@ -87493,7 +92982,7 @@ Milotic @ Leftovers
 Level: 42
 Ability: Marvel Scale  
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Calm Mind  
+- Ice Beam
 - Recover  
 - Water Pulse  
 - Coil  
@@ -88691,7 +94180,7 @@ IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Surf  
 - Psychic  
 - Slack Off  
-- Thunder Wave  
+- Yawn
 
 Slowbro @ Leftovers  
 Level: 38
@@ -88700,14 +94189,14 @@ IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Slack Off  
 - Psychic  
 - Scald  
-- Teleport  
+- Amnesia
 
 Slowbro  
 Level: 38
 Ability: Regenerator  
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Slack Off  
-- Thunder Wave  
+- Disable
 - Psychic  
 - Surf
 
@@ -88769,19 +94258,19 @@ Chimecho
 Level: 38
 Ability: Levitate  
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Psychic  
-- Recover  
-- Thunder Wave  
-- Safeguard  
+- Extrasensory
+- Recover
+- Take Down
+- Astonish
 
-Chimecho @ Leftovers  
+Chimecho @ Sitrus Berry
 Level: 38
 Ability: Levitate  
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Thunder Wave  
-- Psychic  
-- Recover  
-- Safeguard  
+- Shadow Ball
+- Psychic
+- Imprison
+- Taunt
 
 Chimecho  
 Level: 38
@@ -88789,8 +94278,8 @@ Ability: Levitate
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Safeguard  
 - Recover  
-- Psychic  
-- Thunder Wave
+- Extrasensory
+- Dazzling Gleam
 
 Slowking  
 Level: 38
@@ -89421,6 +94910,24 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Safeguard
 - Astonish
 
+Marshtomp @ Soft Sand
+Level: 25
+Ability: Torrent
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Mud Shot
+- Water Gun
+- Rock Tomb
+- Growl
+
+Grovyle @ Miracle Seed
+Level: 25
+Ability: Overgrow
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Leaf Blade
+- Pursuit
+- Quick Attack
+- Fury Cutter
+
 Combusken @ Charcoal
 Level: 25
 Ability: Blaze
@@ -89429,24 +94936,6 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Double Kick
 - Peck
 - Bulk Up
-
-Roselia @ Miracle Seed
-Level: 25
-Ability: Natural Cure
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Giga Drain
-- Stun Spore
-- Leech Seed
-- Venoshock
-
-Drednaw @ Mystic Water
-Level: 25
-Ability: Strong Jaw
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Water Gun
-- Bite
-- Rock Tomb
-- Protect
 
 === TRAINER_MAY_RUSTBORO_TORCHIC ===
 Name: MAY
@@ -89476,23 +94965,23 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Rock Tomb
 - Growl
 
-Growlithe Hisui @ Charcoal
+Grovyle @ Miracle Seed
 Level: 25
-Ability: Intimidate
+Ability: Overgrow
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Flame Wheel
-- Rock Slide
-- Howl
-- Protect
+- Leaf Blade
+- Pursuit
+- Quick Attack
+- Fury Cutter
 
-Roselia @ Miracle Seed
+Combusken @ Charcoal
 Level: 25
-Ability: Natural Cure
+Ability: Blaze
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Giga Drain
-- Stun Spore
-- Leech Seed
-- Venoshock
+- Flame Charge
+- Double Kick
+- Peck
+- Bulk Up
 
 === TRAINER_ROXANNE_2 ===
 Name: ROXANNE

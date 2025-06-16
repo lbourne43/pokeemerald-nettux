@@ -203,6 +203,12 @@ static const u16 sNettuxBattleInventory_ZeroBadges[] = {
 };
 
 static const u16 sNettuxBattleInventory_OneBadges[] = {
+    ITEM_ASPEAR_BERRY,
+    ITEM_CHESTO_BERRY,
+    ITEM_CHERI_BERRY,
+    ITEM_PERSIM_BERRY,
+    ITEM_PECHA_BERRY,
+    ITEM_RAWST_BERRY,
     ITEM_TERA_ORB,
     ITEM_EXP_SHARE,
     ITEM_SILK_SCARF,
@@ -227,6 +233,13 @@ static const u16 sNettuxBattleInventory_OneBadges[] = {
 };
 
 static const u16 sNettuxBattleInventory_TwoBadges[] = {
+    ITEM_ASPEAR_BERRY,
+    ITEM_CHESTO_BERRY,
+    ITEM_CHERI_BERRY,
+    ITEM_PERSIM_BERRY,
+    ITEM_PECHA_BERRY,
+    ITEM_RAWST_BERRY,
+    ITEM_SITRUS_BERRY,
     ITEM_TERA_ORB,
     ITEM_EXP_SHARE,
     ITEM_SILK_SCARF,
@@ -251,6 +264,13 @@ static const u16 sNettuxBattleInventory_TwoBadges[] = {
 };
 
 static const u16 sNettuxBattleInventory_ThreeBadges[] = {
+    ITEM_ASPEAR_BERRY,
+    ITEM_CHESTO_BERRY,
+    ITEM_CHERI_BERRY,
+    ITEM_PERSIM_BERRY,
+    ITEM_PECHA_BERRY,
+    ITEM_RAWST_BERRY,
+    ITEM_SITRUS_BERRY,
     ITEM_TERA_ORB,
     ITEM_EXP_SHARE,
     ITEM_SILK_SCARF,
@@ -275,6 +295,13 @@ static const u16 sNettuxBattleInventory_ThreeBadges[] = {
 };
 
 static const u16 sNettuxBattleInventory_FourBadges[] = {
+    ITEM_ASPEAR_BERRY,
+    ITEM_CHESTO_BERRY,
+    ITEM_CHERI_BERRY,
+    ITEM_PERSIM_BERRY,
+    ITEM_PECHA_BERRY,
+    ITEM_RAWST_BERRY,
+    ITEM_SITRUS_BERRY,
     ITEM_TERA_ORB,
     ITEM_EXP_SHARE,
     ITEM_SILK_SCARF,
@@ -306,6 +333,13 @@ static const u16 sNettuxBattleInventory_FourBadges[] = {
 };
 
 static const u16 sNettuxBattleInventory_FiveBadges[] = {
+    ITEM_ASPEAR_BERRY,
+    ITEM_CHESTO_BERRY,
+    ITEM_CHERI_BERRY,
+    ITEM_PERSIM_BERRY,
+    ITEM_PECHA_BERRY,
+    ITEM_RAWST_BERRY,
+    ITEM_SITRUS_BERRY,
     ITEM_TERA_ORB,
     ITEM_EXP_SHARE,
     ITEM_SILK_SCARF,
@@ -337,6 +371,13 @@ static const u16 sNettuxBattleInventory_FiveBadges[] = {
 };
 
 static const u16 sNettuxBattleInventory_SixBadges[] = {
+    ITEM_ASPEAR_BERRY,
+    ITEM_CHESTO_BERRY,
+    ITEM_CHERI_BERRY,
+    ITEM_PERSIM_BERRY,
+    ITEM_PECHA_BERRY,
+    ITEM_RAWST_BERRY,
+    ITEM_SITRUS_BERRY,
     ITEM_TERA_ORB,
     ITEM_EXP_SHARE,
     ITEM_SILK_SCARF,
@@ -369,6 +410,13 @@ static const u16 sNettuxBattleInventory_SixBadges[] = {
 };
 
 static const u16 sNettuxBattleInventory_SevenBadges[] = {
+    ITEM_ASPEAR_BERRY,
+    ITEM_CHESTO_BERRY,
+    ITEM_CHERI_BERRY,
+    ITEM_PERSIM_BERRY,
+    ITEM_PECHA_BERRY,
+    ITEM_RAWST_BERRY,
+    ITEM_SITRUS_BERRY,
     ITEM_TERA_ORB,
     ITEM_EXP_SHARE,
     ITEM_SILK_SCARF,
@@ -401,6 +449,13 @@ static const u16 sNettuxBattleInventory_SevenBadges[] = {
 };
 
 static const u16 sNettuxBattleInventory_EightBadges[] = {
+    ITEM_ASPEAR_BERRY,
+    ITEM_CHESTO_BERRY,
+    ITEM_CHERI_BERRY,
+    ITEM_PERSIM_BERRY,
+    ITEM_PECHA_BERRY,
+    ITEM_RAWST_BERRY,
+    ITEM_SITRUS_BERRY,
     ITEM_TERA_ORB,
     ITEM_EXP_SHARE,
     ITEM_SILK_SCARF,
@@ -857,7 +912,12 @@ static const u16 sNettuxTMInventory_TwoBadges[] = {
     ITEM_TM64,
     ITEM_TM65,
     ITEM_TM66,
+    ITEM_TM_BLIZZARD,
+    ITEM_TM_GIGA_DRAIN,
+    ITEM_TM_THUNDER,
     ITEM_TM_BRICK_BREAK,
+    ITEM_TM_FIRE_BLAST,
+    ITEM_TM61,
     ITEM_TM62,
     ITEM_NONE
 };
@@ -878,12 +938,18 @@ static const u16 sNettuxTMInventory_ThreeBadges[] = {
     ITEM_TM64,
     ITEM_TM65,
     ITEM_TM66,
+    ITEM_TM_BLIZZARD,
+    ITEM_TM_GIGA_DRAIN,
+    ITEM_TM_THUNDER,
     ITEM_TM_BRICK_BREAK,
+    ITEM_TM_FIRE_BLAST,
+    ITEM_TM61,
     ITEM_TM62,
     ITEM_TM_ICE_BEAM,
     ITEM_TM_THUNDERBOLT,
     ITEM_TM_SHOCK_WAVE,
     ITEM_TM_FLAMETHROWER,
+    ITEM_TM_SLUDGE_BOMB,
     ITEM_NONE
 };
 
@@ -903,7 +969,12 @@ static const u16 sNettuxTMInventory_FourBadges[] = {
     ITEM_TM64,
     ITEM_TM65,
     ITEM_TM66,
+    ITEM_TM_BLIZZARD,
+    ITEM_TM_GIGA_DRAIN,
+    ITEM_TM_THUNDER,
     ITEM_TM_BRICK_BREAK,
+    ITEM_TM_FIRE_BLAST,
+    ITEM_TM61,
     ITEM_TM62,
     ITEM_TM_ICE_BEAM,
     ITEM_TM_THUNDERBOLT,
@@ -911,6 +982,10 @@ static const u16 sNettuxTMInventory_FourBadges[] = {
     ITEM_TM_FLAMETHROWER,
     ITEM_TM_SLUDGE_BOMB,
     ITEM_TM54,
+    ITEM_TM60,
+    ITEM_TM_TOXIC,
+    ITEM_TM_HYPER_BEAM,
+    ITEM_TM_SOLAR_BEAM,
     ITEM_NONE
 };
 
@@ -930,7 +1005,12 @@ static const u16 sNettuxTMInventory_FiveBadges[] = {
     ITEM_TM64,
     ITEM_TM65,
     ITEM_TM66,
+    ITEM_TM_BLIZZARD,
+    ITEM_TM_GIGA_DRAIN,
+    ITEM_TM_THUNDER,
     ITEM_TM_BRICK_BREAK,
+    ITEM_TM_FIRE_BLAST,
+    ITEM_TM61,
     ITEM_TM62,
     ITEM_TM_ICE_BEAM,
     ITEM_TM_THUNDERBOLT,
@@ -938,8 +1018,16 @@ static const u16 sNettuxTMInventory_FiveBadges[] = {
     ITEM_TM_FLAMETHROWER,
     ITEM_TM_SLUDGE_BOMB,
     ITEM_TM54,
+    ITEM_TM60,
+    ITEM_TM_TOXIC,
+    ITEM_TM_HYPER_BEAM,
+    ITEM_TM_SOLAR_BEAM,
+    ITEM_TM_DRAGON_CLAW,
     ITEM_TM_PSYCHIC,
     ITEM_TM_SHADOW_BALL,
+    ITEM_TM55,
+    ITEM_TM56,
+    ITEM_TM57,
     ITEM_NONE
 };
 
@@ -959,7 +1047,12 @@ static const u16 sNettuxTMInventory_SixBadges[] = {
     ITEM_TM64,
     ITEM_TM65,
     ITEM_TM66,
+    ITEM_TM_BLIZZARD,
+    ITEM_TM_GIGA_DRAIN,
+    ITEM_TM_THUNDER,
     ITEM_TM_BRICK_BREAK,
+    ITEM_TM_FIRE_BLAST,
+    ITEM_TM61,
     ITEM_TM62,
     ITEM_TM_ICE_BEAM,
     ITEM_TM_THUNDERBOLT,
@@ -967,8 +1060,16 @@ static const u16 sNettuxTMInventory_SixBadges[] = {
     ITEM_TM_FLAMETHROWER,
     ITEM_TM_SLUDGE_BOMB,
     ITEM_TM54,
+    ITEM_TM60,
+    ITEM_TM_TOXIC,
+    ITEM_TM_HYPER_BEAM,
+    ITEM_TM_SOLAR_BEAM,
+    ITEM_TM_DRAGON_CLAW,
     ITEM_TM_PSYCHIC,
     ITEM_TM_SHADOW_BALL,
+    ITEM_TM55,
+    ITEM_TM56,
+    ITEM_TM57,
     ITEM_NONE
 };
 
@@ -988,7 +1089,12 @@ static const u16 sNettuxTMInventory_SevenBadges[] = {
     ITEM_TM64,
     ITEM_TM65,
     ITEM_TM66,
+    ITEM_TM_BLIZZARD,
+    ITEM_TM_GIGA_DRAIN,
+    ITEM_TM_THUNDER,
     ITEM_TM_BRICK_BREAK,
+    ITEM_TM_FIRE_BLAST,
+    ITEM_TM61,
     ITEM_TM62,
     ITEM_TM_ICE_BEAM,
     ITEM_TM_THUNDERBOLT,
@@ -996,8 +1102,16 @@ static const u16 sNettuxTMInventory_SevenBadges[] = {
     ITEM_TM_FLAMETHROWER,
     ITEM_TM_SLUDGE_BOMB,
     ITEM_TM54,
+    ITEM_TM60,
+    ITEM_TM_TOXIC,
+    ITEM_TM_HYPER_BEAM,
+    ITEM_TM_SOLAR_BEAM,
+    ITEM_TM_DRAGON_CLAW,
     ITEM_TM_PSYCHIC,
     ITEM_TM_SHADOW_BALL,
+    ITEM_TM55,
+    ITEM_TM56,
+    ITEM_TM57,
     ITEM_NONE
 };
 
@@ -1017,7 +1131,12 @@ static const u16 sNettuxTMInventory_EightBadges[] = {
     ITEM_TM64,
     ITEM_TM65,
     ITEM_TM66,
+    ITEM_TM_BLIZZARD,
+    ITEM_TM_GIGA_DRAIN,
+    ITEM_TM_THUNDER,
     ITEM_TM_BRICK_BREAK,
+    ITEM_TM_FIRE_BLAST,
+    ITEM_TM61,
     ITEM_TM62,
     ITEM_TM_ICE_BEAM,
     ITEM_TM_THUNDERBOLT,
@@ -1025,8 +1144,16 @@ static const u16 sNettuxTMInventory_EightBadges[] = {
     ITEM_TM_FLAMETHROWER,
     ITEM_TM_SLUDGE_BOMB,
     ITEM_TM54,
+    ITEM_TM60,
+    ITEM_TM_TOXIC,
+    ITEM_TM_HYPER_BEAM,
+    ITEM_TM_SOLAR_BEAM,
+    ITEM_TM_DRAGON_CLAW,
     ITEM_TM_PSYCHIC,
     ITEM_TM_SHADOW_BALL,
+    ITEM_TM55,
+    ITEM_TM56,
+    ITEM_TM57,
     ITEM_NONE
 };
 

@@ -70,7 +70,16 @@ battle:
       - spell_tag
       - metal_coat
   one:
+    potions:
+      - aspear_berry
+      - chesto_berry
+      - cheri_berry
+      - persim_berry
+      - pecha_berry
+      - rawst_berry
   two:
+    potions:
+      - sitrus_berry
   three:
   four:
     others:
@@ -158,7 +167,12 @@ tm:
   one:
   two:
     others:
-      - tm brick break
+      - tm_blizzard
+      - tm_giga_drain
+      - tm_thunder
+      - tm_brick_break
+      - tm_fire_blast
+      - tm61
       - tm62
   three:
     others:
@@ -166,14 +180,22 @@ tm:
       - tm_thunderbolt
       - tm_shock_wave
       - tm_flamethrower
+      - tm_sludge_bomb
   four:
     others:
-      - tm_sludge_bomb
       - tm54
+      - tm60
+      - tm_toxic
+      - tm_hyper_beam
+      - tm_solar_beam
   five:
     others:
+      - tm_dragon_claw
       - tm_psychic
-      - tm_shadow ball
+      - tm_shadow_ball
+      - tm55
+      - tm56
+      - tm57
   six:
   seven:
   eight: 

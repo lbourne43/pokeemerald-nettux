@@ -228,8 +228,14 @@ Route101_EventScript_BirchsBag::
 	setobjectxy OBJ_EVENT_ID_PLAYER, 6, 13
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterLeft
 	waitmovement 0
-	special ChooseStarter
+	callnative StartNewPokeballCaseUI
 	waitstate
+	playmoncry SPECIES_ZIGZAGOON, CRY_MODE_ENCOUNTER
+        delay 40
+        waitmoncry
+        setwildbattle SPECIES_ZIGZAGOON, 2
+        setvar VAR_0x8009, 0
+        dowildbattle
 	applymovement LOCALID_BIRCH, Route101_Movement_BirchApproachPlayer
 	waitmovement 0
 	msgbox Route101_Text_YouSavedMe, MSGBOX_DEFAULT
