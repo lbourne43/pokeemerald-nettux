@@ -23763,6 +23763,40 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Taunt
 - Swagger
 
+=== TRAINER_ARCHIE_MTPYRE ===
+Name: ARCHIE
+Class: Aqua Leader
+Pic: Aqua Leader Archie
+Gender: Male
+Music: Aqua
+Double Battle: Yes
+AI: nettux
+Difficulty: Doubles
+
+Mightyena
+Level: 41
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Roar
+- Swagger
+- Scary Face
+- Take Down
+
+Crobat
+Level: 41
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Bite
+- Wing Attack
+- Confuse Ray
+- Air Cutter
+
+Sharpedo
+Level: 43
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Screech
+- Slash
+- Taunt
+- Swagger
+
 === TRAINER_ARCHIE ===
 Name: ARCHIE
 Class: Aqua Leader
@@ -47149,7 +47183,17 @@ AI: nettux
 Difficulty: Hard
 /* Location: MeteorFalls_1F_1R */
 
-Pelipper @ Damp Rock  
+Crobat @ Poison Barb  
+Level: 47  
+Ability: Infiltrator  
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+Nature: Jolly  
+- Cross Poison  
+- Brave Bird  
+- Tailwind
+- Rain Dance  
+
+Pelipper @ Mystic Water
 Level: 47  
 Ability: Drizzle  
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
@@ -47158,16 +47202,6 @@ Nature: Timid
 - Weather Ball  
 - Tailwind  
 - Roost  
-
-Crobat @ Poison Barb  
-Level: 47  
-Ability: Infiltrator  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
-Nature: Jolly  
-- Cross Poison  
-- Brave Bird  
-- Taunt  
-- Rain Dance  
 
 Gyarados @ Focus Sash  
 Level: 47  
@@ -47199,6 +47233,68 @@ Nature: Jolly
 - Waterfall  
 - Ice Fang  
 - Rain Dance  
+
+=== TRAINER_ARCHIE_MTPYRE ===
+Name: ARCHIE
+Class: Aqua Leader
+Pic: Aqua Leader Archie
+Gender: Male
+Music: Aqua
+Double Battle: No
+AI: nettux
+Difficulty: Hard
+/* Location: MtPyre_Summit */
+
+Kilowattrel @ Focus Sash
+Level: 75
+Ability: Volt Absorb
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+Nature: Timid
+- Discharge
+- Volt Switch
+- Hurricane
+- Tailwind
+
+Iron Bundle @ Wacan Berry
+Level: 75
+Ability: Quark Drive
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+Nature: Timid
+- Icy Wind
+- Air Cutter
+- Chilling Water
+- Freeze-Dry
+
+Gyarados @ Life Orb
+Level: 75
+Ability: Intimidate
+Tera Type: Ground
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+Nature: Jolly
+- Hurricane
+- Waterfall
+- Earthquake
+- Dragon Dance
+
+Raichu @ Leftovers
+Level: 75
+Ability: Lightning Rod
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+Nature: Timid
+- Thunder
+- Grass Knot
+- Surf
+- Thunder Wave
+
+Swampert @ Swampertite
+Level: 75
+Ability: Damp
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+Nature: Timid
+- Earthquake
+- Waterfall
+- Poison Jab
+- Roost
 
 === TRAINER_ARCHIE ===
 Name: ARCHIE
@@ -50659,14 +50755,10 @@ Music: Intense
 Double Battle: No
 AI: nettux
 Difficulty: Hard
+Party Size: 3
+/* Location: Route115 */
 
-Machop
-Level: 19
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Leer
-- Focus Energy
-- Karate Chop
-- Seismic Toss
+{{ black_belt 50 NOB }}
 
 === TRAINER_NOB_2 ===
 Name: NOB
@@ -56689,22 +56781,10 @@ Music: Intense
 Double Battle: No
 AI: nettux
 Difficulty: Hard
+Party Size: 3
+/* Location: Route115 */
 
-Meditite
-Level: 18
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Meditate
-- Confusion
-- Detect
-- Hidden Power
-
-Makuhita
-Level: 18
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Focus Energy
-- Sand Attack
-- Arm Thrust
-- Vital Throw
+{{ battle_girl 50 CYNDY }}
 
 === TRAINER_CORA ===
 Name: CORA
@@ -58749,22 +58829,10 @@ Music: Suspicious
 Double Battle: No
 AI: nettux
 Difficulty: Hard
+Party Size: 3
+/* Location: Route115 */
 
-Zangoose
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Leer
-- Quick Attack
-- Swords Dance
-- Fury Cutter
-
-Seviper
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Wrap
-- Lick
-- Bite
-- Poison Tail
+{{ collector 50 HECTOR }}
 
 === TRAINER_TABITHA_MOSSDEEP ===
 Name: TABITHA
@@ -61218,16 +61286,6 @@ AI: nettux
 Difficulty: Hard
 /* Location: MtChimney */
 
-Ninetales @ Heat Rock  
-Level: 50  
-Ability: Drought  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
-Nature: Timid  
-- Flamethrower  
-- Solar Beam  
-- Will-O-Wisp  
-- Sunny Day  
-
 Luxray @ Shuca Berry  
 Level: 50  
 Ability: Intimidate  
@@ -61238,6 +61296,16 @@ Nature: Jolly
 - Crunch  
 - Thunder Wave  
 
+Arcanine Hisui @ Shell Bell
+Tera Type: Normal
+Level: 50
+Ability: Intimidate
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+- Flare Blitz
+- Will-O-Wisp
+- Extreme Speed
+- Head Smash
+
 Claydol @ Leftovers  
 Level: 50  
 Ability: Levitate  
@@ -61246,14 +61314,14 @@ Nature: Calm
 - Earth Power  
 - Psychic  
 - Stealth Rock  
-- Sunny Day
+- Solar Beam
 
 Houndoom @ Houndoominite  
 Level: 50  
 Ability: Flash Fire  
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
 Nature: Modest  
-- Fire Blast  
+- Flamethrower
 - Dark Pulse  
 - Solar Beam  
 - Nasty Plot  
@@ -61421,16 +61489,6 @@ AI: nettux
 Difficulty: Hard
 /* Location: MtChimney */
 
-Torkoal @ Heat Rock  
-Level: 50  
-Ability: Drought  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
-Nature: Relaxed  
-- Lava Plume  
-- Solar Beam  
-- Stealth Rock  
-- Yawn  
-
 Crobat @ Black Sludge  
 Level: 50  
 Ability: Infiltrator  
@@ -61439,7 +61497,18 @@ Nature: Jolly
 - Brave Bird  
 - Cross Poison  
 - U-turn  
-- Roost  
+- Tailwind
+
+Nidoking @ Life Orb
+Level: 50  
+Ability: Sheer Force
+Tera Type: Fire
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+Nature: Modest
+- Scorching Sands
+- Flamethrower
+- Sludge Bomb  
+- Ice Beam
 
 Aerodactyl @ Focus Sash  
 Level: 50  
@@ -61454,7 +61523,6 @@ Nature: Jolly
 Houndoom @ Coba Berry
 Level: 50  
 Ability: Flash Fire  
-Tera Type: Grass
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
 Nature: Timid  
 - Flamethrower  
@@ -61468,9 +61536,9 @@ Ability: Solid Rock
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
 Nature: Quiet  
 - Earth Power  
-- Fire Blast  
-- Ancient Power  
-- Protect  
+- Eruption
+- Lava Plume
+- Yawn
 
 === TRAINER_TIANA ===
 Name: TIANA
@@ -62626,8 +62694,8 @@ Party Size: 3
 /* Location: LavaridgeTown_Gym */
 
 Kecleon
+Ability: Protean
 Level: 53
-Nature: Protean
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Flamethrower
 - Fury Swipes
@@ -65261,22 +65329,10 @@ Music: Intense
 Double Battle: No
 AI: nettux
 Difficulty: Hard
+Party Size: 3
+/* Location: Route115 */
 
-Meditite
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Meditate
-- Confusion
-- Detect
-- Hidden Power
-
-Spoink
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Splash
-- Psywave
-- Odor Sleuth
-- Psybeam
+{{ psychic 50 MARLENE }}
 
 === TRAINER_DEVAN ===
 Name: DEVAN

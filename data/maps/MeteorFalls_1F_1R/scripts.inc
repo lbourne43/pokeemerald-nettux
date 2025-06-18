@@ -9,6 +9,7 @@ MeteorFalls_1F_1R_MapScripts::
 	.byte 0
 
 MeteorFalls_1F_1R_OnLoad:
+        special nettuxSetPermanentRain
 	call_if_set FLAG_SYS_GAME_CLEAR, MeteorFalls_1F_1R_EventScript_OpenStevensCave
 	end
 

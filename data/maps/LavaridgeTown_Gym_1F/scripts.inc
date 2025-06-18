@@ -4,8 +4,12 @@
 .set LOCALID_DANIELLE, 5
 
 LavaridgeTown_Gym_1F_MapScripts::
+        map_script MAP_SCRIPT_ON_LOAD, LavaridgeTown_Gym_1F_OnLoad
 	map_script MAP_SCRIPT_ON_TRANSITION, LavaridgeTown_Gym_1F_OnTransition
 	.byte 0
+
+LavaridgeTown_Gym_1F_OnLoad:
+        special nettuxSetPermanentSun
 
 LavaridgeTown_Gym_1F_OnTransition:
 	call LavaridgeTown_Gym_1F_EventScript_SetTrainerTempVars

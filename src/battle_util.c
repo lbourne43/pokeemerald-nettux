@@ -52,6 +52,8 @@
 #include "constants/pokemon.h"
 #include "config/general.h"
 
+#include "constants/flags.h"
+
 /*
 NOTE: The data and functions in this file up until (but not including) sSoundMovesTable
 are actually part of battle_main.c. They needed to be moved to this file in order to
@@ -4032,6 +4034,7 @@ bool32 HasNoMonsToSwitch(u32 battler, u8 partyIdBattlerOn1, u8 partyIdBattlerOn2
 
 bool32 TryChangeBattleWeather(u32 battler, u32 battleWeatherId, bool32 viaAbility)
 {
+    // TODO: check if weather is permanent and return FALSE to block the change
     u16 battlerAbility = GetBattlerAbility(battler);
 
     if (gBattleWeather & sBattleWeatherInfo[battleWeatherId].flag)
@@ -4042,6 +4045,10 @@ bool32 TryChangeBattleWeather(u32 battler, u32 battleWeatherId, bool32 viaAbilit
         && battlerAbility != ABILITY_DESOLATE_LAND
         && battlerAbility != ABILITY_PRIMORDIAL_SEA
         && battlerAbility != ABILITY_DELTA_STREAM)
+    {
+        return FALSE;
+    }
+    else if (FlagGet(FLAG_TEMP_NETTUX_PERMA_WEATHER))
     {
         return FALSE;
     }
@@ -4068,6 +4075,10 @@ bool32 TryChangeBattleWeather(u32 battler, u32 battleWeatherId, bool32 viaAbilit
 
 static bool32 TryChangeBattleTerrain(u32 battler, u32 statusFlag, u16 *timer)
 {
+    if (FlagGet(FLAG_TEMP_NETTUX_PERMA_TERRAIN))
+    {
+        return FALSE;
+    }
     if ((!(gFieldStatuses & statusFlag) && (!gBattleStruct->isSkyBattle)))
     {
         gFieldStatuses &= ~STATUS_FIELD_TERRAIN_ANY;
@@ -4679,6 +4690,14 @@ u32 AbilityBattleEffects(u32 caseID, u32 battler, u32 ability, u32 special, u32 
         {
             switch (GetCurrentWeather())
             {
+	    case WEATHER_NETTUX_STRONG_WINDS:
+		if (!(gBattleWeather & B_WEATHER_STRONG_WINDS))
+		{		
+                    gBattleWeather = B_WEATHER_STRONG_WINDS;
+                    gBattleScripting.animArg1 = B_ANIM_STRONG_WINDS;
+                    effect++;
+		}
+		break;
             case WEATHER_RAIN:
             case WEATHER_RAIN_THUNDERSTORM:
             case WEATHER_DOWNPOUR:

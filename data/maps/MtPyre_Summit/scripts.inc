@@ -7,8 +7,13 @@
 .set LOCALID_MAXIE, 8
 
 MtPyre_Summit_MapScripts::
+        map_script MAP_SCRIPT_ON_LOAD, MtPyre_Summit_OnLoad
 	map_script MAP_SCRIPT_ON_TRANSITION, MtPyre_Summit_OnTransition
 	.byte 0
+
+MtPyre_Summit_OnLoad:
+        special nettuxSetPermanentThunder
+        end
 
 MtPyre_Summit_OnTransition:
 	call_if_eq VAR_MT_PYRE_STATE, 2, MtPyre_Summit_EventScript_SetArchieMaxiePositions
@@ -47,6 +52,17 @@ MtPyre_Summit_EventScript_TeamAquaExits::
 	call_if_eq VAR_0x8008, 0, MtPyre_Summit_EventScript_ArchieFacePlayer0
 	call_if_eq VAR_0x8008, 1, MtPyre_Summit_EventScript_ArchieFacePlayer1
 	call_if_eq VAR_0x8008, 2, MtPyre_Summit_EventScript_ArchieFacePlayer2
+        goto_if_set FLAG_NETTUX_HARD MtPyre_Summit_EventScript_OrbSceneBattle
+        goto_if_set FLAG_NETTUX_VGC MtPyre_Summit_EventScript_OrbSceneBattle
+	goto MtPyre_Summit_EventScript_TeamAquaExitsPart2
+
+MtPyre_Summit_EventScript_OrbSceneBattle::
+        msgbox MtPyre_Summit_Text_ArchieBattle, MSGBOX_DEFAULT
+        trainerbattle_no_intro TRAINER_ARCHIE_MTPYRE, MtPyre_Summit_Text_ArchieDefeat
+	goto MtPyre_Summit_EventScript_TeamAquaExitsPart2
+
+
+MtPyre_Summit_EventScript_TeamAquaExitsPart2::
 	msgbox MtPyre_Summit_Text_ArchieWeGotTheOrbLetsGo, MSGBOX_DEFAULT
 	closemessage
 	fadescreen FADE_TO_BLACK
@@ -428,6 +444,17 @@ MtPyre_Summit_EventScript_Grunt4::
 	trainerbattle_single TRAINER_GRUNT_MT_PYRE_4, MtPyre_Summit_Text_Grunt4Intro, MtPyre_Summit_Text_Grunt4Defeat
 	msgbox MtPyre_Summit_Text_Grunt4PostBattle, MSGBOX_AUTOCLOSE
 	end
+
+MtPyre_Summit_Text_ArchieBattle:
+	.string "You again!\p"
+	.string "I won't let you interfere! My Team\n"
+	.string "have endured far worse conditions\p"
+	.string "with me at sea...\p"
+	.string "... Can you weather the storm?$"
+
+MtPyre_Summit_Text_ArchieDefeat:
+	.string "So you outlasted the storm\n"
+	.string "but it doesn't matter!$"
 
 MtPyre_Summit_Text_Grunt1Intro:
 	.string "No! Those TEAM MAGMA goons got\n"

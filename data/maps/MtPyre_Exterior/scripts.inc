@@ -1,6 +1,11 @@
 MtPyre_Exterior_MapScripts::
+	map_script MAP_SCRIPT_ON_LOAD, MtPyre_Exterior_OnLoad
 	map_script MAP_SCRIPT_ON_TRANSITION, MtPyre_Exterior_OnTransition
 	.byte 0
+
+MtPyre_Exterior_OnLoad:
+        special nettuxSetPermanentRain
+        end
 
 MtPyre_Exterior_OnTransition:
 	call MtPyre_Exterior_EventScript_CheckEnterFromSummit
@@ -12,16 +17,14 @@ MtPyre_Exterior_EventScript_CheckEnterFromSummit::
 	return
 
 MtPyre_Exterior_EventScript_EnterFromSummit::
-	setweather WEATHER_FOG_HORIZONTAL
+        special nettuxSetPermanentRain
 	return
 
 MtPyre_Exterior_EventScript_FogTrigger::
-	setweather WEATHER_FOG_HORIZONTAL
-	doweather
+        special nettuxSetPermanentRain
 	end
 
 MtPyre_Exterior_EventScript_SunTrigger::
-	setweather WEATHER_SUNNY
-	doweather
+        special nettuxSetPermanentRain
 	end
 

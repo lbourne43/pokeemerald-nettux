@@ -73,6 +73,8 @@
 #include "naming_screen.h"
 #include "event_data.h"
 
+#include "constants/flags.h"
+
 #define TAG_ITEM_ICON 5500
 
 #define GFXTAG_MULTICHOICE_SCROLL_ARROWS 2000
@@ -1556,6 +1558,37 @@ static void StopCameraShake(u8 taskId)
 bool8 FoundBlackGlasses(void)
 {
     return FlagGet(FLAG_HIDDEN_ITEM_ROUTE_116_BLACK_GLASSES);
+}
+
+void nettuxSetPermanentRain(void)
+{
+    SetSavedWeather(WEATHER_RAIN);
+    FlagSet(FLAG_TEMP_NETTUX_PERMA_WEATHER);
+}
+
+void nettuxSetPermanentThunder(void)
+{
+    SetSavedWeather(WEATHER_RAIN_THUNDERSTORM);
+    FlagSet(FLAG_TEMP_NETTUX_PERMA_WEATHER);
+    FlagSet(FLAG_TEMP_NETTUX_PERMA_TERRAIN);
+}
+
+void nettuxSetPermanentSun(void)
+{
+    SetSavedWeather(WEATHER_DROUGHT);
+    FlagSet(FLAG_TEMP_NETTUX_PERMA_WEATHER);
+}
+
+void nettuxSetPermanentWind(void)
+{
+    SetSavedWeather(WEATHER_NETTUX_STRONG_WINDS);
+    FlagSet(FLAG_TEMP_NETTUX_PERMA_WEATHER);
+}
+
+void nettuxSetPermanentSand(void)
+{
+    SetSavedWeather(WEATHER_SANDSTORM);
+    FlagSet(FLAG_TEMP_NETTUX_PERMA_WEATHER);
 }
 
 void SetRoute119Weather(void)
