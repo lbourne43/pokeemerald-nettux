@@ -77,10 +77,55 @@ battle:
       - persim_berry
       - pecha_berry
       - rawst_berry
+    others:
+      - eject_button
+      - eject_pack
+      - red_card
+      - light_clay
   two:
     potions:
       - sitrus_berry
+    others:
+      - damp_rock
+      - icy_rock
+      - smooth_rock
+      - heat_rock
+      - terrain_extender
   three:
+    potions:
+      - sitrus_berry
+      - occa_berry
+      - passho_berry
+      - wacan_berry
+      - rindo_berry
+      - yache_berry
+      - chople_berry
+      - kebia_berry
+      - shuca_berry
+      - coba_berry
+      - payapa_berry
+      - tanga_berry
+      - charti_berry
+      - kasib_berry
+      - haban_berry
+      - colbur_berry
+      - babiri_berry
+      - chilan_berry
+      - roseli_berry
+    others:
+      - focus_sash
+      - leftovers
+      - heavy_duty_boots
+      - covert_cloak
+      - air_balloon
+      - life_orb
+      - toxic_orb
+      - flame_orb
+      - big_root
+      - lagging_tail
+      - wise_glasses
+      - expert_belt
+      - utility_umbrella
   four:
     others:
       - white_herb
@@ -91,6 +136,10 @@ battle:
       - leftovers
       - life_orb
   five:
+    others:
+      - choice_band
+      - choice_specs
+      - choice_scarf
   six:
     others:
       - clear amulet
