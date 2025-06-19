@@ -220,6 +220,11 @@ void Bubbles_Main(void);
 void Bubbles_InitAll(void);
 bool8 Bubbles_Finish(void);
 
+void nettuxWind_InitVars(void);
+void nettuxWind_Main(void);
+void nettuxWind_InitAll(void);
+bool8 nettuxWind_Finish(void);
+
 u8 GetSavedWeather(void);
 void SetSavedWeather(u32 weather);
 void SetSavedWeatherFromCurrMapHeader(void);

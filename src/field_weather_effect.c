@@ -149,6 +149,69 @@ bool8 Clouds_Finish(void)
     return FALSE;
 }
 
+
+// nettux wind
+
+void nettuxWind_InitVars(void)
+{
+    gWeatherPtr->targetColorMapIndex = 0;
+    gWeatherPtr->colorMapStepDelay = 20;
+    gWeatherPtr->weatherGfxLoaded = FALSE;
+    gWeatherPtr->initStep = 0;
+    if (gWeatherPtr->cloudSpritesCreated == FALSE)
+        Weather_SetBlendCoeffs(0, 16);
+}
+
+void nettuxWind_InitAll(void)
+{
+    nettuxWind_InitVars();
+    while (gWeatherPtr->weatherGfxLoaded == FALSE)
+        nettuxWind_Main();
+}
+
+void nettuxWind_Main(void)
+{
+    switch (gWeatherPtr->initStep)
+    {
+    case 0:
+        CreateCloudSprites();
+        gWeatherPtr->initStep++;
+        break;
+    case 1:
+        Weather_SetTargetBlendCoeffs(12, 8, 1);
+        gWeatherPtr->initStep++;
+        break;
+    case 2:
+        if (Weather_UpdateBlend())
+        {
+            gWeatherPtr->weatherGfxLoaded = TRUE;
+            gWeatherPtr->initStep++;
+        }
+        break;
+    }
+}
+
+bool8 nettuxWind_Finish(void)
+{
+    switch (gWeatherPtr->finishStep)
+    {
+    case 0:
+        Weather_SetTargetBlendCoeffs(0, 16, 1);
+        gWeatherPtr->finishStep++;
+        return TRUE;
+    case 1:
+        if (Weather_UpdateBlend())
+        {
+            DestroyCloudSprites();
+            gWeatherPtr->finishStep++;
+        }
+        return TRUE;
+    }
+    return FALSE;
+}
+
+// nettux wind
+
 void Sunny_InitVars(void)
 {
     gWeatherPtr->targetColorMapIndex = 0;

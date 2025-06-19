@@ -91,6 +91,12 @@ battle:
       - leftovers
       - life_orb
   five:
+    others:
+      - rocky_helmet
+      - safety_goggles
+      - assault_vest
+      - shed_shell
+      - black_sludge
   six:
     others:
       - clear amulet
