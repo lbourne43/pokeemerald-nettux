@@ -191271,7 +191271,7 @@ F_TRAINER_FEMALE |
 #line 84055
                 MOVE_BRAVE_BIRD,
                 MOVE_CROSS_POISON,
-                MOVE_U_TURN,
+                MOVE_HEAT_WAVE,
                 MOVE_TAILWIND,
             },
             },
@@ -191313,7 +191313,7 @@ F_TRAINER_FEMALE |
 #line 84072
             .lvl = 50,
 #line 84075
-            .nature = NATURE_JOLLY,
+            .nature = NATURE_ADAMANT,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 84076
@@ -191328,7 +191328,7 @@ F_TRAINER_FEMALE |
             .species = SPECIES_HOUNDOOM,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 84081
-            .heldItem = ITEM_COBA_BERRY,
+            .heldItem = ITEM_CHOPLE_BERRY,
 #line 84084
             .iv = TRAINER_PARTY_IVS(24, 24, 24, 24, 24, 24),
 #line 84083

@@ -61489,53 +61489,53 @@ AI: nettux
 Difficulty: Hard
 /* Location: MtChimney */
 
-Crobat @ Black Sludge  
-Level: 50  
-Ability: Infiltrator  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
-Nature: Jolly  
-- Brave Bird  
-- Cross Poison  
-- U-turn  
+Crobat @ Black Sludge
+Level: 50
+Ability: Infiltrator
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+Nature: Jolly
+- Brave Bird
+- Cross Poison
+- Heat Wave
 - Tailwind
 
 Nidoking @ Life Orb
-Level: 50  
+Level: 50
 Ability: Sheer Force
 Tera Type: Fire
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 Nature: Modest
 - Scorching Sands
 - Flamethrower
-- Sludge Bomb  
+- Sludge Bomb
 - Ice Beam
 
-Aerodactyl @ Focus Sash  
-Level: 50  
-Ability: Pressure  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
-Nature: Jolly  
-- Stone Edge  
-- Earthquake  
-- Taunt  
-- Dual Wingbeat  
+Aerodactyl @ Focus Sash
+Level: 50
+Ability: Pressure
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+Nature: Adamant
+- Stone Edge
+- Earthquake
+- Taunt
+- Dual Wingbeat
 
-Houndoom @ Coba Berry
-Level: 50  
-Ability: Flash Fire  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
-Nature: Timid  
-- Flamethrower  
-- Dark Pulse 
-- Solar Beam  
+Houndoom @ Chople Berry
+Level: 50
+Ability: Flash Fire
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+Nature: Timid
+- Flamethrower
+- Dark Pulse
+- Solar Beam
 - Thunder Fang
 
-Camerupt @ Cameruptite  
-Level: 50  
-Ability: Solid Rock  
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
-Nature: Quiet  
-- Earth Power  
+Camerupt @ Cameruptite
+Level: 50
+Ability: Solid Rock
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+Nature: Quiet
+- Earth Power
 - Eruption
 - Lava Plume
 - Yawn
