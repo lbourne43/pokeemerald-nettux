@@ -2471,4 +2471,14 @@ extern const u8 gText_Pokenav_Cannot_Access_PC[];
 extern const u8 gText_NettuxHealed[];
 extern const u8 gText_NettuxCantHealHere[];
 
+extern const u8 gText_NettuxStatusBurn[];
+extern const u8 gText_NettuxStatusFreeze[];
+extern const u8 gText_NettuxStatusParalysis[];
+extern const u8 gText_NettuxStatusSleep[];
+extern const u8 gText_NettuxStatusPoison[];
+extern const u8 gText_NettuxStatusToxic[];
+
+extern const u8 gText_NettuxHeal[];
+extern const u8 gText_NettuxStatus[];
+
 #endif // GUARD_STRINGS_H

@@ -1340,3 +1340,13 @@ const u8 gText_Pokenav_Cannot_Access_PC[] = _("Can't access PC. Go outside.");
 
 const u8 gText_NettuxHealed[] = _("Healed.{PAUSE_UNTIL_PRESS}");
 const u8 gText_NettuxCantHealHere[] = _("Can't heal here.{PAUSE_UNTIL_PRESS}");
+
+const u8 gText_NettuxStatusBurn[] = _("Burn");
+const u8 gText_NettuxStatusFreeze[] = _("Freeze");
+const u8 gText_NettuxStatusParalysis[] = _("Paralysis");
+const u8 gText_NettuxStatusSleep[] = _("Sleep");
+const u8 gText_NettuxStatusPoison[] = _("Poison");
+const u8 gText_NettuxStatusToxic[] = _("Toxic");
+
+const u8 gText_NettuxHeal[] = _("Heal");
+const u8 gText_NettuxStatus[] = _("Status");
