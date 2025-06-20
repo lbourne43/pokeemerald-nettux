@@ -12,7 +12,7 @@ MtPyre_Summit_MapScripts::
 	.byte 0
 
 MtPyre_Summit_OnLoad:
-        special nettuxSetPermanentThunder
+        special nettuxSetPermanentHurricane
         end
 
 MtPyre_Summit_OnTransition:

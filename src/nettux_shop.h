@@ -503,17 +503,14 @@ static const u16 sNettuxBattleInventory_FiveBadges[] = {
     ITEM_FOCUS_SASH,
     ITEM_LEFTOVERS,
     ITEM_LIFE_ORB,
-<<<<<<< HEAD
     ITEM_ROCKY_HELMET,
     ITEM_SAFETY_GOGGLES,
     ITEM_ASSAULT_VEST,
     ITEM_SHED_SHELL,
     ITEM_BLACK_SLUDGE,
-=======
     ITEM_CHOICE_BAND,
     ITEM_CHOICE_SPECS,
     ITEM_CHOICE_SCARF,
->>>>>>> 8e682a40fe53dceac727d7bb28907b5a8bd33be5
     ITEM_NONE
 };
 
@@ -593,17 +590,14 @@ static const u16 sNettuxBattleInventory_SixBadges[] = {
     ITEM_FOCUS_SASH,
     ITEM_LEFTOVERS,
     ITEM_LIFE_ORB,
-<<<<<<< HEAD
     ITEM_ROCKY_HELMET,
     ITEM_SAFETY_GOGGLES,
     ITEM_ASSAULT_VEST,
     ITEM_SHED_SHELL,
     ITEM_BLACK_SLUDGE,
-=======
     ITEM_CHOICE_BAND,
     ITEM_CHOICE_SPECS,
     ITEM_CHOICE_SCARF,
->>>>>>> 8e682a40fe53dceac727d7bb28907b5a8bd33be5
     ITEM_CLEAR_AMULET,
     ITEM_NONE
 };
@@ -684,17 +678,14 @@ static const u16 sNettuxBattleInventory_SevenBadges[] = {
     ITEM_FOCUS_SASH,
     ITEM_LEFTOVERS,
     ITEM_LIFE_ORB,
-<<<<<<< HEAD
     ITEM_ROCKY_HELMET,
     ITEM_SAFETY_GOGGLES,
     ITEM_ASSAULT_VEST,
     ITEM_SHED_SHELL,
     ITEM_BLACK_SLUDGE,
-=======
     ITEM_CHOICE_BAND,
     ITEM_CHOICE_SPECS,
     ITEM_CHOICE_SCARF,
->>>>>>> 8e682a40fe53dceac727d7bb28907b5a8bd33be5
     ITEM_CLEAR_AMULET,
     ITEM_NONE
 };
@@ -775,17 +766,14 @@ static const u16 sNettuxBattleInventory_EightBadges[] = {
     ITEM_FOCUS_SASH,
     ITEM_LEFTOVERS,
     ITEM_LIFE_ORB,
-<<<<<<< HEAD
     ITEM_ROCKY_HELMET,
     ITEM_SAFETY_GOGGLES,
     ITEM_ASSAULT_VEST,
     ITEM_SHED_SHELL,
     ITEM_BLACK_SLUDGE,
-=======
     ITEM_CHOICE_BAND,
     ITEM_CHOICE_SPECS,
     ITEM_CHOICE_SCARF,
->>>>>>> 8e682a40fe53dceac727d7bb28907b5a8bd33be5
     ITEM_CLEAR_AMULET,
     ITEM_NONE
 };

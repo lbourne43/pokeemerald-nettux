@@ -4761,6 +4761,28 @@ void SwapTurnOrder(u8 id1, u8 id2)
 u32 GetBattlerTotalSpeedStatArgs(u32 battler, u32 ability, u32 holdEffect)
 {
     u32 speed = gBattleMons[battler].speed;
+    u32 weather = GetCurrentWeather();
+    u32 type1 = gBattleMons[battler].types[0];
+    u32 type2 = gBattleMons[battler].types[1];
+
+    bool32 isTera = GetActiveGimmick(battler) == GIMMICK_TERA;
+    u32 teraType = GetBattlerTeraType(battler);
+
+    // if weather is hurricane and type is water or flying, speed is doubled
+    if (weather == WEATHER_NETTUX_HURRICANE) {
+	if (isTera) {
+	    if (teraType == TYPE_WATER || teraType == TYPE_FLYING) {
+                speed *= 2;
+	        DebugPrintf("Tera speed increased due to hurricane");
+	    }
+	} else if (type1 == TYPE_WATER
+	        || type2 == TYPE_WATER 
+	        || type1 == TYPE_FLYING 
+	        || type2 == TYPE_FLYING) {
+            speed *= 2;
+            DebugPrintf("Non-Tera speed increased due to hurricane");
+	}
+    }
 
     // weather abilities
     if (HasWeatherEffect())
@@ -5920,6 +5942,7 @@ u32 GetDynamicMoveType(struct Pokemon *mon, u32 move, u32 battler, u8 *ateBoost)
             case WEATHER_RAIN:
             case WEATHER_RAIN_THUNDERSTORM:
             case WEATHER_DOWNPOUR:
+            case WEATHER_NETTUX_HURRICANE:
                 if (holdEffect != HOLD_EFFECT_UTILITY_UMBRELLA)
                     return TYPE_WATER;
                 break;

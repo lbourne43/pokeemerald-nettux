@@ -571,6 +571,6 @@ gSpecials::
         def_special MaxSpDefIvs
         def_special nettuxSetPermanentRain
         def_special nettuxSetPermanentSun
-        def_special nettuxSetPermanentWind
+        def_special nettuxSetPermanentHurricane
         def_special nettuxSetPermanentSand
         def_special nettuxSetPermanentThunder

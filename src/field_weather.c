@@ -146,7 +146,7 @@ static const struct WeatherCallbacks sWeatherFuncs[] =
     [WEATHER_DROUGHT]            = {Drought_InitVars,       Drought_Main,       Drought_InitAll,       Drought_Finish},
     [WEATHER_DOWNPOUR]           = {Downpour_InitVars,      Thunderstorm_Main,  Downpour_InitAll,      Thunderstorm_Finish},
     [WEATHER_UNDERWATER_BUBBLES] = {Bubbles_InitVars,       Bubbles_Main,       Bubbles_InitAll,       Bubbles_Finish},
-    [WEATHER_NETTUX_STRONG_WINDS] = {nettuxWind_InitVars,   nettuxWind_Main,    nettuxWind_InitAll,    nettuxWind_Finish},
+    [WEATHER_NETTUX_HURRICANE]   = {nettuxHurricane_InitVars,nettuxHurricane_Main,nettuxHurricane_InitAll,nettuxHurricane_Finish},
 };
 
 void (*const gWeatherPalStateFuncs[])(void) =
@@ -232,6 +232,7 @@ void StartWeather(void)
 
 void SetNextWeather(u8 weather)
 {
+    DebugPrintf("SetNextWeather start weather = %d", weather);
     if (weather != WEATHER_RAIN && weather != WEATHER_RAIN_THUNDERSTORM && weather != WEATHER_DOWNPOUR)
     {
         PlayRainStoppingSoundEffect();
@@ -245,6 +246,7 @@ void SetNextWeather(u8 weather)
     gWeatherPtr->weatherChangeComplete = FALSE;
     gWeatherPtr->nextWeather = weather;
     gWeatherPtr->finishStep = 0;
+    DebugPrintf("SetNextWeather end weather = %d", weather);
 }
 
 static void UpdateWeatherForms(void)

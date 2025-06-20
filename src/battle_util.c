@@ -4688,24 +4688,16 @@ u32 AbilityBattleEffects(u32 caseID, u32 battler, u32 ability, u32 special, u32 
         gBattleScripting.battler = battler;
         if (!(gBattleTypeFlags & BATTLE_TYPE_RECORDED))
         {
-            //DebugPrintf("Weather %d", GetCurrentWeather());
+            DebugPrintf("Weather %d", GetCurrentWeather());
             switch (GetCurrentWeather())
             {
-	    case WEATHER_NETTUX_STRONG_WINDS:
-		//DebugPrintf("strong winds case");
-		if (!(gBattleWeather & B_WEATHER_STRONG_WINDS))
-		{		
-		    //DebugPrintf("strong winds set");
-                    gBattleWeather = B_WEATHER_STRONG_WINDS;
-                    gBattleScripting.animArg1 = B_ANIM_STRONG_WINDS;
-                    effect++;
-		}
-		break;
+	    case WEATHER_NETTUX_HURRICANE:
             case WEATHER_RAIN:
             case WEATHER_RAIN_THUNDERSTORM:
             case WEATHER_DOWNPOUR:
                 if (!(gBattleWeather & B_WEATHER_RAIN))
                 {
+                    DebugPrintf("Rain");
                     gBattleWeather = B_WEATHER_RAIN_NORMAL;
                     gBattleScripting.animArg1 = B_ANIM_RAIN_CONTINUES;
                     effect++;
@@ -4761,7 +4753,7 @@ u32 AbilityBattleEffects(u32 caseID, u32 battler, u32 ability, u32 special, u32 
         {
             gBattleCommunication[MULTISTRING_CHOOSER] = GetCurrentWeather();
             BattleScriptPushCursorAndCallback(BattleScript_OverworldWeatherStarts);
-            //DebugPrintf("effect found");
+            DebugPrintf("effect found");
         }
         break;
     case ABILITYEFFECT_ON_SWITCHIN:

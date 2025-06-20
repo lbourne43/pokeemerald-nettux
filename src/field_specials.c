@@ -1579,9 +1579,9 @@ void nettuxSetPermanentSun(void)
     FlagSet(FLAG_TEMP_NETTUX_PERMA_WEATHER);
 }
 
-void nettuxSetPermanentWind(void)
+void nettuxSetPermanentHurricane(void)
 {
-    SetSavedWeather(WEATHER_NETTUX_STRONG_WINDS);
+    SetSavedWeather(WEATHER_NETTUX_HURRICANE);
     FlagSet(FLAG_TEMP_NETTUX_PERMA_WEATHER);
 }
 

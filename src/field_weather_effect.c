@@ -149,69 +149,6 @@ bool8 Clouds_Finish(void)
     return FALSE;
 }
 
-
-// nettux wind
-
-void nettuxWind_InitVars(void)
-{
-    gWeatherPtr->targetColorMapIndex = 0;
-    gWeatherPtr->colorMapStepDelay = 20;
-    gWeatherPtr->weatherGfxLoaded = FALSE;
-    gWeatherPtr->initStep = 0;
-    if (gWeatherPtr->cloudSpritesCreated == FALSE)
-        Weather_SetBlendCoeffs(0, 16);
-}
-
-void nettuxWind_InitAll(void)
-{
-    nettuxWind_InitVars();
-    while (gWeatherPtr->weatherGfxLoaded == FALSE)
-        nettuxWind_Main();
-}
-
-void nettuxWind_Main(void)
-{
-    switch (gWeatherPtr->initStep)
-    {
-    case 0:
-        CreateCloudSprites();
-        gWeatherPtr->initStep++;
-        break;
-    case 1:
-        Weather_SetTargetBlendCoeffs(12, 8, 1);
-        gWeatherPtr->initStep++;
-        break;
-    case 2:
-        if (Weather_UpdateBlend())
-        {
-            gWeatherPtr->weatherGfxLoaded = TRUE;
-            gWeatherPtr->initStep++;
-        }
-        break;
-    }
-}
-
-bool8 nettuxWind_Finish(void)
-{
-    switch (gWeatherPtr->finishStep)
-    {
-    case 0:
-        Weather_SetTargetBlendCoeffs(0, 16, 1);
-        gWeatherPtr->finishStep++;
-        return TRUE;
-    case 1:
-        if (Weather_UpdateBlend())
-        {
-            DestroyCloudSprites();
-            gWeatherPtr->finishStep++;
-        }
-        return TRUE;
-    }
-    return FALSE;
-}
-
-// nettux wind
-
 void Sunny_InitVars(void)
 {
     gWeatherPtr->targetColorMapIndex = 0;
@@ -580,6 +517,7 @@ bool8 Rain_Finish(void)
     case 0:
         if (gWeatherPtr->nextWeather == WEATHER_RAIN
          || gWeatherPtr->nextWeather == WEATHER_RAIN_THUNDERSTORM
+	 || gWeatherPtr->nextWeather == WEATHER_NETTUX_HURRICANE
          || gWeatherPtr->nextWeather == WEATHER_DOWNPOUR)
         {
             gWeatherPtr->finishStep = 0xFF;
@@ -1251,6 +1189,7 @@ bool8 Thunderstorm_Finish(void)
         {
             if (gWeatherPtr->nextWeather == WEATHER_RAIN
              || gWeatherPtr->nextWeather == WEATHER_RAIN_THUNDERSTORM
+	     || gWeatherPtr->nextWeather == WEATHER_NETTUX_HURRICANE
              || gWeatherPtr->nextWeather == WEATHER_DOWNPOUR)
                 return FALSE;
 
@@ -2570,6 +2509,7 @@ void SetWeather_Unused(u32 weather)
 void DoCurrentWeather(void)
 {
     u8 weather = GetSavedWeather();
+    DebugPrintf("DoCurrentWeather weather = %d", weather);
 
     if (weather == WEATHER_ABNORMAL)
     {
@@ -2644,6 +2584,7 @@ static u8 TranslateWeatherNum(u8 weather)
     case WEATHER_ABNORMAL:           return WEATHER_ABNORMAL;
     case WEATHER_ROUTE119_CYCLE:     return sWeatherCycleRoute119[gSaveBlock1Ptr->weatherCycleStage];
     case WEATHER_ROUTE123_CYCLE:     return sWeatherCycleRoute123[gSaveBlock1Ptr->weatherCycleStage];
+    case WEATHER_NETTUX_HURRICANE:   return WEATHER_NETTUX_HURRICANE;
     default:                         return WEATHER_NONE;
     }
 }
@@ -2661,3 +2602,83 @@ static void UpdateRainCounter(u8 newWeather, u8 oldWeather)
      && (newWeather == WEATHER_RAIN || newWeather == WEATHER_RAIN_THUNDERSTORM))
         IncrementGameStat(GAME_STAT_GOT_RAINED_ON);
 }
+
+
+
+
+// nettux wind
+
+void nettuxHurricane_InitVars(void)
+{
+    gWeatherPtr->initStep = 0;
+    gWeatherPtr->weatherGfxLoaded = FALSE;
+    gWeatherPtr->rainSpriteVisibleCounter = 0;
+    gWeatherPtr->rainSpriteVisibleDelay = 8;
+    gWeatherPtr->isDownpour = FALSE;
+    gWeatherPtr->targetRainSpriteCount = 10;
+    gWeatherPtr->targetColorMapIndex = 3;
+    gWeatherPtr->colorMapStepDelay = 20;
+    SetRainStrengthFromSoundEffect(SE_RAIN);
+}
+
+void nettuxHurricane_InitAll(void)
+{
+    nettuxHurricane_InitVars();
+    while (gWeatherPtr->weatherGfxLoaded == FALSE)
+        nettuxHurricane_Main();
+}
+
+void nettuxHurricane_Main(void)
+{
+    switch (gWeatherPtr->initStep)
+    {
+    case 0:
+        LoadRainSpriteSheet();
+        gWeatherPtr->initStep++;
+        break;
+    case 1:
+        if (!CreateRainSprite())
+            gWeatherPtr->initStep++;
+        break;
+    case 2:
+        if (!UpdateVisibleRainSprites())
+        {
+            gWeatherPtr->weatherGfxLoaded = TRUE;
+            gWeatherPtr->initStep++;
+        }
+        break;
+    }
+}
+
+bool8 nettuxHurricane_Finish(void)
+{
+    switch (gWeatherPtr->finishStep)
+    {
+    case 0:
+        if (gWeatherPtr->nextWeather == WEATHER_RAIN
+         || gWeatherPtr->nextWeather == WEATHER_RAIN_THUNDERSTORM
+	 || gWeatherPtr->nextWeather == WEATHER_NETTUX_HURRICANE
+         || gWeatherPtr->nextWeather == WEATHER_DOWNPOUR)
+        {
+            gWeatherPtr->finishStep = 0xFF;
+            return FALSE;
+        }
+        else
+        {
+            gWeatherPtr->targetRainSpriteCount = 0;
+            gWeatherPtr->finishStep++;
+        }
+        // fall through
+    case 1:
+        if (!UpdateVisibleRainSprites())
+        {
+            DestroyRainSprites();
+            gWeatherPtr->finishStep++;
+            return FALSE;
+        }
+        return TRUE;
+    }
+    return FALSE;
+}
+
+// nettux wind

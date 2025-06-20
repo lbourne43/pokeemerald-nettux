@@ -144,8 +144,10 @@ s32 DoPoisonFieldEffect(void)
             else if (OW_POISON_DAMAGE >= GEN_4 && (hp == 1 || --hp == 1))
                 numFainted++;
 
-            SetMonData(pokemon, MON_DATA_HP, &hp);
-            numPoisoned++;
+	    if (!FlagGet(FLAG_CLEANSE_TAG)) {
+                SetMonData(pokemon, MON_DATA_HP, &hp);
+                numPoisoned++;
+	    }
         }
         pokemon++;
     }

@@ -220,10 +220,10 @@ void Bubbles_Main(void);
 void Bubbles_InitAll(void);
 bool8 Bubbles_Finish(void);
 
-void nettuxWind_InitVars(void);
-void nettuxWind_Main(void);
-void nettuxWind_InitAll(void);
-bool8 nettuxWind_Finish(void);
+void nettuxHurricane_InitVars(void);
+void nettuxHurricane_Main(void);
+void nettuxHurricane_InitAll(void);
+bool8 nettuxHurricane_Finish(void);
 
 u8 GetSavedWeather(void);
 void SetSavedWeather(u32 weather);
