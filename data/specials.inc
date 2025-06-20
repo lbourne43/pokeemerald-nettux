@@ -574,3 +574,9 @@ gSpecials::
         def_special nettuxSetPermanentHurricane
         def_special nettuxSetPermanentSand
         def_special nettuxSetPermanentThunder
+        def_special nettuxInflictBurn
+        def_special nettuxInflictSleep
+        def_special nettuxInflictParalysis
+        def_special nettuxInflictFreeze
+        def_special nettuxInflictPoison
+        def_special nettuxInflictToxicPoison

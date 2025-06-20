@@ -42,6 +42,22 @@ static const struct MenuAction sMultichoiceList_NettuxTeraTrainer[] =
     {gText_NettuxTeraFairy},
 };
 
+static const struct MenuAction sMultichoiceList_NettuxStatus[] =
+{
+    {gText_NettuxStatusBurn},
+    {gText_NettuxStatusFreeze},
+    {gText_NettuxStatusSleep},
+    {gText_NettuxStatusParalysis},
+    {gText_NettuxStatusPoison},
+    {gText_NettuxStatusToxic},
+};
+
+static const struct MenuAction sMultichoiceList_NettuxHealOrStatus[] =
+{
+    {gText_NettuxHeal},
+    {gText_NettuxStatus},
+};
+
 static const struct MenuAction sMultichoiceList_NettuxDifficulty[] =
 {
     {gText_NettuxDifficultyNormal},
@@ -960,6 +976,8 @@ static const struct MultichoiceListStruct sMultichoiceLists[] =
     [MULTICHOICE_NETTUX_HYPER_TRAINER] = MULTICHOICE(sMultichoiceList_NettuxHyperTrainer),
     [MULTICHOICE_NETTUX_DIFFICULTY]    = MULTICHOICE(sMultichoiceList_NettuxDifficulty),
     [MULTICHOICE_NETTUX_TERA_TRAINER]  = MULTICHOICE(sMultichoiceList_NettuxTeraTrainer),
+    [MULTICHOICE_NETTUX_STATUS]        = MULTICHOICE(sMultichoiceList_NettuxStatus),
+    [MULTICHOICE_NETTUX_HEAL_OR_STATUS]= MULTICHOICE(sMultichoiceList_NettuxHealOrStatus),
 };
 
 const u8 *const gStdStrings[] =

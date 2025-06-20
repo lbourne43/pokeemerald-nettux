@@ -4447,3 +4447,39 @@ void MaxSpDefIvs(void)
     SetMonData(&gPlayerParty[gSpecialVar_0x8004], MON_DATA_SPDEF_IV, &SpDefIv);
     CalculateMonStats(&gPlayerParty[gSpecialVar_0x8004]);
 }
+
+void nettuxInflictBurn()
+{
+    u32 status = STATUS1_BURN;
+    SetMonData(&gPlayerParty[gSpecialVar_0x8004], MON_DATA_STATUS, &status);
+}
+
+void nettuxInflictParalysis()
+{
+    u32 status = STATUS1_PARALYSIS;
+    SetMonData(&gPlayerParty[gSpecialVar_0x8004], MON_DATA_STATUS, &status);
+}
+
+void nettuxInflictSleep()
+{
+    u32 status = STATUS1_SLEEP;
+    SetMonData(&gPlayerParty[gSpecialVar_0x8004], MON_DATA_STATUS, &status);
+}
+
+void nettuxInflictFreeze()
+{
+    u32 status = STATUS1_FREEZE;
+    SetMonData(&gPlayerParty[gSpecialVar_0x8004], MON_DATA_STATUS, &status);
+}
+
+void nettuxInflictPoison()
+{
+    u32 status = STATUS1_POISON;
+    SetMonData(&gPlayerParty[gSpecialVar_0x8004], MON_DATA_STATUS, &status);
+}
+
+void nettuxInflictToxicPoison()
+{
+    u32 status = STATUS1_TOXIC_POISON;
+    SetMonData(&gPlayerParty[gSpecialVar_0x8004], MON_DATA_STATUS, &status);
+}

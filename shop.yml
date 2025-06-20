@@ -93,7 +93,6 @@ battle:
       - terrain_extender
   three:
     potions:
-      - sitrus_berry
       - occa_berry
       - passho_berry
       - wacan_berry

@@ -4,8 +4,19 @@ Common_EventScript_PkmnCenterNurse::
 	setvar VAR_0x8004, 0
 	specialvar VAR_RESULT, CountPlayerTrainerStars
 	goto_if_eq VAR_RESULT, 4, EventScript_PkmnCenterNurse_GoldCard
-	msgbox gText_WouldYouLikeToRestYourPkmn, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, YES, EventScript_PkmnCenterNurse_HealPkmn
+	message Nettux_WouldYouLikeToRestYourPkmn
+        multichoice 25, 7, MULTICHOICE_NETTUX_HEAL_OR_STATUS, 0
+        closemessage
+        compare VAR_RESULT, 0
+        goto_if_eq EventScript_PkmnCenterNurse_HealPkmn
+        compare VAR_RESULT, 1
+	goto_if_eq EventScript_NettuxInflictStatus
+        goto EventScript_PkmnCenterNurse_Goodbye
+	end
+
+EventScript_NettuxAskInflictStatus::
+	msgbox NettuxWouldYouLikeToInflictAStatus, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, YES, EventScript_NettuxInflictStatus
 	goto_if_eq VAR_RESULT, NO, EventScript_PkmnCenterNurse_Goodbye
 	end
 
@@ -257,8 +268,11 @@ NettuxHelper_EventScript_EvolveMart_Text_0:
         .string "Ready to Evolve?$"
 
 
-NettuxHelper_Text_WhichStat::
+NettuxHelper_Text_WhichStat:
     .string "Which stat shoud I raise?$"
+
+NettuxHelper_Text_WhichStatus:
+    .string "Which status shoud I inflict?$"
 
 NettuxHelper_SetIVs::
         checkmoney 5000
@@ -678,6 +692,87 @@ NettuxHelper_EventScript_NotEnoughMoneyTeraTrain::
         msgbox NettuxHelper_EventScript_NotEnoughMoneyTeraTrain_Text_0, MSGBOX_NPC
         return
 
+EventScript_NettuxInflictStatus::
+	special ChoosePartyMon
+	waitstate
+	compare VAR_0x8004, PARTY_SIZE
+	goto_if_ge NettuxHelper_ButIRefuse
+	specialvar VAR_RESULT, ScriptGetPartyMonSpecies
+	compare VAR_RESULT, SPECIES_EGG
+	goto_if_eq NettuxHelper_Rejected
+	message NettuxHelper_Text_WhichStatus
+	multichoice 0, 0, MULTICHOICE_NETTUX_STATUS, 0
+	closemessage
+	compare VAR_RESULT, 0
+	goto_if_eq NettuxHelper_SetBurn_Proceed
+	compare VAR_RESULT, 1
+	goto_if_eq NettuxHelper_SetFreeze_Proceed
+	compare VAR_RESULT, 2
+	goto_if_eq NettuxHelper_SetParalysis_Proceed
+	compare VAR_RESULT, 3
+	goto_if_eq NettuxHelper_SetSleep_Proceed
+	compare VAR_RESULT, 4
+	goto_if_eq NettuxHelper_SetPoison_Proceed
+	compare VAR_RESULT, 5
+	goto_if_eq NettuxHelper_SetToxic_Proceed
+	compare VAR_RESULT, 6
+        return
+
+NettuxHelper_SetBurn_Proceed::
+        lockall
+        faceplayer
+        special nettuxInflictBurn
+        msgbox NettuxHelper_StatusSetSuccessfully 4
+        closemessage
+        releaseall
+        end
+
+NettuxHelper_SetFreeze_Proceed::
+        lockall
+        faceplayer
+        special nettuxInflictFreeze
+        msgbox NettuxHelper_StatusSetSuccessfully 4
+        closemessage
+        releaseall
+        end
+
+NettuxHelper_SetParalysis_Proceed::
+        lockall
+        faceplayer
+        special nettuxInflictParalysis
+        msgbox NettuxHelper_StatusSetSuccessfully 4
+        closemessage
+        releaseall
+        end
+
+NettuxHelper_SetSleep_Proceed::
+        lockall
+        faceplayer
+        special nettuxInflictSleep
+        msgbox NettuxHelper_StatusSetSuccessfully 4
+        closemessage
+        releaseall
+        end
+
+NettuxHelper_SetPoison_Proceed::
+        lockall
+        faceplayer
+        special nettuxInflictPoison
+        msgbox NettuxHelper_StatusSetSuccessfully 4
+        closemessage
+        releaseall
+        end
+
+NettuxHelper_SetToxic_Proceed::
+        lockall
+        faceplayer
+        special nettuxInflictToxicPoison
+        msgbox NettuxHelper_StatusSetSuccessfully 4
+        closemessage
+        releaseall
+        end
+
+
 NettuxHelper_TeraTrain_Text_0:
         .string "Tera train a pokemon for ¥5000?$"
 
@@ -693,3 +788,14 @@ NettuxHelper_EventScript_Tera_Train_Text_0:
 NettuxHelper_TeraSetSuccessfully:
         .string "Tera training complete!\n"
         .string "Come back anytime.$"
+
+NettuxHelper_StatusSetSuccessfully:
+        .string "Status inflicted!\n"
+        .string "Come back anytime.$"
+
+NettuxWouldYouLikeToInflictAStatus:
+        .string "Inflict a status?$"
+
+Nettux_WouldYouLikeToRestYourPkmn:
+        .string "Would you like to heal\n"
+	.string "or inflict a status?$"
