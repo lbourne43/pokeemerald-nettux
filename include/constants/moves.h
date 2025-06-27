@@ -910,7 +910,13 @@
 
 #define MOVES_COUNT_GEN9 848
 
-#define MOVES_COUNT         MOVES_COUNT_GEN9
+// custom moves
+#define MOVE_ACID_RAIN             (MOVES_COUNT_GEN9 + 1)
+#define MOVE_BLACKOUT              (MOVES_COUNT_GEN9 + 2)
+#define MOVES_NETTUX_LAST          (MOVES_COUNT_GEN9 + 3)
+// custom moves
+
+#define MOVES_COUNT         (MOVES_NETTUX_LAST + 1)
 
 // Z Moves
 #define MOVE_BREAKNECK_BLITZ (MOVES_COUNT + 0)
@@ -1017,7 +1023,7 @@
 
 #define MOVES_COUNT_DYNAMAX       (LAST_MAX_MOVE + 1)
 
-#define MOVES_COUNT_ALL         MOVES_COUNT_DYNAMAX
+#define MOVES_COUNT_ALL         (MOVES_COUNT_DYNAMAX + 1)
 
 // Used for checks for moves affected by Disable, Mimic, etc.
 #define MOVE_UNAVAILABLE 0xFFFF

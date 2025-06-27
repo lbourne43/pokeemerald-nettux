@@ -1681,6 +1681,42 @@ bool32 ShouldSetRain(u32 battlerAtk, u32 atkAbility, u32 holdEffect)
     return FALSE;
 }
 
+bool32 ShouldSetAcidRain(u32 battlerAtk, u32 atkAbility, u32 holdEffect)
+{
+    u32 weather = AI_GetWeather();
+    if (weather & B_WEATHER_NETTUX_ACID_RAIN)
+        return FALSE;
+
+    if (IS_BATTLER_ANY_TYPE(battlerAtk, TYPE_POISON, TYPE_STEEL))
+	return FALSE;
+
+    if (holdEffect != HOLD_EFFECT_UTILITY_UMBRELLA
+     && (HasMoveEffect(battlerAtk, EFFECT_WEATHER_BALL)
+      || HasMoveWithType(battlerAtk, TYPE_POISON)))
+    {
+        return TRUE;
+    }
+    return FALSE;
+}
+
+bool32 ShouldSetBlackout(u32 battlerAtk, u32 atkAbility, u32 holdEffect)
+{
+    u32 weather = AI_GetWeather();
+    if (weather & B_WEATHER_NETTUX_BLACKOUT)
+        return FALSE;
+
+    if (IS_BATTLER_ANY_TYPE(battlerAtk, TYPE_GHOST, TYPE_DARK))
+	return FALSE;
+
+    if (holdEffect != HOLD_EFFECT_LIGHT_BALL
+     && (HasMoveEffect(battlerAtk, EFFECT_WEATHER_BALL)
+      || HasMoveWithType(battlerAtk, TYPE_GHOST) || HasMoveWithType(battlerAtk, TYPE_POISON)))
+    {
+        return TRUE;
+    }
+    return FALSE;
+}
+
 bool32 ShouldSetSun(u32 battlerAtk, u32 atkAbility, u32 holdEffect)
 {
     u32 weather = AI_GetWeather();

@@ -3923,6 +3923,24 @@ static u32 AI_CalcMoveEffectScore(u32 battlerAtk, u32 battlerDef, u32 move)
                 ADJUST_SCORE(WEAK_EFFECT);
         }
         break;
+    case EFFECT_ACID_RAIN_DANCE:
+	// nettux acid rain
+        if (ShouldSetAcidRain(battlerAtk, aiData->abilities[battlerAtk], aiData->holdEffects[battlerAtk]))
+        {
+            ADJUST_SCORE(DECENT_EFFECT);
+            if (HasMoveWithType(battlerDef, TYPE_POISON) || HasMoveWithType(BATTLE_PARTNER(battlerDef), TYPE_POISON))
+                ADJUST_SCORE(DECENT_EFFECT);
+        }
+        break;
+    case EFFECT_BLACKOUT:
+	// nettux acid rain
+        if (ShouldSetBlackout(battlerAtk, aiData->abilities[battlerAtk], aiData->holdEffects[battlerAtk]))
+        {
+            ADJUST_SCORE(DECENT_EFFECT);
+            if (HasMoveWithType(battlerDef, TYPE_GHOST) || HasMoveWithType(battlerDef, TYPE_DARK) || HasMoveWithType(BATTLE_PARTNER(battlerDef), TYPE_DARK) || HasMoveWithType(BATTLE_PARTNER(battlerDef), TYPE_GHOST))
+                ADJUST_SCORE(DECENT_EFFECT);
+        }
+        break;
     case EFFECT_SUNNY_DAY:
         if (ShouldSetSun(battlerAtk, aiData->abilities[battlerAtk], aiData->holdEffects[battlerAtk]))
         {

@@ -5,9 +5,7 @@ import random
 
 def get_pool(tclass, level, name):
     lvl = int(level)
-    if lvl >= 65:
-        lvl = 65
-    elif lvl >= 50:
+    if lvl >= 50:
         lvl = 50
     elif lvl >= 35:
         lvl = 35
@@ -25,6 +23,8 @@ def get_pool(tclass, level, name):
         i += 1
         with open(mon) as f:
             content = f.read().strip()
+
+        content = random.choice(content.split("\n\n"))
 
         for l in content.split("\n"):
             if l.startswith("Level: "):

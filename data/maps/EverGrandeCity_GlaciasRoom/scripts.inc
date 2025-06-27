@@ -24,6 +24,7 @@ EverGrandeCity_GlaciasRoom_EventScript_WalkInCloseDoor::
 	end
 
 EverGrandeCity_GlaciasRoom_OnLoad:
+        special nettuxSetPermanentSnow
 	call_if_set FLAG_DEFEATED_ELITE_4_GLACIA, EverGrandeCity_GlaciasRoom_EventScript_ResetAdvanceToNextRoom
 	call_if_eq VAR_ELITE_4_STATE, 3, EverGrandeCity_GlaciasRoom_EventScript_CloseDoor
 	end

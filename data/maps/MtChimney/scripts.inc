@@ -12,7 +12,7 @@ MtChimney_MapScripts::
 	.byte 0
 
 MtChimney_OnLoad:
-        special nettuxSetPermanentSun
+        special nettuxSetPermanentMagmaStorm
 
 MtChimney_OnTransition:
 	setvar VAR_JAGGED_PASS_ASH_WEATHER, 1

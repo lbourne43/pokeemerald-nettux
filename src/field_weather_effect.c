@@ -2585,6 +2585,10 @@ static u8 TranslateWeatherNum(u8 weather)
     case WEATHER_ROUTE119_CYCLE:     return sWeatherCycleRoute119[gSaveBlock1Ptr->weatherCycleStage];
     case WEATHER_ROUTE123_CYCLE:     return sWeatherCycleRoute123[gSaveBlock1Ptr->weatherCycleStage];
     case WEATHER_NETTUX_HURRICANE:   return WEATHER_NETTUX_HURRICANE;
+    case WEATHER_NETTUX_HEAT_WAVE:   return WEATHER_NETTUX_HEAT_WAVE;
+    case WEATHER_NETTUX_MAGMA_STORM: return WEATHER_NETTUX_MAGMA_STORM;
+    case WEATHER_NETTUX_ACID_RAIN:   return WEATHER_NETTUX_ACID_RAIN;
+    case WEATHER_NETTUX_BLACKOUT:    return WEATHER_NETTUX_BLACKOUT;
     default:                         return WEATHER_NONE;
     }
 }
@@ -2602,8 +2606,77 @@ static void UpdateRainCounter(u8 newWeather, u8 oldWeather)
      && (newWeather == WEATHER_RAIN || newWeather == WEATHER_RAIN_THUNDERSTORM))
         IncrementGameStat(GAME_STAT_GOT_RAINED_ON);
 }
+// nettux acid rain
 
+void nettuxAcidRain_InitVars(void)
+{
+    gWeatherPtr->initStep = 0;
+    gWeatherPtr->weatherGfxLoaded = FALSE;
+    gWeatherPtr->rainSpriteVisibleCounter = 0;
+    gWeatherPtr->rainSpriteVisibleDelay = 8;
+    gWeatherPtr->isDownpour = FALSE;
+    gWeatherPtr->targetRainSpriteCount = 10;
+    gWeatherPtr->targetColorMapIndex = 3;
+    gWeatherPtr->colorMapStepDelay = 20;
+    SetRainStrengthFromSoundEffect(SE_RAIN);
+}
 
+void nettuxAcidRain_InitAll(void)
+{
+    nettuxAcidRain_InitVars();
+    while (gWeatherPtr->weatherGfxLoaded == FALSE)
+        nettuxAcidRain_Main();
+}
+
+void nettuxAcidRain_Main(void)
+{
+    switch (gWeatherPtr->initStep)
+    {
+    case 0:
+        LoadRainSpriteSheet();
+        gWeatherPtr->initStep++;
+        break;
+    case 1:
+        if (!CreateRainSprite())
+            gWeatherPtr->initStep++;
+        break;
+    case 2:
+        if (!UpdateVisibleRainSprites())
+        {
+            gWeatherPtr->weatherGfxLoaded = TRUE;
+            gWeatherPtr->initStep++;
+        }
+        break;
+    }
+}
+
+bool8 nettuxAcidRain_Finish(void)
+{
+    switch (gWeatherPtr->finishStep)
+    {
+    case 0:
+        if (gWeatherPtr->nextWeather == WEATHER_NETTUX_ACID_RAIN)
+        {
+            gWeatherPtr->finishStep = 0xFF;
+            return FALSE;
+        }
+        else
+        {
+            gWeatherPtr->targetRainSpriteCount = 0;
+            gWeatherPtr->finishStep++;
+        }
+        // fall through
+    case 1:
+        if (!UpdateVisibleRainSprites())
+        {
+            DestroyRainSprites();
+            gWeatherPtr->finishStep++;
+            return FALSE;
+        }
+        return TRUE;
+    }
+    return FALSE;
+}
 
 
 // nettux wind
@@ -2682,3 +2755,137 @@ bool8 nettuxHurricane_Finish(void)
 }
 
 // nettux wind
+// nettux heat
+
+void nettuxHeatWave_InitVars(void)
+{
+    gWeatherPtr->initStep = 0;
+    gWeatherPtr->weatherGfxLoaded = FALSE;
+    gWeatherPtr->targetColorMapIndex = 0;
+    gWeatherPtr->colorMapStepDelay = 0;
+}
+
+void nettuxHeatWave_InitAll(void)
+{
+    nettuxHeatWave_InitVars();
+    while (gWeatherPtr->weatherGfxLoaded == FALSE)
+        nettuxHeatWave_Main();
+}
+
+void nettuxHeatWave_Main(void)
+{
+    switch (gWeatherPtr->initStep)
+    {
+    case 0:
+        if (gWeatherPtr->palProcessingState != WEATHER_PAL_STATE_CHANGING_WEATHER)
+            gWeatherPtr->initStep++;
+        break;
+    case 1:
+        ResetDroughtWeatherPaletteLoading();
+        gWeatherPtr->initStep++;
+        break;
+    case 2:
+        if (LoadDroughtWeatherPalettes() == FALSE)
+            gWeatherPtr->initStep++;
+        break;
+    case 3:
+        DroughtStateInit();
+        gWeatherPtr->initStep++;
+        break;
+    case 4:
+        DroughtStateRun();
+        if (gWeatherPtr->droughtBrightnessStage == 6)
+        {
+            gWeatherPtr->weatherGfxLoaded = TRUE;
+            gWeatherPtr->initStep++;
+        }
+        break;
+    default:
+        DroughtStateRun();
+        break;
+    }
+}
+
+bool8 nettuxHeatWave_Finish(void)
+{
+    return FALSE;
+}
+
+// nettux magma storm
+
+void nettuxMagmaStorm_InitVars(void)
+{
+    gWeatherPtr->initStep = 0;
+    gWeatherPtr->weatherGfxLoaded = FALSE;
+    gWeatherPtr->targetColorMapIndex = 0;
+    gWeatherPtr->colorMapStepDelay = 0;
+}
+
+void nettuxMagmaStorm_InitAll(void)
+{
+    nettuxMagmaStorm_InitVars();
+    while (gWeatherPtr->weatherGfxLoaded == FALSE)
+        nettuxMagmaStorm_Main();
+}
+
+void nettuxMagmaStorm_Main(void)
+{
+    switch (gWeatherPtr->initStep)
+    {
+    case 0:
+        if (gWeatherPtr->palProcessingState != WEATHER_PAL_STATE_CHANGING_WEATHER)
+            gWeatherPtr->initStep++;
+        break;
+    case 1:
+        ResetDroughtWeatherPaletteLoading();
+        gWeatherPtr->initStep++;
+        break;
+    case 2:
+        if (LoadDroughtWeatherPalettes() == FALSE)
+            gWeatherPtr->initStep++;
+        break;
+    case 3:
+        DroughtStateInit();
+        gWeatherPtr->initStep++;
+        break;
+    case 4:
+        DroughtStateRun();
+        if (gWeatherPtr->droughtBrightnessStage == 6)
+        {
+            gWeatherPtr->weatherGfxLoaded = TRUE;
+            gWeatherPtr->initStep++;
+        }
+        break;
+    default:
+        DroughtStateRun();
+        break;
+    }
+}
+
+bool8 nettuxMagmaStorm_Finish(void)
+{
+    return FALSE;
+}
+
+// blackout
+
+void nettuxBlackout_InitVars(void)
+{
+    gWeatherPtr->initStep = 0;
+    gWeatherPtr->targetColorMapIndex = 3;
+    gWeatherPtr->colorMapStepDelay = 20;
+}
+
+void nettuxBlackout_InitAll(void)
+{
+    nettuxBlackout_InitVars();
+}
+
+void nettuxBlackout_Main(void)
+{
+}
+
+bool8 nettuxBlackout_Finish(void)
+{
+    return FALSE;
+}

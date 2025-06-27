@@ -667,6 +667,8 @@ extern const u8 BattleScript_EffectCaptivate[];
 extern const u8 BattleScript_EffectMorningSun[];
 extern const u8 BattleScript_EffectSynthesis[];
 extern const u8 BattleScript_EffectMoonlight[];
+extern const u8 BattleScript_EffectBlackout[];
+extern const u8 BattleScript_EffectAcidRainDance[];
 extern const u8 BattleScript_EffectRainDance[];
 extern const u8 BattleScript_EffectSunnyDay[];
 extern const u8 BattleScript_EffectBellyDrum[];
@@ -859,5 +861,7 @@ extern const u8 BattleScript_EffectSpicyExtract[];
 extern const u8 BattleScript_DamageToQuarterTargetHP[];
 extern const u8 BattleScript_EffectFickleBeam[];
 extern const u8 BattleScript_FickleBeamDoubled[];
+
+extern const u8 BattleScript_MagmaTurnDmg[];
 
 #endif // GUARD_BATTLE_SCRIPTS_H

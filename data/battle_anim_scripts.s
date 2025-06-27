@@ -20851,6 +20851,12 @@ SkyAttackUnleash:
 	call UnsetSkyBg
 	goto SkyAttackEnd
 
+gBattleAnimMove_Blackout::
+        playsewithpan SE_M_LEER, SOUND_PAN_ATTACKER
+        createvisualtask AnimTask_Flash, 2
+        waitforvisualfinish
+        end
+
 gBattleAnimMove_Flash::
 	playsewithpan SE_M_LEER, SOUND_PAN_ATTACKER
 	createvisualtask AnimTask_Flash, 2

@@ -1591,6 +1591,36 @@ void nettuxSetPermanentSand(void)
     FlagSet(FLAG_TEMP_NETTUX_PERMA_WEATHER);
 }
 
+void nettuxSetPermanentHeatWave(void)
+{
+    SetSavedWeather(WEATHER_NETTUX_HEAT_WAVE);
+    FlagSet(FLAG_TEMP_NETTUX_PERMA_WEATHER);
+}
+
+void nettuxSetPermanentMagmaStorm(void)
+{
+    SetSavedWeather(WEATHER_NETTUX_MAGMA_STORM);
+    FlagSet(FLAG_TEMP_NETTUX_PERMA_WEATHER);
+}
+
+void nettuxSetPermanentAcidRain(void)
+{
+    SetSavedWeather(WEATHER_NETTUX_ACID_RAIN);
+    FlagSet(FLAG_TEMP_NETTUX_PERMA_WEATHER);
+}
+
+void nettuxSetPermanentBlackout(void)
+{
+    SetSavedWeather(WEATHER_NETTUX_BLACKOUT);
+    FlagSet(FLAG_TEMP_NETTUX_PERMA_WEATHER);
+}
+
+void nettuxSetPermanentSnow(void)
+{
+    SetSavedWeather(WEATHER_SNOW);
+    FlagSet(FLAG_TEMP_NETTUX_PERMA_WEATHER);
+}
+
 void SetRoute119Weather(void)
 {
     if (IsMapTypeOutdoors(GetLastUsedWarpMapType()) != TRUE)

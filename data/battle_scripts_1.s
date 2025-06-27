@@ -4444,6 +4444,24 @@ BattleScript_EffectRainDance::
 	ppreduce
 	call BattleScript_CheckPrimalWeather
 	setfieldweather BATTLE_WEATHER_RAIN
+	goto BattleScript_MoveWeatherChange
+
+BattleScript_EffectBlackout::
+        attackcanceler
+        attackstring
+        ppreduce
+        call BattleScript_CheckPrimalWeather
+        setfieldweather BATTLE_WEATHER_NETTUX_BLACKOUT
+	goto BattleScript_MoveWeatherChange
+
+BattleScript_EffectAcidRainDance::
+        attackcanceler
+        attackstring
+        ppreduce
+        call BattleScript_CheckPrimalWeather
+        setfieldweather BATTLE_WEATHER_NETTUX_ACID_RAIN
+	goto BattleScript_MoveWeatherChange
+
 BattleScript_MoveWeatherChange::
 	attackanimation
 	waitanimation
@@ -10105,3 +10123,12 @@ BattleScript_SleepClausePreventsEnd::
 	printstring STRINGID_BLOCKEDBYSLEEPCLAUSE
 	waitmessage B_WAIT_TIME_LONG
 	end2
+
+BattleScript_MagmaTurnDmg::
+	copybyte gBattlerAttacker, gBattlerTarget
+        playanimation BS_TARGET, B_ANIM_SEA_OF_FIRE
+        waitanimation
+        call BattleScript_HurtTarget_NoString
+        waitmessage B_WAIT_TIME_LONG
+        tryfaintmon BS_TARGET
+        end2

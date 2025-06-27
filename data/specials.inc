@@ -571,9 +571,14 @@ gSpecials::
         def_special MaxSpDefIvs
         def_special nettuxSetPermanentRain
         def_special nettuxSetPermanentSun
+        def_special nettuxSetPermanentSnow
         def_special nettuxSetPermanentHurricane
         def_special nettuxSetPermanentSand
         def_special nettuxSetPermanentThunder
+        def_special nettuxSetPermanentHeatWave
+        def_special nettuxSetPermanentMagmaStorm
+        def_special nettuxSetPermanentAcidRain
+        def_special nettuxSetPermanentBlackout
         def_special nettuxInflictBurn
         def_special nettuxInflictSleep
         def_special nettuxInflictParalysis

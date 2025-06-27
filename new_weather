@@ -1,0 +1,7 @@
+hurricane = normal rain effects + water and flying types get double speed
+
+heat wave = normal sun effects + get burned at the end of every turn. mons that resist fire are immune
+magma storm = normal sun effects + fire damage every turn 1/8 x weakness to fire, mons that resist fire are immune
+
+blackout = ghost and dark type moves * 1.5. fighting * 0.5
+acid rain = pokemon are toxic poisoned at the end of every turn. poison and steel types are immune. Poison damage * 1.5. psychic * 0.5

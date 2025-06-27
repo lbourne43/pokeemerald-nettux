@@ -731,6 +731,20 @@ const struct BattleMoveEffect gBattleMoveEffects[NUM_BATTLE_MOVE_EFFECTS] =
         .battleTvScore = 1,
     },
 
+    [EFFECT_ACID_RAIN_DANCE] =
+    {
+        .battleScript = BattleScript_EffectAcidRainDance,
+        .battleTvScore = 4,
+        .encourageEncore = TRUE,
+    },
+
+    [EFFECT_BLACKOUT] =
+    {
+        .battleScript = BattleScript_EffectBlackout,
+        .battleTvScore = 4,
+        .encourageEncore = TRUE,
+    },
+
     [EFFECT_RAIN_DANCE] =
     {
         .battleScript = BattleScript_EffectRainDance,

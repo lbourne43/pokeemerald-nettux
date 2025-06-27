@@ -20,7 +20,11 @@
 #define WEATHER_ROUTE119_CYCLE          20
 #define WEATHER_ROUTE123_CYCLE          21
 #define WEATHER_NETTUX_HURRICANE        22
-#define WEATHER_COUNT                   23
+#define WEATHER_NETTUX_HEAT_WAVE        23
+#define WEATHER_NETTUX_MAGMA_STORM      24
+#define WEATHER_NETTUX_ACID_RAIN        25
+#define WEATHER_NETTUX_BLACKOUT         26
+#define WEATHER_COUNT                   27
 
 // These are used in maps' coord_weather_event entries.
 // They are not a one-to-one mapping with the engine's

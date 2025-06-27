@@ -9,7 +9,7 @@ LavaridgeTown_Gym_1F_MapScripts::
 	.byte 0
 
 LavaridgeTown_Gym_1F_OnLoad:
-        special nettuxSetPermanentSun
+        special nettuxSetPermanentHeatWave
 
 LavaridgeTown_Gym_1F_OnTransition:
 	call LavaridgeTown_Gym_1F_EventScript_SetTrainerTempVars

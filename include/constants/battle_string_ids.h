@@ -730,8 +730,17 @@
 #define STRINGID_SENDCAUGHTMONPARTYORBOX              728
 #define STRINGID_PKMNSENTTOPCAFTERCATCH               729
 #define STRINGID_NETTUXHURRICANEISRAGING              730
+#define STRINGID_NETTUXHEATWAVEISRAGING               731
+#define STRINGID_NETTUXMAGMASTORMISRAGING             732
+#define STRINGID_NETTUXACIDRAINFALLING                733
+#define STRINGID_NETTUXACIDRAINCONTINUES              734
+#define STRINGID_NETTUXACIDRAINSTOPPED                735
+#define STRINGID_NETTUXBLACKOUTHAPPENING              736
+#define STRINGID_NETTUXBLACKOUTCONTINUES              737
+#define STRINGID_NETTUXBLACKOUTSTOPPED                738
+#define STRINGID_NETTUXBLACKOUTSTARTED                739
 
-#define BATTLESTRINGS_COUNT                           731
+#define BATTLESTRINGS_COUNT                           740
 
 // This is the string id that gBattleStringsTable starts with.
 // String ids before this (e.g. STRINGID_INTROMSG) are not in the table,
@@ -784,6 +793,8 @@
 #define B_MSG_STARTED_HAIL      5
 #define B_MSG_STARTED_SNOW      6
 #define B_MSG_STARTED_FOG       7
+#define B_MSG_STARTED_NETTUX_ACID_RAIN      8
+#define B_MSG_STARTED_NETTUX_BLACKOUT      9
 
 // gWeatherEndsStringIds
 #define B_MSG_WEATHER_END_RAIN         0
@@ -793,7 +804,9 @@
 #define B_MSG_WEATHER_END_SNOW         4
 #define B_MSG_WEATHER_END_FOG          5
 #define B_MSG_WEATHER_END_STRONG_WINDS 6
-#define B_MSG_WEATHER_END_COUNT        7
+#define B_MSG_WEATHER_END_NETTUX_ACID_RAIN 7
+#define B_MSG_WEATHER_END_NETTUX_BLACKOUT 8
+#define B_MSG_WEATHER_END_COUNT         9
 
 // gWeatherTurnStringIds
 #define B_MSG_WEATHER_TURN_RAIN         0
@@ -804,12 +817,18 @@
 #define B_MSG_WEATHER_TURN_SNOW         5
 #define B_MSG_WEATHER_TURN_FOG          6
 #define B_MSG_WEATHER_TURN_STRONG_WINDS 7
-#define B_MSG_WEATHER_TURN_COUNT        8
+#define B_MSG_WEATHER_TURN_NETTUX_ACID_RAIN 8
+#define B_MSG_WEATHER_TURN_NETTUX_BLACKOUT 9
+#define B_MSG_WEATHER_TURN_COUNT        10
 
 // gRainContinuesStringIds
 #define B_MSG_RAIN_CONTINUES     0
 #define B_MSG_DOWNPOUR_CONTINUES 1
 #define B_MSG_RAIN_STOPPED       2
+#define B_MSG_NETTUX_ACID_RAIN_CONTINUES   3
+#define B_MSG_NETTUX_ACID_RAIN_STOPPED     4
+#define B_MSG_NETTUX_BLACKOUT_CONTINUES   5
+#define B_MSG_NETTUX_BLACKOUT_STOPPED     6
 
 // gSandStormHailSnowContinuesStringIds / gSandStormHailDmgStringIds/ gSandStormHailSnowEndStringIds
 #define B_MSG_SANDSTORM  0

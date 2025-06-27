@@ -4353,6 +4353,7 @@ void SetMoveEffect(bool32 primary, bool32 certain)
                         msg = B_MSG_STARTED_HAIL;
                         break;
                 }
+		DebugPrintf("weather Move effect %d", weather);
                 if (TryChangeBattleWeather(gBattlerAttacker, weather, FALSE))
                 {
                     gBattleCommunication[MULTISTRING_CHOOSER] = msg;
@@ -11852,7 +11853,7 @@ static void Cmd_setfieldweather(void)
     CMD_ARGS(u8 weather);
 
     u8 battleWeatherId = cmd->weather;
-
+    DebugPrintf("setfieldweather %d", battleWeatherId);
     if (!TryChangeBattleWeather(gBattlerAttacker, battleWeatherId, FALSE))
     {
         gBattleStruct->moveResultFlags[gBattlerTarget] |= MOVE_RESULT_MISSED;
@@ -11877,6 +11878,12 @@ static void Cmd_setfieldweather(void)
         break;
     case BATTLE_WEATHER_SNOW:
         gBattleCommunication[MULTISTRING_CHOOSER] = B_MSG_STARTED_SNOW;
+        break;
+    case BATTLE_WEATHER_NETTUX_BLACKOUT:
+        gBattleCommunication[MULTISTRING_CHOOSER] = B_MSG_STARTED_NETTUX_BLACKOUT;
+        break;
+    case BATTLE_WEATHER_NETTUX_ACID_RAIN:
+        gBattleCommunication[MULTISTRING_CHOOSER] = B_MSG_STARTED_NETTUX_ACID_RAIN;
         break;
     }
 
